@@ -1,0 +1,148 @@
+/* =======================
+   Bembo MT Pro
+   ======================= */
+
+   @font-face {
+    font-family: 'Bembo MT Pro';
+    src: url('/assets/fonts/BEMBOMTPRO-REGULAR.OTF') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Bembo MT Pro';
+    src: url('/assets/fonts/BEMBOMTPRO-ITALIC.OTF') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  @font-face {
+    font-family: 'Bembo MT Pro';
+    src: url('/assets/fonts/BEMBOMTPRO-SEMIBOLD.OTF') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Bembo MT Pro';
+    src: url('/assets/fonts/BEMBOMTPRO-SEMIBOLDIT.OTF') format('opentype');
+    font-weight: 600;
+    font-style: italic;
+  }
+
+  @font-face {
+    font-family: 'Bembo MT Pro';
+    src: url('/assets/fonts/BEMBOMTPRO-BOLD.OTF') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Bembo MT Pro';
+    src: url('/assets/fonts/BEMBOMTPRO-BOLDITALIC.OTF') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  @font-face {
+    font-family: 'Bembo MT Pro';
+    src: url('/assets/fonts/BEMBOMTPRO-EXTRABOLD.OTF') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Bembo MT Pro';
+    src: url('/assets/fonts/BEMBOMTPRO-EXTRABOLDIT.OTF') format('opentype');
+    font-weight: 800;
+    font-style: italic;
+  }
+
+
+/* =======================
+   Avenir LT Std
+   ======================= */
+
+   @font-face {
+    font-family: 'Avenir LT Std';
+    src: url('/assets/fonts/AVENIRLTSTD-LIGHT.OTF') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Avenir LT Std';
+    src: url('/assets/fonts/AVENIRLTSTD-LIGHTOBLIQUE.OTF') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+  }
+
+  @font-face {
+    font-family: 'Avenir LT Std';
+    src: url('/assets/fonts/AVENIRLTSTD-BOOK.OTF') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Avenir LT Std';
+    src: url('/assets/fonts/AVENIRLTSTD-BOOKOBLIQUE.OTF') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  @font-face {
+    font-family: 'Avenir LT Std';
+    src: url('/assets/fonts/AVENIRLTSTD-ROMAN.OTF') format('opentype');
+    font-weight: 450;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Avenir LT Std';
+    src: url('/assets/fonts/AVENIRLTSTD-OBLIQUE.OTF') format('opentype');
+    font-weight: 450;
+    font-style: italic;
+  }
+
+  @font-face {
+    font-family: 'Avenir LT Std';
+    src: url('/assets/fonts/AVENIRLTSTD-MEDIUM.OTF') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Avenir LT Std';
+    src: url('/assets/fonts/AVENIRLTSTD-MEDIUMOBLIQUE.OTF') format('opentype');
+    font-weight: 500;
+    font-style: italic;
+  }
+
+  @font-face {
+    font-family: 'Avenir LT Std';
+    src: url('/assets/fonts/AVENIRLTSTD-HEAVY.OTF') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Avenir LT Std';
+    src: url('/assets/fonts/AVENIRLTSTD-HEAVYOBLIQUE.OTF') format('opentype');
+    font-weight: 800;
+    font-style: italic;
+  }
+
+  @font-face {
+    font-family: 'Avenir LT Std';
+    src: url('/assets/fonts/AVENIRLTSTD-BLACK.OTF') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Avenir LT Std';
+    src: url('/assets/fonts/AVENIRLTSTD-BLACKOBLIQUE.OTF') format('opentype');
+    font-weight: 900;
+    font-style: italic;
+  }

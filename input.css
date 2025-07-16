@@ -1,0 +1,326 @@
+@import url('./assets/css/fonts.css');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	/* Basic HTML setup */
+	* {
+		@apply 
+		antialiased
+		;
+	}
+
+	h1 {
+		@apply 
+		text-size-m-h1 
+		lg:text-size-h1 
+		font-serif
+		text-dark-green
+		;
+	}
+
+	h2 {
+		@apply 
+		text-size-m-h2 
+		lg:text-size-h2 
+		font-serif
+		text-dark-green
+		;
+	}
+
+	h3 {
+		@apply 
+		text-size-m-h3 
+		lg:text-size-h3 
+		font-serif
+		text-dark-green
+		;
+	}
+
+	h4 {
+		@apply 
+		text-size-m-h4 
+		lg:text-size-h4 
+		text-dark-green
+		font-serif
+		;
+	}
+
+	h5 {
+		@apply 
+		text-size-m-h5 
+		lg:text-size-h5 
+		font-serif
+		text-dark-green
+		;
+	}
+
+	h6 {
+		@apply 
+		text-size-m-h6 
+		lg:text-size-h6 
+		uppercase
+		font-semibold
+		tracking-[1px]
+		;
+	}
+
+
+	p {
+		@apply 
+		text-p-m-base 
+		lg:text-p-base 
+		text-dark-green
+		font-normal;
+	}
+
+	ol > li,
+	ul > li {
+		@apply 
+		text-p-m-base 
+		font-normal;
+	}
+
+	.sm,
+	p.sm {
+		@apply 
+		text-p-sm 
+		font-normal
+		;
+	}
+
+	p.xs {
+		@apply 
+		text-p-xs 
+		font-normal
+		;
+	}
+
+
+
+	p.b {
+		@apply 
+		font-bold
+		;
+	}
+
+	.prose strong {
+		@apply 
+		font-semibold
+		;
+	}
+
+
+	.prose h1,
+	.prose h2,
+	.prose h3,
+	.prose h4,
+	.prose h5,
+	.prose h6,
+	.prose p {
+		@apply 
+		mb-8
+		;
+	}
+
+	.prose p {
+		@apply 
+		text-secondary
+		;
+
+	}
+
+	label {
+		@apply block mb-1 text-sm font-medium text-gray-900;
+	}
+
+	input,
+	select,
+	textarea {
+		@apply
+		w-full
+		rounded-md
+		border
+		border-gray-300
+		bg-white
+		p-2
+		text-base
+		text-dark-green
+		placeholder-gray-400
+		leading-snug
+		appearance-none
+		;
+	}
+
+	input:focus,
+	select:focus,
+	textarea:focus {
+		@apply outline-none ring-2 ring-offset-0 ring-kelly-green border-kelly-green bg-white;
+	}
+
+/* Chrome/Safari autofill override */
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+	@apply ring-2 ring-kelly-green border-kelly-green bg-white text-dark-green;
+	transition: background-color 5000s ease-in-out 0s;
+	-webkit-box-shadow: 0 0 0px 1000px white inset !important;
+	-webkit-text-fill-color: #102C1B !important;
+}
+
+
+
+}
+
+@layer components {
+
+
+	.noring {
+		@apply 
+		ring-0 
+		ring-offset-0 
+		focus:outline-none 
+		focus:ring-offset-transparent 
+		focus:ring-transparent;
+	}
+
+
+	.easy {
+		@apply 
+		transition-all ease-in-out duration-500
+		;
+	}
+
+	.btn {
+		@apply 
+		inline-flex 
+		whitespace-nowrap 
+		items-center 
+		justify-center 
+		text-white 
+		hover:text-white 
+		py-3
+		px-10 
+		bg-moss 
+		hover:bg-kelly-green 
+		font-semibold 
+		text-center 
+		transition-all ease-in-out duration-500
+		rounded-md;
+	}
+
+
+
+	.btn_swiper {
+		@apply 
+		flex 
+		justify-center 
+		items-center 
+		content-center 
+		w-12
+		h-12
+		rounded-full 
+		border
+		border-primary
+		z-10
+		transition 
+		duration-300 
+		ease-in-out 
+		opacity-50
+		hover:bg-white 
+		hover:border-white 
+		;
+	}
+
+	.btn_swiper.active {
+		@apply 
+		opacity-100
+		;
+
+	}
+
+	.badge {
+		@apply 
+		text-white 
+		rounded-full 
+		border 
+		border-white 
+		py-2 
+		px-4 
+		inline-flex;
+	}
+
+	.greendot{
+		@apply 
+		h-3
+		w-3
+		bg-moss
+		flex-none
+		rounded-full
+		;
+	}
+
+	.filter-button {
+		@apply 
+		px-6
+		py-2
+		rounded-lg
+		border
+		border-gray-300
+		text-dark-green
+		bg-white
+		transition
+		duration-300
+		ease-in-out
+		hover:border-dark-green
+		hover:bg-white;
+	}
+
+	.filter-button.active {
+		@apply 
+		border-dark-green 
+		text-dark-green
+		bg-white;
+	}
+
+	.view-tab {
+		@apply
+		flex
+		items-center
+		justify-center
+		px-4
+		py-2
+		text-dark-green
+		bg-tan
+		border-l
+		border-gray-300
+		transition-all
+		duration-300
+		;
+	}
+
+	.view-tab-active {
+		@apply
+		view-tab
+		bg-white
+		text-dark-green
+		border
+		border-dark-green
+		rounded-l-md
+		-ml-[1px]
+		;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
