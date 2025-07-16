@@ -1,0 +1,15 @@
+# Node & build artifacts
+node_modules/
+dist/
+
+# Local dev stuff
+.DS_Store
+.env
+*.log
+
+# PHP-specific
+vendor/
+composer.lock
+
+# macOS junk
+Thumbs.db
