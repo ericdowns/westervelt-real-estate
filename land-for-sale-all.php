@@ -9,7 +9,13 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body class="min-h-screen flex flex-col">
+	
+
 	<?php include './includes/header.php'; ?>
+
+
+
+
 
 	<main class="mx-auto flex-grow w-full pt-[140px]">
 

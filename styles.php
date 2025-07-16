@@ -11,24 +11,7 @@
 <body class="min-h-screen flex flex-col">
 
 
-	<header class="z-10 fixed w-full">
-
-		<nav class="bg-white/90 h-[95px]">
-			<div class="w-full mx-auto flex justify-between py-2 px-5">
-				
-				<a href="/">
-					<img src="/assets/images/Westervelt-Real-Estate.svg" alt="Westervelt Real Estate">
-				</a>
-
-				<ul class="lg:flex hidden space-x-3 flex items-end font-serif">
-					<li><a href="index.php" class="block px-4 py-3">Land for Sale</a></li>
-					<li><a href="about.php" class="block px-4 py-3">Residential Sales</a></li>
-					<li><a href="contact.php" class="block px-4 py-3">About</a></li>
-					<li><a href="contact.php" class="block px-4 py-3">Contact</a></li>
-				</ul>
-			</div>
-		</nav>
-	</header>
+	<?php include './includes/header.php'; ?>
 
 	
 

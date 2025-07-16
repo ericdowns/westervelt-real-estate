@@ -13,17 +13,16 @@
 
 	<main class="mx-auto flex-grow w-full">
 
+		
+
 		<div class="relative lg:h-[750px] h-[550px] w-full">
 			<img class="absolute h-full w-full object-cover" src="/assets/images/westervelt-real-estate-about-hero.jpg" alt="About Hero">
-
 			<div class="lg:w-6/12 justify-end flex flex-col space-y-6 items-start z-10 absolute w-full h-full p-5">
 				<span class="badge"><h6>About</h6></span>
 				<h1 class="text-white">A Different Approach to Real Estate</h1>
 			</div>
 			<div class="absolute bottom-0 top-0 h-full  w-full bg-gradient-to-r from-black/30 to-black/0 pointer-events-none"></div>
-
 		</div>
-
 
 
 

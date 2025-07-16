@@ -40,12 +40,14 @@
 		;
 	}
 
+	.prose h4,
 	h4 {
 		@apply 
 		text-size-m-h4 
 		lg:text-size-h4 
 		text-dark-green
 		font-serif
+		font-normal
 		;
 	}
 

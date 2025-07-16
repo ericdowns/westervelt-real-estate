@@ -56,10 +56,18 @@ module.exports = {
         'p-m-base': ['16px', { lineHeight: '1.8' }],
         'p-m-sm': ['14px', { lineHeight: '1.8' }],
       },
+
+      typography: (theme) => ({
+        DEFAULT: {
+          css: {
+            maxWidth: 'none',
+          },
+        },
+      }),
     },
   },
   plugins: [
     require('@tailwindcss/forms'),
-    require('@tailwindcss/typography')
+    require('@tailwindcss/typography'),
   ],
 };

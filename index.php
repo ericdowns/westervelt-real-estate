@@ -9,12 +9,14 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body class="min-h-screen flex flex-col">
+
+
 	<?php include './includes/header.php'; ?>
 
 
 	
 
-	<main class="mx-auto flex-grow w-full">
+	<main class="mx-auto flex-grow w-full pt-[45px]">
 
 		<div class="relative lg:h-[750px] h-[550px] w-full">
 			<img class="absolute h-full w-full object-cover" src="/assets/images/home_hero.jpg" alt="Home Hero">
