@@ -2314,6 +2314,15 @@ input:-webkit-autofill:focus {
   row-gap: 2.5rem;
 }
 
+.gap-x-10 {
+  -moz-column-gap: 2.5rem;
+       column-gap: 2.5rem;
+}
+
+.gap-y-6 {
+  row-gap: 1.5rem;
+}
+
 .space-y-1 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));
@@ -2359,6 +2368,10 @@ input:-webkit-autofill:focus {
 
 .overflow-clip {
   overflow: clip;
+}
+
+.whitespace-nowrap {
+  white-space: nowrap;
 }
 
 .rounded {
@@ -2930,14 +2943,56 @@ input:-webkit-autofill:focus {
 }
 
 @media not all and (min-width: 1024px) {
+  .max-lg\:flex-col {
+    flex-direction: column;
+  }
+
   .max-lg\:gap-10 {
     gap: 2.5rem;
+  }
+
+  .max-lg\:bg-red-100 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(254 226 226 / var(--tw-bg-opacity, 1));
+  }
+}
+
+@media not all and (min-width: 768px) {
+  .max-md\:flex-col {
+    flex-direction: column;
+  }
+
+  .max-md\:flex-wrap {
+    flex-wrap: wrap;
+  }
+
+  .max-md\:bg-red-100 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(254 226 226 / var(--tw-bg-opacity, 1));
+  }
+
+  .max-md\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .max-md\:text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
   }
 }
 
 @media (min-width: 640px) {
   .sm\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .sm\:flex-row {
+    flex-direction: row;
+  }
+
+  .sm\:gap-5 {
+    gap: 1.25rem;
   }
 }
 
@@ -3056,6 +3111,10 @@ input:-webkit-autofill:focus {
     gap: 5rem;
   }
 
+  .lg\:gap-10 {
+    gap: 2.5rem;
+  }
+
   .lg\:space-y-0 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-y-reverse: 0;
     margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
@@ -3082,6 +3141,14 @@ input:-webkit-autofill:focus {
 }
 
 @media (min-width: 1280px) {
+  .xl\:flex-row {
+    flex-direction: row;
+  }
+
+  .xl\:gap-5 {
+    gap: 1.25rem;
+  }
+
   .xl\:text-size-h5 {
     font-size: 26px;
     line-height: 1.2;
@@ -3119,6 +3186,12 @@ input:-webkit-autofill:focus {
 .hover\:\[\&_\*_a\]\:text-moss * a:hover {
   --tw-text-opacity: 1;
   color: rgb(105 168 46 / var(--tw-text-opacity, 1));
+}
+
+@media(min-width:1200px) {
+  .\[\@media\(min-width\:1200px\)\]\:flex-row {
+    flex-direction: row;
+  }
 }
 
 

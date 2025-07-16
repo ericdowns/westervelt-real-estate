@@ -1,4 +1,4 @@
-<style> *{outline: 1px solid rgba(0, 0, 0, .1);} </style> 
+<!-- <style> *{outline: 1px solid rgba(0, 0, 0, .1);} </style>  -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -28,7 +28,7 @@
 
 
 		<div class="py-14 px-5">
-			<div class="grid grid-cols-1 lg:grid-cols-12 lg:gap-20 gap-10">
+			<div class="grid grid-cols-1 lg:grid-cols-12 gap-10">
 				<div class="col-span-1 lg:col-span-8">
 					<div class="prose">
 						<h4>
@@ -45,10 +45,12 @@
 							<img class="absolute h-full w-full object-cover rounded-full" src="/assets/images/tom_bio_headshot.jpg" alt="Headshot">
 						</div>
 						<h4>Tom Chambers</h4>
-						<div class="flex w-full gap-5 justify-center items-center">
-							<p class="font-bold">205-792-0355</p>
+
+						<div class="flex flex-col [@media(min-width:1200px)]:flex-row items-center justify-center gap-3 xl:gap-5 w-full text-center">
+							<p class="font-bold whitespace-nowrap">205-792-0355</p>
 							<a class="btn" href="#">Email Tom</a>
 						</div>
+
 						<div class="socials flex flex-row items-center justify-center gap-4 w-full  border-t border-lightgray pt-5">
 							<p class="text-dark-green sm">Share:</p>
 							<img class="size-8 hover:opacity-40 transition" src="/assets/images/facebook_dark.svg" alt="Facebook">
@@ -61,14 +63,51 @@
 			</div>
 		</div>
 
-		<div class="py-14 px-5">
-			<div class="grid grid-cols-1 lg:grid-cols-12 lg:gap-20 gap-10">
+		<div class="pb-14 px-5">
+			<div class="grid grid-cols-1 lg:grid-cols-12 gap-10">
 				<div class="col-span-1 lg:col-span-8">
-					Left
+					
+					<div class="grid grid-cols-2 gap-y-6 gap-x-10">
+						<!-- Left Column -->
+						<div>
+							<p class="font-bold">Location:</p>
+							<p>Tuscaloosa, AL</p>
+						</div>
+						<!-- Right Column -->
+						<div>
+							<p class="font-bold">School Zone:</p>
+							<p>Elem: Rocky Quarry</p>
+							<p>Middle: Northridge Middle School</p>
+							<p>High: Northridge High School</p>
+						</div>
+
+						<!-- Left -->
+						<div>
+							<p class="font-bold">County:</p>
+							<p>Tuscaloosa</p>
+						</div>
+						<!-- Right -->
+						<div>
+							<p class="font-bold">Lot Number:</p>
+							<p>76</p>
+						</div>
+
+						<!-- Left -->
+						<div>
+							<p class="font-bold">Acres:</p>
+							<p>2</p>
+						</div>
+						<!-- Right -->
+						<div>
+							<p class="font-bold">Price:</p>
+							<p>$155,900</p>
+						</div>
+					</div>
+					
+
 				</div>
 
 				<div class="col-span-1 lg:col-span-4">
-					Right
 				</div>
 
 
