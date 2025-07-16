@@ -8,7 +8,8 @@
     "php": "php -S localhost:8001",
     "watch": "browser-sync start --config bs-config.js",
     "generate": "node generate-site.js",
-    "setup": "npm run generate && npm run dev"
+    "setup": "npm run generate && npm run dev",
+    "deploy": "git add . && git commit -m 'Update site' && git push cloudways main"
   },
   "devDependencies": {
     "browser-sync": "^3.0.4",
