@@ -30,6 +30,8 @@ module.exports = {
         'sand': '#DEC9A2',
         'tan': '#F0EFE6',
         'lightgray': '#AEB9B4',
+        'mediumgray': '#C4C4C4',
+
       },
 
       fontSize: {

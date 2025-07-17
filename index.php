@@ -125,10 +125,10 @@
 
 					<div class="flex gap-2">
 						<button class="btn_swiper"> 
-							<img class="mx-auto w-5 h-auto scale-x-[-1]" src="/assets/images/swiper_arrow.svg" alt="Swiper Arrow">
+							<img class="mx-auto w-4 h-auto scale-x-[-1]" src="/assets/images/swiper_arrow.svg" alt="Swiper Arrow">
 						</button>
 						<button class="btn_swiper active"> 
-							<img class="mx-auto w-5 h-auto " src="/assets/images/swiper_arrow.svg" alt="Swiper Arrow">
+							<img class="mx-auto w-4 h-auto " src="/assets/images/swiper_arrow.svg" alt="Swiper Arrow">
 						</button>
 					</div>
 				</div>

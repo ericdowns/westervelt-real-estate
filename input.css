@@ -266,18 +266,24 @@ input:-webkit-autofill:focus {
 
 	.filter-button {
 		@apply 
-		px-6
-		py-2
+		lg:px-6
+		px-3
+		lg:pt-3
+		lg:pb-2
+		pt-2
+		pb-1
 		rounded-lg
+		leading-[1.5em]
 		border
-		border-gray-300
+		border-mediumgray
 		text-dark-green
-		bg-white
+		bg-tan
 		transition
+		font-medium
 		duration-300
 		ease-in-out
 		hover:border-dark-green
-		hover:bg-white;
+		;
 	}
 
 	.filter-button.active {
@@ -292,28 +298,32 @@ input:-webkit-autofill:focus {
 		flex
 		items-center
 		justify-center
-		px-4
-		py-2
+		lg:px-6
+		px-3
+		lg:pt-3
+		lg:pb-2
+		pt-2
+		pb-1
+		font-medium
 		text-dark-green
-		bg-tan
-		border-l
-		border-gray-300
+		bg-[#F5F4EB]
+		border
+		border-transparent
 		transition-all
 		duration-300
-		;
+		hover:border-dark-green;
 	}
 
 	.view-tab-active {
 		@apply
 		view-tab
 		bg-white
-		text-dark-green
 		border
 		border-dark-green
-		rounded-l-md
-		-ml-[1px]
-		;
+		rounded-l-md;
 	}
+
+
 }
 
 
