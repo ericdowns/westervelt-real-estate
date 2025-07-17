@@ -9,7 +9,7 @@
     "watch": "browser-sync start --config bs-config.js",
     "generate": "node generate-site.js",
     "setup": "npm run generate && npm run dev",
-    "deploy": "git add . && git commit -m 'Update site' && git push cloudways main"
+    "deploy": "git add -A && git commit -m 'Update site' || echo 'No changes to commit' && git push cloudways main"
   },
   "devDependencies": {
     "browser-sync": "^3.0.4",
