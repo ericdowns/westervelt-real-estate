@@ -2552,10 +2552,6 @@ input:-webkit-autofill:focus {
   background-color: rgb(231 221 117 / var(--tw-bg-opacity, 1));
 }
 
-.bg-dark-green\/50 {
-  background-color: rgb(15 44 27 / 0.5);
-}
-
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
