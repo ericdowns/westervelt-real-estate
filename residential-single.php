@@ -106,7 +106,7 @@
 
 
 
-		<div class="bg-tan w-full py-10">
+		<div class="bg-tan w-full py-8">
 			<div class="content">
 				<div class="flex w-full items-center py-8 justify-between">
 					<div class="">
@@ -121,7 +121,7 @@
 						</button>
 					</div>
 				</div>
-				<div class="grid md:grid-cols-3 grid-cols-1 gap-5 pb-20">
+				<div class="grid md:grid-cols-3 grid-cols-1 gap-5 ">
 					<div class="group">
 						<img class="transform group-hover:shadow-lg overflow-clip easy rounded-lg mb-3" src="/assets/images/lake_tamaha_photo_card.jpg" >
 						<p class="sm">About this image...</p>
@@ -137,36 +137,35 @@
 				</div>
 			</div>
 		</div>
-	</div>
 
 
 
-	<div class="bg-tan w-full py-10">
-		<div class="content">
-			<div class="lg:min-h-[500px] min-h-[300px] bg-white rounded-lg flex items-center justify-center">
-				<p class="sm text-secondary">Map Goes Here</p>
-			</div>
-
-		</div>
-	</div>
-
-
-	<div class="bg-tan w-full">
-		<div class="content">
-			<div class="flex  flex lg:flex-row flex-col justify-between w-full gap-5 lg:items-end pb-8">
-				<div class="flex">
-					<span class="greendot lg:mt-4 mt-2 mr-3"></span>
-					<div>
-						<h3>Similar Properties</h3>
-					</div>
+		<div class="bg-tan w-full py-10">
+			<div class="content">
+				<div class="lg:min-h-[500px] min-h-[300px] bg-white rounded-lg flex items-center justify-center">
+					<p class="sm text-secondary">Map Goes Here</p>
 				</div>
-				<a class="btn lg:self-end self-start ml-5" href="#">See All</a>
-			</div>
-			<div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-y-10 gap-x-5 pb-14">
-				<?php for ($i = 0; $i < 3; $i++) {include './components/cards/card_land.php'; } ?>
+
 			</div>
 		</div>
-	</div>
+
+
+		<div class="bg-tan w-full">
+			<div class="content">
+				<div class="flex  flex lg:flex-row flex-col justify-between w-full gap-5 lg:items-end pb-8">
+					<div class="flex">
+						<span class="greendot lg:mt-4 mt-2 mr-3"></span>
+						<div>
+							<h3>Similar Properties</h3>
+						</div>
+					</div>
+					<a class="btn lg:self-end self-start ml-5" href="#">See All</a>
+				</div>
+				<div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-y-10 gap-x-5 pb-14">
+					<?php for ($i = 0; $i < 3; $i++) {include './components/cards/card_land.php'; } ?>
+				</div>
+			</div>
+		</div>
 
 
 
@@ -175,7 +174,7 @@
 
 
 
-</main>
-<?php include './includes/footer.php'; ?>
+	</main>
+	<?php include './includes/footer.php'; ?>
 </body>
 </html>

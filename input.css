@@ -137,7 +137,13 @@
 	}
 
 	label {
-		@apply block mb-1 text-sm font-medium text-gray-900;
+		@apply 
+		block 
+		mb-1 
+		text-sm
+		font-semibold 
+		text-primary
+		;
 	}
 
 	input,
@@ -147,31 +153,44 @@
 		w-full
 		rounded-md
 		border
-		border-gray-300
+		border-mediumgray
 		bg-white
-		p-2
-		text-base
-		text-dark-green
-		placeholder-gray-400
+		px-2
+		py-4
+		text-primary
+		placeholder-secondary
 		leading-snug
 		appearance-none
+		font-medium
 		;
 	}
+
 
 	input:focus,
 	select:focus,
 	textarea:focus {
-		@apply outline-none ring-2 ring-offset-0 ring-kelly-green border-kelly-green bg-white;
+		@apply 
+		outline-none 
+		ring-0 
+		ring-offset-0  
+		border-primary 
+		;
 	}
 
-/* Chrome/Safari autofill override */
-input:-webkit-autofill,
-input:-webkit-autofill:focus {
-	@apply ring-2 ring-kelly-green border-kelly-green bg-white text-dark-green;
-	transition: background-color 5000s ease-in-out 0s;
-	-webkit-box-shadow: 0 0 0px 1000px white inset !important;
-	-webkit-text-fill-color: #102C1B !important;
-}
+	input:-webkit-autofill,
+	input:-webkit-autofill:focus {
+		@apply 
+		ring-2 
+		ring-kelly-green 
+		border-kelly-green 
+		bg-white 
+		text-dark-green
+		;
+
+		transition: background-color 5000s ease-in-out 0s;
+		-webkit-box-shadow: 0 0 0px 1000px white inset !important;
+		-webkit-text-fill-color: #102C1B !important;
+	}
 
 
 
@@ -268,7 +287,8 @@ input:-webkit-autofill:focus {
 		rounded-full 
 		border 
 		border-white 
-		py-2 
+		pt-3
+		pb-2 
 		px-4 
 		inline-flex;
 	}

@@ -1,25 +1,25 @@
 <!-- <style> *{outline: 1px solid rgba(0, 0, 0, .1);} </style> -->
 
-<div id="toggleBox" class="bg-white shadow-xl fixed rounded-lg left-10 bottom-10 flex flex-col w-[300px] hover:[&>a]:bg-gray-200 text-sm z-[999] p-4 pt-2 space-y-1 border-2 transition-all duration-300">
+<div id="toggleBox" class="bg-white shadow-xl fixed rounded-lg left-5 bottom-5 flex flex-col w-[300px] hover:[&>a]:bg-gray-200 text-sm z-[999] p-4 pt-2 space-y-1 border-2 transition-all duration-300">
 
 	<button id="toggleButton" class="easy size-8 flex items-center justify-center font-semibold text-white absolute -top-2 bg-moss -right-2 text-xl leading-none p-1 rounded-full hover:bg-primary">&times;</button>
 
-	<a href="/index.php">Home ✅</a>
-	<a href="/land-for-sale-all.php">Land for Sale - All 🔄</a>
-	<a href="/land-for-sale-category.php">Land for Sale - Category 🔄</a>
-	<a href="/land-for-sale-map.php">Land for Sale - Map 🔄</a>
-	<a href="/land-for-sale-single.php">Land for Sale - Single 🔄</a>
-	<a href="/land-for-sale-image-expanded.php">Land for Sale - Image Expanded 🔄</a>
-	<a href="/residential-sales.php">Residential Sales - All 🔄</a>
-	<a href="/residential-community.php">Residential Community 🔄</a>
-	<a href="/residential-single.php">Residential Single 🔄</a>
-	<a href="/about.php">About ✅</a>
-	<a href="/contact.php">Contact 🔄</a>
-	<a href="/styles.php">Styles 🔄</a>
+	<a href="/index.php">Home </a>
+	<a href="/land-for-sale-all.php">Land for Sale - All</a>
+	<a href="/land-for-sale-category.php">Land for Sale - Category </a>
+	<a href="/land-for-sale-map.php">Land for Sale - Map </a>
+	<a href="/land-for-sale-single.php">Land for Sale - Single </a>
+	<a href="/land-for-sale-image-expanded.php">Land for Sale - Image Expanded </a>
+	<a href="/residential-sales.php">Residential Sales - All </a>
+	<a href="/residential-community.php">Residential Community </a>
+	<a href="/residential-single.php">Residential Single </a>
+	<a href="/about.php">About </a>
+	<a href="/contact.php">Contact </a>
+	<a href="/styles.php">Styles </a>
 </div>
 
-<button id="openButton" class="text-sm font-semibold shadow-xl border border-forest-green border-2 fixed left-10 bottom-10 z-[998] bg-moss text-white px-3 py-1 rounded hidden">
-	Sitemap
+<button id="openButton" class="text-sm shadow-xl fixed left-5 bottom-5 z-[998] bg-moss text-white px-3 pt-2 pb-1 rounded hidden">
+	Mini Sitemap
 </button>
 
 <script>
