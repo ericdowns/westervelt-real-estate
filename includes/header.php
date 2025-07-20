@@ -11,8 +11,8 @@
 	<a href="/land-for-sale-single.php">Land for Sale - Single </a>
 	<a href="/land-for-sale-image-expanded.php">Land for Sale - Image Expanded </a>
 	<a href="/residential-sales.php">Residential Sales - All </a>
-	<a href="/residential-community.php">Residential Community </a>
-	<a href="/residential-single.php">Residential Single </a>
+	<a href="/residential-community.php">Residential - Community </a>
+	<a href="/residential-single.php">Residential -  Single </a>
 	<a href="/about.php">About </a>
 	<a href="/contact.php">Contact </a>
 	<a href="/styles.php">Styles </a>

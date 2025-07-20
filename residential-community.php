@@ -13,7 +13,7 @@
 	</header>
 	<main class="mx-auto flex-grow w-full pt-[140px] z-0">
 		<div class="relative h-[650px] w-full">
-			<img class="absolute h-full w-full object-cover" src="/assets/images/Lake_Tamaha.jpg" alt="Lake_Tamaha">';
+			<img class="absolute h-full w-full object-cover" src="/assets/images/residential_community_hero.jpg" alt="Lake_Tamaha">';
 			<div class="absolute bg-black/30  w-full h-full inset-0 flex flex-col justify-end items-start space-y-2 lg:p-10 p-5 pb-14">
 				<div class="lg:w-6/12 w-full flex flex-col space-y-6 items-start">
 					<span class="badge"><h6>Communities </h6> </span>
@@ -121,7 +121,7 @@
 					</div>
 				</div>
 				<div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-y-10 gap-x-5">
-					<?php for ($i = 0; $i < 3; $i++) {include './components/cards/card_land.php'; } ?>
+					<?php for ($i = 0; $i < 2; $i++) {include './components/cards/card_land.php'; } ?>
 				</div>
 			</div>
 		</div>

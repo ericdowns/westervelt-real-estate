@@ -198,7 +198,6 @@
 
 @layer components {
 
-
 	.content{
 		@apply
 		lg:px-10
@@ -332,6 +331,8 @@
 		bg-white;
 	}
 
+
+
 	.view-tab {
 		@apply
 		flex
@@ -344,23 +345,53 @@
 		pt-2
 		pb-1
 		font-medium
-		text-dark-green
-		bg-[#F5F4EB]
+		text-primary
+		bg-tan
 		border
-		border-transparent
+		border-mediumgray
 		transition-all
 		duration-300
-		hover:border-dark-green;
+		hover:border-primary;
 	}
 
 	.view-tab-active {
 		@apply
-		view-tab
+		flex
+		items-center
+		justify-center
+		lg:px-6
+		px-3
+		lg:pt-3
+		lg:pb-2
+		pt-2
+		pb-1
+		font-medium
+		text-dark-green
 		bg-white
 		border
 		border-dark-green
-		rounded-l-md;
+		transition-all
+		duration-300;
 	}
+
+/* Left button specific */
+.view-tab-left {
+	@apply rounded-l-md border-r-0 hover:border-r-0;
+}
+
+.view-tab-active-left {
+	@apply rounded-l-md;
+}
+
+/* Right button specific */
+.view-tab-right {
+	@apply rounded-r-md border-l-0 hover:border-l-0;
+}
+
+.view-tab-active-right {
+	@apply rounded-r-md;
+}
+
 
 
 }

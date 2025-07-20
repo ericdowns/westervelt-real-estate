@@ -31,18 +31,23 @@
 						<button class="filter-button">Recreational Tracts</button>
 						<button class="filter-button">Acreage</button>
 					</div>
-					<div class="relative inline-flex overflow-hidden rounded-md border border-mediumgray">
-						<!-- Active Button -->
-						<button class="view-tab-active z-10">
+					
+					
+
+					<div class="relative inline-flex overflow-hidden">
+						<!-- Left Button (Active) -->
+						<button class="view-tab-active view-tab-active-left">
 							<img src="/assets/images/grid.svg" alt="" class="w-5 h-5 mr-2" />
 							<span>Listings</span>
 						</button>
-						<!-- Inactive Button -->
-						<button class="view-tab rounded-r-md">
+						<!-- Right Button (Inactive) -->
+						<button class="view-tab view-tab-right">
 							<img src="/assets/images/map.svg" alt="" class="w-5 h-5 mr-2" />
 							<span>Map</span>
 						</button>
 					</div>
+
+
 				</div>
 				<div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-y-10 gap-x-5 grid_cards_land_wrapper pb-20 pt-5">
 					<?php for ($i = 0; $i < 3; $i++) {include './components/cards/card_land.php'; } ?>

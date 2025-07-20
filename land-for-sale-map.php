@@ -31,18 +31,24 @@
 						<button class="filter-button">Recreational Tracts</button>
 						<button class="filter-button">Acreage</button>
 					</div>
-					<div class="relative inline-flex overflow-hidden rounded-md border border-mediumgray">
-						<!-- Active Button -->
-						<button class="view-tab z-10">
+					
+
+
+
+					<div class="relative inline-flex overflow-hidden">
+						<!-- Left Button (Inactive) -->
+						<button class="view-tab view-tab-left">
 							<img src="/assets/images/grid.svg" alt="" class="w-5 h-5 mr-2" />
 							<span>Listings</span>
 						</button>
-						<!-- Inactive Button -->
-						<button class="view-tab-active rounded-r-md">
+						<!-- Right Button (Active) -->
+						<button class="view-tab-active view-tab-active-right">
 							<img src="/assets/images/map.svg" alt="" class="w-5 h-5 mr-2" />
 							<span>Map</span>
 						</button>
 					</div>
+
+
 				</div>
 			</div>
 
@@ -54,8 +60,27 @@
 						</div>
 					</div>
 					<div>
-						<div class="map_wrapper bg-white lg:min-h-full min-h-40 rounded-md p-5 flex flex-col justify-center items-center">
-							<h3>Map Goes Here</h3>
+						<div class="map_wrapper bg-[#D9F7E3] lg:min-h-full min-h-[30vh] rounded-md p-5 flex flex-col justify-center items-center">
+
+
+							<a href="#" class="block group shadow-lg easy max-w-[300px] rounded-xl overflow-clip">
+								<div class="flex flex-col bg-white card_land ">
+									<div class="relative pb-[60%] w-full overflow-clip">
+										<img
+										class="absolute h-full w-full object-cover transform group-hover:scale-105 easy"
+										src="/assets/images/card_land_image.jpg"
+										alt="Fallback Image"
+										>
+									</div>
+
+									<div class="flex flex-col space-y-4 p-6 rounded">
+										<h6>Tuscaloosa, AL</h6>
+										<h4 class="group-hover:text-moss easy">Lake Tamaha</h4>
+										<p class="sm text-secondary">265 +/- Acres functional for a proposed mix use development</p>
+										<p>265 +/- Acres  |   $1.00**</p>
+									</div>
+								</div>
+							</a>
 						</div>
 					</div>
 				</div>

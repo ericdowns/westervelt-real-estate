@@ -1,5 +1,4 @@
 <!-- <style> *{outline: 1px solid rgba(0, 0, 0, .5);} </style> -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,20 +10,11 @@
 <body class="min-h-screen flex flex-col">
 	<?php include './includes/header.php'; ?>
 	<main class="mx-auto flex-grow w-full pt-[140px]">
-
-
-
-
-		<div class="bg-dark-green/90 min-h-screen py-20 px-5">
-
+		<div class="fixed inset-0 z-[99999] bg-dark-green/90 min-h-screen h-screen py-20 px-5">
 			<div class="flex items-center justify-between gap-3">
-
-
 				<button class="btn_swiper btn_swiper_light"> 
 					<img class="mx-auto w-4 h-auto scale-x-[-1]" src="/assets/images/swiper_arrow_white.svg" alt="Swiper Arrow">
 				</button>
-
-
 				<div class="md:w-1/2 w-full">
 					<img class="w-full h-auto rounded-md" src="/assets/images/pop_up_map.jpg" alt="Image" >
 					<div class="flex py-4 gap-3 justify-between lg:items-center lg:flex-row flex-col">
@@ -32,24 +22,12 @@
 						<a class="self-start btn" href="#">Download</a>
 					</div>
 				</div>
-
 				<button class="btn_swiper btn_swiper_light"> 
 					<img class="mx-auto w-4 h-auto " src="/assets/images/swiper_arrow_white.svg" alt="Swiper Arrow">
 				</button>
-
-
-
 			</div>
-
 		</div>
-		
-
-
-
-
 	</main>
-
-
 	<?php include './includes/footer.php'; ?>
 </body>
 </html>
