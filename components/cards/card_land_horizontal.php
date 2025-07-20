@@ -2,9 +2,6 @@
 
 <a href="#" class="block group hover:shadow-lg easy bg-white rounded-md overflow-clip">
 	<div class="grid grid-cols-3">
-		
-
-
 		<div class="relative pb-[60%] w-full overflow-clip col-span-1 ">
 			<img
 			class="absolute h-full w-full object-cover transform group-hover:scale-105 easy"
