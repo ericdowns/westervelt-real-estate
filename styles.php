@@ -19,7 +19,7 @@
 
 
 
-		<div class="max-w-5xl mx-auto pb-10">
+		<div class="max-w-5xl mx-auto pb-10 px-5">
 
 			<div class="w-full border-b border-gray-300 pb-5 mb-10">
 				<h6>Typography</h6>

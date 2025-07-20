@@ -14,7 +14,7 @@
 			<h6>Tuscaloosa, AL</h6>
 			<h4 class="group-hover:text-moss easy">Commercial lot at Cedar Cove at Technology Park</h4>
 			<p class="sm text-secondary">265 +/- Acres functional for a proposed mix use development</p>
-			<p>265 +/- Acres  |   $1.00**</p>
+			<p class="font-medium">265 +/- Acres  |   $1.00**</p>
 		</div>
 	</div>
 </a>
