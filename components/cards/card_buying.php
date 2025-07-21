@@ -6,7 +6,7 @@
 			<img
 			class="absolute h-full w-full object-cover transform group-hover:scale-[1.045] easy"
 			src="/assets/images/card-buying.jpg"
-			alt="Fallback Image"
+			alt="Westervelt buying services property image"
 			>
 			
 			<div class="absolute bottom-0 h-2/3 w-full bg-gradient-to-t from-black to-black/0 pointer-events-none"></div>

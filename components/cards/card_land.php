@@ -6,7 +6,7 @@
 			<img
 			class="absolute h-full w-full object-cover transform group-hover:scale-105 easy"
 			src="/assets/images/card-land.jpg"
-			alt="Fallback Image"
+			alt="Commercial lot at Cedar Cove at Technology Park property image"
 			>
 		</div>
 

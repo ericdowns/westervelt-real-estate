@@ -33,12 +33,12 @@
 						<div class="">
 							<h4 class="mb-5"> Get in Touch </h4>
 							<p class="mb-8">
-								Phone: (205) 562-5531 <br> 
+								Phone: <a href="tel:+12055625531" class="text-dark-green hover:text-moss easy font-medium">(205) 562-5531</a> <br> 
 								Fax: (205) 562-5013
 							</p>
 
 							<p class="mb-8">
-								<a href="">tchambers@westervelt.com</a>
+								<a href="mailto:tchambers@westervelt.com" class="text-dark-green hover:text-moss easy font-medium">tchambers@westervelt.com</a>
 							</p>
 
 							<p class="font-bold mb-2">Mailing address:</p>
@@ -47,7 +47,7 @@
 								Tuscaloosa, Alabama 35404
 							</p>
 
-							<a href="#" class="flex items-start gap-3  w-10">
+							<a href="https://www.facebook.com/WesterverltCompany" class="flex items-start gap-3 w-10" target="_blank" rel="noopener noreferrer" aria-label="Visit our Facebook page">
 								<img class="hover:opacity-40 easy" src="/assets/images/icon-facebook-dark.svg" alt="Facebook Icon">
 							</a>
 						</div>
@@ -58,25 +58,28 @@
 							<h5>We’d love to help you find your perfect place – for your family, for your business, or your your recreation.</h5>
 
 							<div>
-								<form method="post" action="#" class="mx-auto space-y-6 py-10">
+								<form method="post" action="#" class="mx-auto space-y-6 py-10" aria-label="Contact form">
 
-									<!-- First & Last Name -->
-									<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-										<div>
-											<label for="first_name">First Name*</label>
-											<input type="text" id="first_name" name="first_name" required>
+									<!-- Personal Information -->
+									<fieldset class="space-y-6">
+										<legend class="sr-only">Personal Information</legend>
+										<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+											<div>
+												<label for="first_name">First Name*</label>
+												<input type="text" id="first_name" name="first_name" required aria-required="true">
+											</div>
+											<div>
+												<label for="last_name">Last Name*</label>
+												<input type="text" id="last_name" name="last_name" required aria-required="true">
+											</div>
 										</div>
-										<div>
-											<label for="last_name">Last Name*</label>
-											<input type="text" id="last_name" name="last_name" required>
-										</div>
-									</div>
 
-									<!-- Email -->
-									<div>
-										<label for="email">Email*</label>
-										<input type="email" id="email" name="email" required>
-									</div>
+										<!-- Email -->
+										<div>
+											<label for="email">Email*</label>
+											<input type="email" id="email" name="email" required aria-required="true">
+										</div>
+									</fieldset>
 
 									<!-- Address -->
 									<div>
@@ -144,17 +147,27 @@
 
 
 
-	<div class="px-5 flex w-full bg-tan py-10">
-		<div class="bg-[#D9F7E3] h-full rounded-2xl p-5 w-full min-h-[600px] relative">
+	<div class="bg-tan w-full py-10">
+		<div class="content">
+			<div class="lg:h-[500px] h-[300px] bg-white rounded-xl overflow-hidden relative">
+				<iframe 
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3328.8!2d-87.5692!3d33.2098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x888628c8c8c8c8c8%3A0x8c8c8c8c8c8c8c8c!2s1400%20Jack%20Warner%20Pkwy%20NE%2C%20Tuscaloosa%2C%20AL%2035404!5e0!3m2!1sen!2sus!4v1234567890"
+					class="w-full h-full"
+					style="border:0;" 
+					allowfullscreen="" 
+					loading="lazy" 
+					referrerpolicy="no-referrer-when-downgrade">
+				</iframe>
+				
+				<div class="mapmaker bg-white md:w-[450px] w-[80%] p-5 py-10 rounded-xl absolute flex flex-col gap-5 left-4 md:left-8 items-start top-1/2 -translate-y-1/2 shadow-lg">
+					<h3>Visit Us</h3>
+					<p class="text-secondary">
+						1400 Jack Warner Parkway NE <br>
+						Tuscaloosa, Alabama 35404
+					</p>
 
-			<div class="mapmaker bg-white md:w-[450px] w-[80%] p-5 py-10 rounded-xl absolute flex flex-col gap-5 left-10 items-start top-1/2  -translate-y-1/2 ">
-				<h3>Visit Us</h3>
-				<p class="text-secondary">
-					1400 Jack Warner Parkway NE <br>
-					Tuscaloosa, Alabama 35404
-				</p>
-
-				<button type="button" class="btn" onclick="window.open('https://maps.google.com/?q=1400+Jack+Warner+Parkway+NE+Tuscaloosa+AL+35404', '_blank')" aria-label="Get driving directions to our office">Get Directions</button>
+					<button type="button" class="btn" onclick="window.open('https://maps.google.com/?q=1400+Jack+Warner+Parkway+NE+Tuscaloosa+AL+35404', '_blank')" aria-label="Get driving directions to our office">Get Directions</button>
+				</div>
 			</div>
 		</div>
 	</div>

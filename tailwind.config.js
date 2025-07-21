@@ -76,6 +76,175 @@ module.exports = {
       DEFAULT: {
         css: {
           maxWidth: "none",
+          color: theme('colors.dark-green'),
+          fontFamily: theme('fontFamily.sans'),
+          fontSize: theme('fontSize.p-base')[0],
+          lineHeight: theme('fontSize.p-base')[1].lineHeight,
+          
+          // Headings - match our existing site styles
+          'h1': {
+            color: theme('colors.dark-green'),
+            fontFamily: theme('fontFamily.serif'),
+            fontSize: theme('fontSize.size-h1')[0],
+            lineHeight: theme('fontSize.size-h1')[1].lineHeight,
+            letterSpacing: theme('letterSpacing.tightest'),
+            fontWeight: '400',
+            marginBottom: theme('spacing.8'),
+            '@media (max-width: 1024px)': {
+              fontSize: theme('fontSize.size-m-h1')[0],
+              lineHeight: theme('fontSize.size-m-h1')[1].lineHeight,
+            },
+          },
+          'h2': {
+            color: theme('colors.dark-green'),
+            fontFamily: theme('fontFamily.serif'),
+            fontSize: theme('fontSize.size-h2')[0],
+            lineHeight: theme('fontSize.size-h2')[1].lineHeight,
+            fontWeight: '400',
+            marginBottom: theme('spacing.8'),
+            '@media (max-width: 1024px)': {
+              fontSize: theme('fontSize.size-m-h2')[0],
+              lineHeight: theme('fontSize.size-m-h2')[1].lineHeight,
+            },
+          },
+          'h3': {
+            color: theme('colors.dark-green'),
+            fontFamily: theme('fontFamily.serif'),
+            fontSize: theme('fontSize.size-h3')[0],
+            lineHeight: theme('fontSize.size-h3')[1].lineHeight,
+            fontWeight: '400',
+            marginBottom: theme('spacing.8'),
+            '@media (max-width: 1024px)': {
+              fontSize: theme('fontSize.size-m-h3')[0],
+              lineHeight: theme('fontSize.size-m-h3')[1].lineHeight,
+            },
+          },
+          'h4': {
+            color: theme('colors.dark-green'),
+            fontFamily: theme('fontFamily.serif'),
+            fontSize: theme('fontSize.size-h4')[0],
+            lineHeight: theme('fontSize.size-h4')[1].lineHeight,
+            fontWeight: '400',
+            marginBottom: theme('spacing.8'),
+            '@media (max-width: 1024px)': {
+              fontSize: theme('fontSize.size-m-h4')[0],
+              lineHeight: theme('fontSize.size-m-h4')[1].lineHeight,
+            },
+          },
+          'h5': {
+            color: theme('colors.dark-green'),
+            fontFamily: theme('fontFamily.serif'),
+            fontSize: theme('fontSize.size-h5')[0],
+            lineHeight: theme('fontSize.size-h5')[1].lineHeight,
+            fontWeight: '400',
+            marginBottom: theme('spacing.8'),
+            '@media (max-width: 1024px)': {
+              fontSize: theme('fontSize.size-m-h5')[0],
+              lineHeight: theme('fontSize.size-m-h5')[1].lineHeight,
+            },
+          },
+          'h6': {
+            color: theme('colors.dark-green'),
+            fontFamily: theme('fontFamily.sans'),
+            fontSize: theme('fontSize.size-h6')[0],
+            lineHeight: theme('fontSize.size-h6')[1].lineHeight,
+            fontWeight: '600',
+            textTransform: 'uppercase',
+            letterSpacing: '1px',
+            marginBottom: theme('spacing.8'),
+            '@media (max-width: 1024px)': {
+              fontSize: theme('fontSize.size-m-h6')[0],
+              lineHeight: theme('fontSize.size-m-h6')[1].lineHeight,
+            },
+          },
+
+          // Paragraphs - match our existing styles
+          'p': {
+            color: theme('colors.secondary'),
+            fontFamily: theme('fontFamily.sans'),
+            fontSize: theme('fontSize.p-base')[0],
+            lineHeight: theme('fontSize.p-base')[1].lineHeight,
+            fontWeight: '500',
+            marginBottom: theme('spacing.8'),
+            '@media (max-width: 1024px)': {
+              fontSize: theme('fontSize.p-m-base')[0],
+              lineHeight: theme('fontSize.p-m-base')[1].lineHeight,
+            },
+          },
+
+          // Lists
+          'ul': {
+            marginBottom: theme('spacing.8'),
+          },
+          'ol': {
+            marginBottom: theme('spacing.8'),
+          },
+          'li': {
+            fontSize: theme('fontSize.p-base')[0],
+            lineHeight: theme('fontSize.p-base')[1].lineHeight,
+            fontWeight: '400',
+            color: theme('colors.dark-green'),
+            '@media (max-width: 1024px)': {
+              fontSize: theme('fontSize.p-m-base')[0],
+              lineHeight: theme('fontSize.p-m-base')[1].lineHeight,
+            },
+          },
+
+          // Links - match our site styling
+          'a': {
+            color: theme('colors.moss'),
+            textDecoration: 'underline',
+            fontWeight: '500',
+            '&:hover': {
+              color: theme('colors.kelly-green'),
+            },
+          },
+
+          // Strong/Bold
+          'strong': {
+            color: theme('colors.dark-green'),
+            fontWeight: '600',
+          },
+
+          // Emphasis/Italic
+          'em': {
+            fontStyle: 'italic',
+            color: theme('colors.dark-green'),
+          },
+
+          // Blockquotes
+          'blockquote': {
+            borderLeftColor: theme('colors.moss'),
+            color: theme('colors.dark-green'),
+            fontFamily: theme('fontFamily.serif'),
+            fontSize: theme('fontSize.size-h5')[0],
+            lineHeight: theme('fontSize.size-h5')[1].lineHeight,
+            fontStyle: 'normal',
+            fontWeight: '400',
+            paddingLeft: theme('spacing.6'),
+            marginBottom: theme('spacing.8'),
+            '@media (max-width: 1024px)': {
+              fontSize: theme('fontSize.size-m-h5')[0],
+              lineHeight: theme('fontSize.size-m-h5')[1].lineHeight,
+            },
+          },
+
+          // Blockquote paragraphs
+          'blockquote p': {
+            color: 'inherit',
+            fontSize: 'inherit',
+            lineHeight: 'inherit',
+            fontFamily: 'inherit',
+            fontWeight: 'inherit',
+          },
+
+          // Citations
+          'cite': {
+            fontSize: theme('fontSize.p-sm')[0],
+            color: theme('colors.secondary'),
+            fontStyle: 'normal',
+            fontWeight: '500',
+          },
         },
       },
     }),

@@ -47,8 +47,8 @@
 						<h4>Tom Chambers</h4>
 
 						<div class="flex flex-col [@media(min-width:1200px)]:flex-row items-center justify-center gap-3 xl:gap-5 w-full text-center">
-							<p class="font-bold whitespace-nowrap">205-792-0355</p>
-							<a class="btn" href="#">Email Tom</a>
+							<a href="tel:+12057920355" class="font-bold whitespace-nowrap text-dark-green hover:text-moss easy">205-792-0355</a>
+							<a class="btn" href="mailto:tchambers@westervelt.com">Email Tom</a>
 						</div>
 
 						<div class="socials flex flex-row items-center justify-center gap-4 w-full  border-t border-mediumgray pt-5">

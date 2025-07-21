@@ -116,6 +116,27 @@
 		;
 	}
 
+	.job-title {
+		@apply 
+		text-xs
+		font-semibold
+		uppercase
+		tracking-wide
+		;
+	}
+
+	.sr-only {
+		position: absolute;
+		width: 1px;
+		height: 1px;
+		padding: 0;
+		margin: -1px;
+		overflow: hidden;
+		clip: rect(0, 0, 0, 0);
+		white-space: nowrap;
+		border: 0;
+	}
+
 	.prose strong {
 		@apply 
 		font-semibold
@@ -300,6 +321,43 @@
 
 	/* Ensure links don't have underlines */
 	a.btn {
+		@apply 
+		no-underline;
+	}
+
+	.btn-secondary {
+		@apply 
+		inline-flex 
+		cursor-pointer
+		whitespace-nowrap 
+		items-center 
+		justify-center 
+		text-dark-green
+		hover:text-white
+		pt-4
+		pb-3
+		lg:px-10
+		px-6 
+		bg-transparent
+		hover:bg-dark-green
+		border-2
+		border-dark-green
+		hover:border-dark-green
+		font-semibold 
+		text-center 
+		transition-all ease-in-out duration-500
+		rounded-md;
+	}
+
+	/* Ensure secondary buttons have no browser default styling */
+	button.btn-secondary {
+		@apply 
+		appearance-none
+		outline-none;
+	}
+
+	/* Ensure secondary links don't have underlines */
+	a.btn-secondary {
 		@apply 
 		no-underline;
 	}

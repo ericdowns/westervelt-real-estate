@@ -185,6 +185,14 @@
 							<code class="text-sm bg-gray-100 px-2 py-1 rounded block">class="btn" - Primary button with moss background</code>
 						</div>
 
+						<!-- Secondary Button -->
+						<div class="border border-mediumgray rounded-lg p-6">
+							<div class="flex flex-wrap gap-4 mb-4">
+								<button type="button" class="btn-secondary" aria-label="Example secondary button for demonstration">Secondary Button</button>
+							</div>
+							<code class="text-sm bg-gray-100 px-2 py-1 rounded block">class="btn-secondary" - Outline button with dark green border</code>
+						</div>
+
 						<!-- Default Swiper Buttons -->
 						<div class="border border-mediumgray rounded-lg p-6">
 							<div class="flex flex-wrap gap-4 mb-4">

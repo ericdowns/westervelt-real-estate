@@ -129,10 +129,10 @@
 							<div class="flex justify-between">
 								<div class="flex gap-4 items-center">
 									<p><b>John Smith</b></p> <span class="text-[#C4C4C4]">|</span>
-									<h6 class="text-secondary">Owner</h6>
+									<p class="job-title text-secondary">Owner</p>
 								</div>
 								<div class="relative  h-[50px] w-[80px] rounded-md overflow-clip">
-									<img  class="absolute h-full w-full object-cover" src="/assets/images/content-testimonial-person.jpg" alt="Westervelt Real Estate">
+									<img  class="absolute h-full w-full object-cover" src="/assets/images/content-testimonial-person.jpg" alt="John Smith customer photo">
 								</div>
 							</div>
 						</div>
