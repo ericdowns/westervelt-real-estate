@@ -393,7 +393,27 @@
 	@apply rounded-r-md;
 }
 
+/* Smooth underline for footer links */
+.smooth-underline {
+	@apply 
+	relative
+	;
+}
 
+.smooth-underline::after {
+	content: '';
+	position: absolute;
+	width: 0;
+	height: 1px;
+	bottom: -2px;
+	left: 0;
+	background-color: theme('colors.moss');
+	transition: width theme('transitionDuration.fast') ease-in-out;
+}
+
+.smooth-underline:hover::after {
+	width: 100%;
+}
 
 }
 

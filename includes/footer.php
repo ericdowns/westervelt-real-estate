@@ -59,10 +59,10 @@
 						<!-- Address -->
 						<div class="flex items-start gap-3 ">
 							<img src="/assets/images/pin.svg" alt="Mail Icon">
-							<div class="*:text-sm *:text-lightgray hover:[&_*_a]:text-moss [&_*_a]:easy space-y-2">
-								<p>1400 Jack Warner Pkwy NE<br>Tuscaloosa, AL 35404</p>
+							<div class="space-y-2">
+								<p class="text-lightgray text-sm">1400 Jack Warner Pkwy NE<br>Tuscaloosa, AL 35404</p>
 								<p>
-									<a href="https://www.google.com/maps?q=1400+Jack+Warner+Pkwy+NE+Tuscaloosa+AL+35404" class="text-lightgray">
+									<a href="https://www.google.com/maps?q=1400+Jack+Warner+Pkwy+NE+Tuscaloosa+AL+35404" class="text-lightgray text-sm hover:text-moss smooth-underline easy">
 										Get Directions
 									</a>
 								</p>
@@ -75,10 +75,10 @@
 					</div>
 					<!-- Email -->
 					<div class="flex flex-col gap-5">
-						<div class="flex items-start gap-3 *:text-lightgray *:text-sm *:text-lightgray hover:[&_*_a]:text-moss [&_*_a]:easy">
+						<div class="flex items-start gap-3">
 							<img src="/assets/images/mail.svg" alt="Mail Icon">
 							<p>
-								<a href="mailto:tchambers@westervelt.com">
+								<a href="mailto:tchambers@westervelt.com" class="text-lightgray text-sm hover:text-moss smooth-underline easy">
 									tchambers@westervelt.com
 								</a>
 							</p>
@@ -86,14 +86,12 @@
 						<!-- Phone -->
 						<div class="flex items-start gap-3">
 							<img src="/assets/images/call.svg" alt="Mail Icon">
-							<div class="*:text-sm *:text-lightgray space-y-2 hover:[&_*_a]:text-moss [&_*_a]:easy">
+							<div class="space-y-2">
 								<p>
-									<a href="tel:2055625531">205.562.5531</a>
-									<span class=""> Phone</span>
+									<a href="tel:2055625531" class="text-lightgray text-sm hover:text-moss smooth-underline easy">205.562.5531 Phone</a>
 								</p>
 								<p>
-									<a href="tel:2055625013">205.562.5013</a>
-									<span class=""> Fax</span>
+									<a href="tel:2055625013" class="text-lightgray text-sm hover:text-moss smooth-underline easy">205.562.5013 Fax</a>
 								</p>
 							</div>
 						</div>
@@ -104,36 +102,36 @@
 			<div class="grid md:grid-cols-3 grid-cols-1 gap-5">
 				<div class="space-y-2">
 					<p class="font-semibold text-white ">Land For Sale</p>
-					<ul class="space-y-4 *:text-sm *:text-lightgray hover:[&_*_a]:text-moss [&_*_a]:easy">
-						<li><a href="#">Overview</a></li>
-						<li><a href="#">Commercial/Industrial</a></li>
-						<li><a href="#">Mini-Farms</a></li>
-						<li><a href="#">Recreational Tracts</a></li>
-						<li><a href="#">Acreage</a></li>
+					<ul class="space-y-4">
+						<li><a href="#" class="text-lightgray text-sm hover:text-moss smooth-underline easy">Overview</a></li>
+						<li><a href="#" class="text-lightgray text-sm hover:text-moss smooth-underline easy">Commercial/Industrial</a></li>
+						<li><a href="#" class="text-lightgray text-sm hover:text-moss smooth-underline easy">Mini-Farms</a></li>
+						<li><a href="#" class="text-lightgray text-sm hover:text-moss smooth-underline easy">Recreational Tracts</a></li>
+						<li><a href="#" class="text-lightgray text-sm hover:text-moss smooth-underline easy">Acreage</a></li>
 					</ul>
 				</div>
 				<!-- Column 3: Residential Sales -->
 				<div class="space-y-2">
 					<p class="font-bold text-white">Residential Sales</p>
 
-					<ul class="space-y-4 *:text-sm *:text-lightgray hover:[&_*_a]:text-moss [&_*_a]:easy">
-						<li><a class="text-sm" href="#">Communities</a></li>
-						<li><a href="#">Lake Crest</a></li>
-						<li><a href="#">Harbor Ridge</a></li>
-						<li><a href="#">The Lakes of NorthRiver</a></li>
-						<li><a href="#">Martin Farms</a></li>
-						<li><a href="#">Neptune's Cove</a></li>
-						<li><a href="#">NorthRiver</a></li>
+					<ul class="space-y-4">
+						<li><a href="#" class="text-lightgray text-sm hover:text-moss smooth-underline easy">Communities</a></li>
+						<li><a href="#" class="text-lightgray text-sm hover:text-moss smooth-underline easy">Lake Crest</a></li>
+						<li><a href="#" class="text-lightgray text-sm hover:text-moss smooth-underline easy">Harbor Ridge</a></li>
+						<li><a href="#" class="text-lightgray text-sm hover:text-moss smooth-underline easy">The Lakes of NorthRiver</a></li>
+						<li><a href="#" class="text-lightgray text-sm hover:text-moss smooth-underline easy">Martin Farms</a></li>
+						<li><a href="#" class="text-lightgray text-sm hover:text-moss smooth-underline easy">Neptune's Cove</a></li>
+						<li><a href="#" class="text-lightgray text-sm hover:text-moss smooth-underline easy">NorthRiver</a></li>
 					</ul>
 				</div>
 				<!-- Column 4: Links -->
 				<div class="space-y-2">
 					<p class="font-semibold text-white">Links</p>
-					<ul class="space-y-4 *:text-sm *:text-lightgray hover:[&_*_a]:text-moss [&_*_a]:easy">
-						<li><a href="#">About</a></li>
-						<li><a href="#">Contact</a></li>
-						<li><a href="#">Careers</a></li>
-						<li><a href="#">Sustainability Report</a></li>
+					<ul class="space-y-4">
+						<li><a href="#" class="text-lightgray text-sm hover:text-moss smooth-underline easy">About</a></li>
+						<li><a href="#" class="text-lightgray text-sm hover:text-moss smooth-underline easy">Contact</a></li>
+						<li><a href="#" class="text-lightgray text-sm hover:text-moss smooth-underline easy">Careers</a></li>
+						<li><a href="#" class="text-lightgray text-sm hover:text-moss smooth-underline easy">Sustainability Report</a></li>
 					</ul>
 				</div>
 			</div>

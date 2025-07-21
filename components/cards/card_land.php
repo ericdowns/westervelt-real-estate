@@ -1,7 +1,7 @@
 <!-- <style> *{outline: 1px solid rgba(0, 0, 0, .1);} </style> -->
 
-<a href="#" class="block group hover:shadow-lg easy">
-	<div class="flex flex-col bg-white card_land rounded-xl overflow-clip">
+<a href="#" class="block group hover:shadow-lg easy overflow-hidden bg-red-100 rounded-xl">
+	<div class="flex flex-col bg-white card_land ">
 		<div class="relative pb-[60%] w-full overflow-clip">
 			<img
 			class="absolute h-full w-full object-cover transform group-hover:scale-105 easy"
@@ -10,7 +10,7 @@
 			>
 		</div>
 
-		<div class="flex flex-col space-y-4 p-6 rounded">
+		<div class="flex flex-col space-y-4 p-6">
 			<h6>Tuscaloosa, AL</h6>
 			<h4 class="group-hover:text-moss easy">Commercial lot at Cedar Cove at Technology Park</h4>
 			<p class="sm text-secondary">265 +/- Acres functional for a proposed mix use development</p>

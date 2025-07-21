@@ -1,7 +1,7 @@
 <!-- <style> *{outline: 1px solid rgba(0, 0, 0, .1);} </style> -->
 
-<a href="#" class="block group hover:shadow-lg transition-shadow easy">
-	<div class="flex flex-col bg-white card_land rounded-xl overflow-clip">
+<a href="#" class="block group hover:shadow-lg transition-shadow easy rounded-xl overflow-clip">
+	<div class="flex flex-col bg-white card_land">
 		<div class="relative pb-[95%] w-full">
 			<img
 			class="absolute h-full w-full object-cover transform group-hover:scale-[1.045] easy"

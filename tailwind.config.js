@@ -62,6 +62,15 @@ module.exports = {
       "p-m-sm": ["14px", { lineHeight: "1.5" }],
     },
 
+    boxShadow: {
+      'lg': '0px 5px 12px 0px rgba(0, 0, 0, 0.25)',
+    },
+
+    transitionDuration: {
+      'fast': '150ms',   // For quick animations like underlines
+      'normal': '500ms', // Your existing easy class timing
+    },
+
     typography: (theme) => ({
       DEFAULT: {
         css: {
