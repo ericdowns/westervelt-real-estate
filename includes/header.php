@@ -52,7 +52,7 @@
 <header class="z-[99] fixed w-full">
 
 
-	<div class="message_bar flex justify-between items-center px-5 bg-white h-[45px] border-b">
+	<div class="message_bar flex justify-between items-center px-5 bg-white h-[45px]">
 
 		<div class="[&_*_a]:text-moss [&_*_a]:font-semibold [&_*_a]:underline">
 			<p class="mb-0 sm">Optional <a href="#">news statement</a>... something not too long.</p>
@@ -110,8 +110,8 @@
 
 
 <!-- Mobile Menu -->
-<div id="mobileMenu" class="lg:hidden fixed inset-0 bg-primary bg-opacity-50 z-[100]">
-	<div class="bg-white w-full h-full shadow-lg transform transition-transform duration-300 ease-in-out overflow-y-auto" id="mobileMenuPanel">
+<div id="mobileMenu" class="lg:hidden fixed inset-0 bg-primary bg-opacity-50 z-[100] hidden">
+	<div class="bg-white w-full h-full shadow-lg transform transition-transform duration-300 ease-in-out overflow-y-auto -translate-x-full" id="mobileMenuPanel">
 		
 		<div class="sticky top-0 bg-white p-6 border-b border-mediumgray/50 z-10">
 			<div class="flex justify-end items-center">

@@ -1,5 +1,4 @@
 <!-- <style> *{outline: 1px solid rgba(0, 0, 0, 1);} </style> -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,64 +7,160 @@
 	<title>Westervelt Real Estate</title>
 	<link rel="stylesheet" href="style.css">
 </head>
-<body class="min-h-screen flex flex-col">
-
-
+<body class="min-h-screen flex flex-col bg-tan">
 	<?php include './includes/header.php'; ?>
-
-	
-
 	<main class="mx-auto flex-grow w-full mt-[200px]">
-
-
-
-		<div class="max-w-5xl mx-auto pb-10">
-
-			<div class="w-full border-b border-gray-300 pb-5 mb-10">
-				<h6>Map Card</h6>
+		<div class="content mx-auto pb-10">
+			<!-- ========== PROPERTY CARDS ========== -->
+			<div class="w-full border-b border-mediumgray pb-5 mb-10">
+				<h2>Property Card Components</h2>
 			</div>
-
-
-			<div>
-				<!-- <style> *{outline: 1px solid rgba(0, 0, 0, .1);} </style> -->
-
-				<a href="#" class="block group shadow-lg easy max-w-[300px] rounded-xl overflow-clip">
-					<div class="flex flex-col bg-white card_land ">
-						<div class="relative pb-[60%] w-full overflow-clip">
-							<img
-							class="absolute h-full w-full object-cover transform group-hover:scale-105 easy"
-							src="/assets/images/card_land_image.jpg"
-							alt="Fallback Image"
-							>
-						</div>
-
-						<div class="flex flex-col space-y-4 p-6 rounded">
-							<h6>Tuscaloosa, AL</h6>
-							<h4 class="group-hover:text-moss easy">Lake Tamaha</h4>
-							<p class="sm text-secondary">265 +/- Acres functional for a proposed mix use development</p>
-							<p>265 +/- Acres  |   $1.00**</p>
+			<div class="grid md:grid-cols-3 grid-cols-1 gap-5 mb-20">
+				<!-- Card Land (Vertical) -->
+				<div>
+					<h6 class="mb-4">Card Land (Vertical)</h6>
+					<?php include './components/cards/card_land.php'; ?>
+				</div>
+				<!-- Card Buying -->
+				<div>
+					<h6 class="mb-4">Card Buying</h6>
+					<?php include './components/cards/card_buying.php'; ?>
+				</div>
+				<!-- Card Land Horizontal -->
+				<div>
+					<h6 class="mb-4">Card Land (Horizontal)</h6>
+					<?php include './components/cards/card_land_horizontal.php'; ?>
+				</div>
+			</div>
+			<!-- ========== NAVIGATION COMPONENTS ========== -->
+			<div class="w-full border-b border-mediumgray pb-5 mb-10">
+				<h2>Navigation Components</h2>
+			</div>
+			<div class="grid md:grid-cols-2 grid-cols-1 gap-10 mb-20">
+				<!-- Swiper Buttons -->
+				<div>
+					<h6 class="mb-4">Swiper Navigation Buttons</h6>
+					<div class="flex gap-2">
+						<button class="btn_swiper"> 
+							<img class="mx-auto w-4 h-auto scale-x-[-1]" src="/assets/images/swiper_arrow.svg" alt="Previous">
+						</button>
+						<button class="btn_swiper active"> 
+							<img class="mx-auto w-4 h-auto " src="/assets/images/swiper_arrow.svg" alt="Next">
+						</button>
+					</div>
+				</div>
+				<!-- Swiper Buttons Light (for dark backgrounds) -->
+				<div>
+					<h6 class="mb-4">Swiper Navigation Buttons (Light)</h6>
+					<div class="bg-dark-green p-4 rounded flex gap-2">
+						<button class="btn_swiper btn_swiper_light"> 
+							<img class="mx-auto w-4 h-auto scale-x-[-1]" src="/assets/images/swiper_arrow_white.svg" alt="Previous">
+						</button>
+						<button class="btn_swiper btn_swiper_light"> 
+							<img class="mx-auto w-4 h-auto " src="/assets/images/swiper_arrow_white.svg" alt="Next">
+						</button>
+					</div>
+				</div>
+			</div>
+			<!-- ========== CONTENT COMPONENTS ========== -->
+			<div class="w-full border-b border-mediumgray pb-5 mb-10">
+				<h2>Content Components</h2>
+			</div>
+			<div class="grid md:grid-cols-2 grid-cols-1 gap-10 mb-20">
+				<!-- Testimonial Card -->
+				<div>
+					<h6 class="mb-4">Testimonial Card</h6>
+					<div class="bg-white rounded-md p-8 flex flex-col gap-10">
+						<img class="w-6 h-auto" src="/assets/images/quote.svg" alt="Quote">
+						<h5>The Westervelt Team did a great job anticipating our needs and finding a property that was perfect for us.</h5>
+						<div class="flex justify-between">
+							<div class="flex gap-4 items-center">
+								<p><b>John Smith</b></p> <span class="text-[#C4C4C4]">|</span>
+								<h6 class="text-secondary">Owner</h6>
+							</div>
+							<div class="relative h-[50px] w-[80px] rounded-md overflow-clip">
+								<img class="absolute h-full w-full object-cover" src="/assets/images/testimonial_person.jpg" alt="Customer Photo">
+							</div>
 						</div>
 					</div>
-				</a>
-
-
+				</div>
+				<!-- Badge Component -->
+				<div>
+					<h6 class="mb-4">Badge Component</h6>
+					<div class="flex gap-4 items-center">
+						<span class="badge"><h6>Land for Sale</h6></span>
+						<span class="badge"><h6>We can Help</h6></span>
+					</div>
+				</div>
 			</div>
-
-
-
-
+			<!-- ========== INTERFACE COMPONENTS ========== -->
+			<div class="w-full border-b border-mediumgray pb-5 mb-10">
+				<h2>Interface Components</h2>
+			</div>
+			<div class="grid md:grid-cols-2 grid-cols-1 gap-10 mb-20">
+				<!-- View Toggle Buttons -->
+				<div>
+					<h6 class="mb-4">View Toggle Buttons</h6>
+					<div class="flex rounded-md overflow-hidden">
+						<!-- Left Button (Active) -->
+						<button class="view-tab-active view-tab-active-left">
+							<img src="/assets/images/grid.svg" alt="Grid view icon" class="w-5 h-5 mr-2" />
+							<span>Listings</span>
+						</button>
+						<!-- Right Button (Inactive) -->
+						<button class="view-tab view-tab-right">
+							<img src="/assets/images/map.svg" alt="Map view icon" class="w-5 h-5 mr-2" />
+							<span>Map</span>
+						</button>
+					</div>
+				</div>
+				<!-- Property Gallery Component -->
+				<div>
+					<h6 class="mb-4">Property Gallery Component</h6>
+					<div class="grid md:grid-cols-3 grid-cols-1 gap-5">
+						<div class="group">
+							<img class="transform group-hover:shadow-lg overflow-clip easy rounded-xl mb-3" src="/assets/images/lake_tamaha_photo_card.jpg" alt="Lake Tamaha Photo">
+							<p class="sm">Property gallery image...</p>
+						</div>
+						<div class="group">
+							<img class="transform group-hover:shadow-lg overflow-clip easy rounded-xl mb-3" src="/assets/images/lake_tamaha_photo_card.jpg" alt="Lake Tamaha Photo">
+							<p class="sm">Property gallery image...</p>
+						</div>
+						<div class="group">
+							<img class="transform group-hover:shadow-lg overflow-clip easy rounded-xl mb-3" src="/assets/images/lake_tamaha_photo_card.jpg" alt="Lake Tamaha Photo">
+							<p class="sm">Property gallery image...</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- ========== AGENT COMPONENTS ========== -->
+			<div class="w-full border-b border-mediumgray pb-5 mb-10">
+				<h2>Agent Components</h2>
+			</div>
+			<div class="max-w-md mx-auto mb-20">
+				<!-- Agent Bio Card -->
+				<div>
+					<h6 class="mb-4 text-center">Agent Bio Card</h6>
+					<div class="bg-white w-full rounded p-8 flex flex-col justify-center items-center gap-8">
+						<div class="w-20 h-20 relative">
+							<img class="absolute h-full w-full object-cover rounded-full" src="/assets/images/tom_bio_headshot.jpg" alt="Agent Headshot">
+						</div>
+						<h4>Tom Chambers</h4>
+						<div class="flex flex-col [@media(min-width:1200px)]:flex-row items-center justify-center gap-3 xl:gap-5 w-full text-center">
+							<p class="font-bold whitespace-nowrap">205-792-0355</p>
+							<a class="btn" href="#">Email Tom</a>
+						</div>
+						<div class="socials flex flex-row items-center justify-center gap-4 w-full border-t border-lightgray pt-5">
+							<p class="text-dark-green sm">Share:</p>
+							<img class="size-6 hover:opacity-40 transition" src="/assets/images/x-twitter-brands.svg" alt="Twitter">
+							<img class="size-6 hover:opacity-40 transition" src="/assets/images/linkedin-brands.svg" alt="Linkedin">
+							<img class="size-6 hover:opacity-40 transition" src="/assets/images/facebook_dark.svg" alt="Facebook">
+							<img class="size-6 hover:opacity-40 transition" src="/assets/images/envelope-regular.svg" alt="Email">
+						</div>
+					</div>
+				</div>
+			</div>
 		</main>
-
-
-
 		<footer class="bg-dark-green text-white  mt-auto"> </footer>
-
-
-
-
-
-
-
-
 	</body>
 	</html>

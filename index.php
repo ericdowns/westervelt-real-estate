@@ -34,7 +34,7 @@
 
 		<div class="bg-tan">
 			<div class="content">
-				<div class=" flex pt-10 flex lg:flex-row flex-col justify-between w-full gap-5 lg:items-end">
+				<div class="flex pt-10 lg:flex-row flex-col justify-between w-full gap-5 lg:items-end">
 					<div class="flex">
 						<span class="greendot mt-4 mr-3"></span>
 						<div>
@@ -52,7 +52,7 @@
 
 
 		<div class="lg:px-10 px-5 bg-tan">
-			<hr class="py-8 border-t border-gray-300">
+			<hr class="py-8 border-t border-mediumgray">
 		</div>
 
 
@@ -93,57 +93,58 @@
 					</div>
 				</div> 
 			</div>
+		</div>
 
 
 
-			<div>
-				<div class="grid md:grid-cols-2 grid-cols-1 gap-y-10 gap-x-5 grid_cards_land_wrapper px-5 py-20">
-					<?php for ($i = 0; $i < 2; $i++) {include './components/cards/card_buying.php'; } ?>
-				</div>
+		<div>
+			<div class="grid md:grid-cols-2 grid-cols-1 gap-y-10 gap-x-5 grid_cards_land_wrapper px-5 py-20">
+				<?php for ($i = 0; $i < 2; $i++) {include './components/cards/card_buying.php'; } ?>
 			</div>
+		</div>
 
 
 
-			<div class="testimonial_wrapper bg-sky min-h-40">
-				<div class="content">
-					<div class="flex w-full items-center py-10 justify-between">
-						<div class="">
-							<h2>Testimonials</h2>
-						</div>
-						<div class="flex gap-2">
-							<button class="btn_swiper"> 
-								<img class="mx-auto w-4 h-auto scale-x-[-1]" src="/assets/images/swiper_arrow.svg" alt="Swiper Arrow">
-							</button>
-							<button class="btn_swiper active"> 
-								<img class="mx-auto w-4 h-auto " src="/assets/images/swiper_arrow.svg" alt="Swiper Arrow">
-							</button>
-						</div>
+		<div class="testimonial_wrapper bg-sky min-h-40">
+			<div class="content">
+				<div class="flex w-full items-center py-10 justify-between">
+					<div class="">
+						<h2>Testimonials</h2>
 					</div>
-					<div class="grid md:grid-cols-2 grid-cols-1 gap-5 pb-20">
-						<?php for ($i = 0; $i < 2; $i++) { ?>
-							<div class="bg-white rounded-md p-8 flex flex-col gap-10">
-								<img  class="w-6 h-auto" src="/assets/images/quote.svg" alt="quote">
-								<h5>The Westervelt Team did a great job anticipating our needs and finding a property that was perfect for us.</h5>
-								<div class="flex justify-between">
-									<div class="flex gap-4 items-center">
-										<p><b>John Smith</b></p> <span class="text-[#C4C4C4]">|</span>
-										<h6 class="text-secondary">Owner</h6>
-									</div>
-									<div class="relative  h-[50px] w-[80px] rounded-md overflow-clip">
-										<img  class="absolute h-full w-full object-cover" src="/assets/images/testimonial_person.jpg" alt="Westervelt Real Estate">
-									</div>
+					<div class="flex gap-2">
+						<button class="btn_swiper"> 
+							<img class="mx-auto w-4 h-auto scale-x-[-1]" src="/assets/images/swiper_arrow.svg" alt="Swiper Arrow">
+						</button>
+						<button class="btn_swiper active"> 
+							<img class="mx-auto w-4 h-auto " src="/assets/images/swiper_arrow.svg" alt="Swiper Arrow">
+						</button>
+					</div>
+				</div>
+				<div class="grid md:grid-cols-2 grid-cols-1 gap-5 pb-20">
+					<?php for ($i = 0; $i < 2; $i++) { ?>
+						<div class="bg-white rounded-md p-8 flex flex-col gap-10">
+							<img  class="w-6 h-auto" src="/assets/images/quote.svg" alt="quote">
+							<h5>The Westervelt Team did a great job anticipating our needs and finding a property that was perfect for us.</h5>
+							<div class="flex justify-between">
+								<div class="flex gap-4 items-center">
+									<p><b>John Smith</b></p> <span class="text-[#C4C4C4]">|</span>
+									<h6 class="text-secondary">Owner</h6>
+								</div>
+								<div class="relative  h-[50px] w-[80px] rounded-md overflow-clip">
+									<img  class="absolute h-full w-full object-cover" src="/assets/images/testimonial_person.jpg" alt="Westervelt Real Estate">
 								</div>
 							</div>
-						<?php } ?>
-					</div>
+						</div>
+					<?php } ?>
 				</div>
 			</div>
+		</div>
 
 
 
-		</main>
+	</main>
 
 
-		<?php include './includes/footer.php'; ?>
-	</body>
-	</html>
+	<?php include './includes/footer.php'; ?>
+</body>
+</html>

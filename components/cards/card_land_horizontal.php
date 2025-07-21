@@ -1,6 +1,6 @@
 <!-- <style> *{outline: 1px solid rgba(0, 0, 0, .1);} </style> -->
 
-<a href="#" class="block group hover:shadow-lg easy bg-white rounded-md overflow-clip">
+<a href="#" class="block group hover:shadow-lg easy bg-white rounded-xl overflow-clip">
 	<div class="grid grid-cols-3">
 		<div class="relative pb-[60%] w-full overflow-clip col-span-1 ">
 			<img

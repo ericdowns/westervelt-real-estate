@@ -5,16 +5,32 @@ This is the custom PHP/HTML/CSS site for Westervelt Real Estate.
 ## Local Development
 
 - Files are managed locally under `/Local Sites/westervelt/...`
-- Tailwind builds via `npm run build`
+- Run `npm run dev` for development (PHP server + Tailwind + BrowserSync)
 - PHP is used for templating and includes (no WordPress)
+
+## Build Process
+
+### For Development
+```bash
+npm run dev  # Start local dev server with hot reloading
+```
+
+### For Static Deployment
+```bash
+npm run build  # Creates self-contained PHP files in /dist/
+```
+
+This flattens PHP includes (header/footer) into self-contained PHP files while preserving the component structure for future updates.
 
 ## Git Usage
 
 - Push to `main` via GitHub Desktop for backup
-- Optional: rsync or git remote push to Cloudways for deploy
+- Build static files before deployment: `npm run build`
+- Optional: Deploy `/dist/` folder to production server
 
 ## To Do
 
-- [ ] Automate deploy to Cloudways
+- [x] Create static build process
+- [ ] Automate deploy to Cloudways  
 - [ ] Add staging branch
 - [ ] Inline critical CSS

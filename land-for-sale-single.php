@@ -47,7 +47,7 @@
 							<a class="btn" href="#">Email Tom</a>
 						</div>
 
-						<div class="socials flex flex-row items-center justify-center gap-4 w-full  border-t border-lightgray pt-5">
+						<div class="socials flex flex-row items-center justify-center gap-4 w-full  border-t border-mediumgray pt-5">
 							<p class="text-dark-green sm">Share:</p>
 							<img class="size-6 hover:opacity-40 transition" src="/assets/images/x-twitter-brands.svg" alt="Twitter">
 							<img class="size-6 hover:opacity-40 transition" src="/assets/images/linkedin-brands.svg" alt="Linkedin">
@@ -61,7 +61,7 @@
 
 		<div class="pb-14 content w-full">
 			<div class="grid grid-cols-1 lg:grid-cols-12 gap-10">
-				<div class="col-span-1 lg:col-span-8 border-t border-lightgray py-10">
+				<div class="col-span-1 lg:col-span-8 border-t border-mediumgray py-10">
 					<div class="flex flex-wrap lg:flex-nowrap gap-5">
 						<div class="flex flex-col gap-10 w-full lg:w-1/2">
 							<div>
@@ -123,15 +123,15 @@
 				</div>
 				<div class="grid md:grid-cols-3 grid-cols-1 gap-5 ">
 					<div class="group">
-						<img class="transform group-hover:shadow-lg overflow-clip easy rounded-lg mb-3" src="/assets/images/lake_tamaha_photo_card.jpg" alt="Lake Tamaha Photo">
+						<img class="transform group-hover:shadow-lg overflow-clip easy rounded-xl mb-3" src="/assets/images/lake_tamaha_photo_card.jpg" alt="Lake Tamaha Photo">
 						<p class="sm">About this image...</p>
 					</div>
 					<div class="group">
-						<img class="transform group-hover:shadow-lg overflow-clip easy rounded-lg mb-3" src="/assets/images/lake_tamaha_photo_card.jpg" alt="Lake Tamaha Photo">
+						<img class="transform group-hover:shadow-lg overflow-clip easy rounded-xl mb-3" src="/assets/images/lake_tamaha_photo_card.jpg" alt="Lake Tamaha Photo">
 						<p class="sm">About this image...</p>
 					</div>
 					<div class="group">
-						<img class="transform group-hover:shadow-lg overflow-clip easy rounded-lg mb-3" src="/assets/images/lake_tamaha_photo_card.jpg" alt="Lake Tamaha Photo">
+						<img class="transform group-hover:shadow-lg overflow-clip easy rounded-xl mb-3" src="/assets/images/lake_tamaha_photo_card.jpg" alt="Lake Tamaha Photo">
 						<p class="sm">About this image...</p>
 					</div>
 				</div>
@@ -143,7 +143,7 @@
 
 		<div class="bg-tan w-full py-10">
 			<div class="content">
-				<div class="lg:min-h-[500px] min-h-[300px] bg-white rounded-lg flex items-center justify-center">
+				<div class="lg:min-h-[500px] min-h-[300px] bg-white rounded-xl flex items-center justify-center">
 					<p class="sm text-secondary">Map Goes Here</p>
 				</div>
 

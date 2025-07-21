@@ -43,7 +43,7 @@
 			<div class="flex flex-col divide-y divide-lightgray">
 				<div class="py-12 first:pt-0 grid grid-cols-1 md:grid-cols-12 gap-10">
 					<div class="col-span-1 md:col-span-2">
-						<img class="rounded-lg" src="/assets/images/bio_ray_colvin.jpg" alt="Bio">
+						<img class="rounded-xl" src="/assets/images/bio_ray_colvin.jpg" alt="Bio">
 					</div>
 					<div class="col-span-1 md:col-span-10">
 						<div class="prose">
@@ -59,7 +59,7 @@
 				</div>
 				<div class="py-12 first:pt-0 grid grid-cols-1 md:grid-cols-12 gap-10">
 					<div class="col-span-1 md:col-span-2">
-						<img class="rounded-lg" src="/assets/images/westervelt-real-estate-tom-chambers.jpg" alt="Bio">
+						<img class="rounded-xl" src="/assets/images/westervelt-real-estate-tom-chambers.jpg" alt="Bio">
 					</div>
 					<div class="col-span-1 md:col-span-10">
 						<div class="prose">
@@ -72,7 +72,7 @@
 				</div>
 				<div class="py-12 first:pt-0 grid grid-cols-1 md:grid-cols-12 gap-10">
 					<div class="col-span-1 md:col-span-2">
-						<img class="rounded-lg" src="/assets/images/westervelt-real-estate-veronica-cook.jpg" alt="Bio">
+						<img class="rounded-xl" src="/assets/images/westervelt-real-estate-veronica-cook.jpg" alt="Bio">
 					</div>
 					<div class="col-span-1 md:col-span-10">
 						<div class="prose">
@@ -86,7 +86,7 @@
 				</div>
 				<div class="py-12 first:pt-0 grid grid-cols-1 md:grid-cols-12 gap-10">
 					<div class="col-span-1 md:col-span-2">
-						<img class="rounded-lg" src="/assets/images/westervelt-real-estate-alex-vick.jpg" alt="Bio">
+						<img class="rounded-xl" src="/assets/images/westervelt-real-estate-alex-vick.jpg" alt="Bio">
 					</div>
 					<div class="col-span-1 md:col-span-10">
 						<div class="prose">
@@ -111,7 +111,7 @@
 				</div>
 				<div class="flex flex-wrap md:flex-nowrap gap-4">
 					<!-- Large image -->
-					<div class="w-full md:w-1/2 relative h-80 md:h-auto rounded-lg overflow-hidden">
+					<div class="w-full md:w-1/2 relative h-80 md:h-auto rounded-xl overflow-hidden">
 						<video autoplay muted loop playsinline class="absolute inset-0 w-full h-full object-cover" >
 							<source src="https://RoyalZone.b-cdn.net/westervelt_caring_for_land.mp4" type="video/mp4"> 
 							</video>
@@ -122,14 +122,14 @@
 								<img 
 								src="/assets/images/about_collage_1.jpg" 
 								alt="Right Top Image" 
-								class="w-full h-full object-cover rounded-lg"
+								class="w-full h-full object-cover rounded-xl"
 								>
 							</div>
 							<div class="w-1/2 md:w-full lg:h-[330px] min-h-[200px]">
 								<img 
 								src="/assets/images/about_collage_2.jpg" 
 								alt="Right Bottom Image" 
-								class="w-full h-full object-cover rounded-lg"
+								class="w-full h-full object-cover rounded-xl"
 								>
 							</div>
 						</div>

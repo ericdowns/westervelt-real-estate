@@ -21,7 +21,7 @@
 		<div class="content">
 			<div class="max-w-5xl mx-auto pb-10 px-5">
 
-				<div class="w-full border-b border-gray-300 pb-5 mb-10">
+				<div class="w-full border-b border-mediumgray pb-5 mb-10">
 					<h6>Typography</h6>
 				</div>
 
@@ -56,7 +56,7 @@
 
 <div class="max-w-5xl mx-auto pb-10">
 
-	<div class="w-full border-b border-lightgray pb-5 mb-10">
+	<div class="w-full border-b border-mediumgray pb-5 mb-10">
 		<h6>Colors</h6>
 	</div>
 
@@ -65,7 +65,7 @@
 
 		<!-- Dark Green -->
 		<div class="text-center">
-			<div class="bg-dark-green h-32 w-full rounded-md mb-3 border border-gray-200"></div>
+			<div class="bg-dark-green h-32 w-full rounded-md mb-3 border border-mediumgray"></div>
 			<h6 class="mb-1">Dark Green</h6>
 			<p class="text-sm text-gray-600">#0F2C1B</p>
 			<p class="text-xs px-2 py-1">.bg-dark-green</p>
@@ -73,7 +73,7 @@
 
 		<!-- Forest Green -->
 		<div class="text-center">
-			<div class="bg-forest-green h-32 w-full rounded-md mb-3 border border-gray-200"></div>
+			<div class="bg-forest-green h-32 w-full rounded-md mb-3 border border-mediumgray"></div>
 			<h6 class="mb-1">Forest Green</h6>
 			<p class="text-sm text-gray-600">#1B5633</p>
 			<p class="text-xs px-2 py-1">.bg-forest-green</p>
@@ -81,7 +81,7 @@
 
 		<!-- Kelly Green -->
 		<div class="text-center">
-			<div class="bg-kelly-green h-32 w-full rounded-md mb-3 border border-gray-200"></div>
+			<div class="bg-kelly-green h-32 w-full rounded-md mb-3 border border-mediumgray"></div>
 			<h6 class="mb-1">Kelly Green</h6>
 			<p class="text-sm text-gray-600">#006937</p>
 			<p class="text-xs px-2 py-1">.bg-kelly-green</p>
@@ -89,7 +89,7 @@
 
 		<!-- Moss -->
 		<div class="text-center">
-			<div class="bg-moss h-32 w-full rounded-md mb-3 border border-gray-200"></div>
+			<div class="bg-moss h-32 w-full rounded-md mb-3 border border-mediumgray"></div>
 			<h6 class="mb-1">Moss</h6>
 			<p class="text-sm text-gray-600">#69A82E</p>
 			<p class="text-xs px-2 py-1">.bg-moss</p>
@@ -97,7 +97,7 @@
 
 		<!-- Yellow -->
 		<div class="text-center">
-			<div class="bg-yellow h-32 w-full rounded-md mb-3 border border-gray-200"></div>
+			<div class="bg-yellow h-32 w-full rounded-md mb-3 border border-mediumgray"></div>
 			<h6 class="mb-1">Yellow</h6>
 			<p class="text-sm text-gray-600">#E7DD75</p>
 			<p class="text-xs px-2 py-1">.bg-yellow</p>
@@ -105,7 +105,7 @@
 
 		<!-- Blue -->
 		<div class="text-center">
-			<div class="bg-blue h-32 w-full rounded-md mb-3 border border-gray-200"></div>
+			<div class="bg-blue h-32 w-full rounded-md mb-3 border border-mediumgray"></div>
 			<h6 class="mb-1">Blue</h6>
 			<p class="text-sm text-gray-600">#34657F</p>
 			<p class="text-xs px-2 py-1">.bg-blue</p>
@@ -113,7 +113,7 @@
 
 		<!-- Sky -->
 		<div class="text-center">
-			<div class="bg-sky h-32 w-full rounded-md mb-3 border border-gray-200"></div>
+			<div class="bg-sky h-32 w-full rounded-md mb-3 border border-mediumgray"></div>
 			<h6 class="mb-1">Sky</h6>
 			<p class="text-sm text-gray-600">#CFE0D8</p>
 			<p class="text-xs px-2 py-1">.bg-sky</p>
@@ -121,7 +121,7 @@
 
 		<!-- Brick -->
 		<div class="text-center">
-			<div class="bg-brick h-32 w-full rounded-md mb-3 border border-gray-200"></div>
+			<div class="bg-brick h-32 w-full rounded-md mb-3 border border-mediumgray"></div>
 			<h6 class="mb-1">Brick</h6>
 			<p class="text-sm text-gray-600">#AF7C58</p>
 			<p class="text-xs px-2 py-1">.bg-brick</p>
@@ -129,7 +129,7 @@
 
 		<!-- Sand -->
 		<div class="text-center">
-			<div class="bg-sand h-32 w-full rounded-md mb-3 border border-gray-200"></div>
+			<div class="bg-sand h-32 w-full rounded-md mb-3 border border-mediumgray"></div>
 			<h6 class="mb-1">Sand</h6>
 			<p class="text-sm text-gray-600">#DEC9A2</p>
 			<p class="text-xs px-2 py-1">.bg-sand</p>
@@ -137,7 +137,7 @@
 
 		<!-- Tan -->
 		<div class="text-center">
-			<div class="bg-tan h-32 w-full rounded-md mb-3 border border-gray-200"></div>
+			<div class="bg-tan h-32 w-full rounded-md mb-3 border border-mediumgray"></div>
 			<h6 class="mb-1">Tan</h6>
 			<p class="text-sm text-gray-600">#F0EFE6</p>
 			<p class="text-xs px-2 py-1">.bg-tan</p>

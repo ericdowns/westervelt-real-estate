@@ -10,7 +10,10 @@
     "generate": "node generate-site.js",
     "setup": "npm run generate && npm run dev",
     "deploy": "git add -A && git commit -m 'Update site' || echo 'No changes to commit' && git push cloudways main",
-    "tw-sort": "node tw-sort.js"
+    "tw-sort": "node tw-sort.js",
+    "build": "./node_modules/.bin/tailwindcss -i ./input.css -o ./style.css --minify && node flatten-includes.js",
+    "build:static": "npm run build",
+    "clean": "rm -rf dist/"
   },
   "devDependencies": {
     "@shufo/tailwindcss-class-sorter": "^3.0.1",
