@@ -1,6 +1,6 @@
 <!-- <style> *{outline: 1px solid rgba(0, 0, 0, .1);} </style> -->
 
-<div id="toggleBox" class="bg-white shadow-lg fixed rounded-lg left-5 bottom-5 flex flex-col w-[300px] hover:[&>a]:bg-gray-200 text-sm z-[999] p-4 pt-2 space-y-1 border-2 transition-all duration-300">
+<div id="toggleBox" class="bg-white shadow-lg fixed rounded-lg left-5 bottom-5 flex flex-col w-[300px] hover:[&>a]:bg-gray-200 text-sm z-[100000] p-4 pt-2 space-y-1 border-2 transition-all duration-300">
 
 	<button id="toggleButton" class="easy size-8 flex items-center justify-center font-semibold text-white absolute -top-2 bg-moss -right-2 text-xl leading-none p-1 rounded-full hover:bg-primary">&times;</button>
 
@@ -18,7 +18,7 @@
 	<a href="/styles.php">Styles </a>
 </div>
 
-<button id="openButton" class="text-sm shadow-lg fixed left-5 bottom-5 z-[998] bg-moss text-white px-3 pt-2 pb-1 rounded hidden">
+<button id="openButton" class="text-sm shadow-lg fixed left-5 bottom-5 z-[100000] bg-moss text-white px-3 pt-2 pb-1 rounded hidden">
 	Mini Sitemap
 </button>
 

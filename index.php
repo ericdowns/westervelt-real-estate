@@ -25,7 +25,7 @@
 		<div class="bg-dark-green lg:py-40 py-20 flex flex-col justify-center relative">
 			<img class="absolute h-full w-full object-cover" src="/assets/images/bg-terrain.svg" alt="Home Hero">
 			<div class="max-w-5xl mx-auto text-center px-10 flex flex-col items-center gap-4 z-10">
-				<span class="badge"><h6>Land for Sale</h6></span>
+				<span class="badge">Land for Sale</span>
 				<h3 class="max-md:text-2xl text-white">Whether you're looking for a water view, acres of forests, a single lot for your dream home, or space to build your business – we believe our lands are a perfect place for you. Our legacy of stewardship means our lands have been sustainably managed for generations - are you ready to build your own legacy?
 				</h3>
 			</div>
@@ -86,7 +86,7 @@
 				</video>
 				<div class="absolute bg-black/30  w-full h-full inset-0 flex flex-col justify-center items-start lg:px-10 p-5">
 					<div class="lg:w-6/12 w-full flex flex-col space-y-6 items-start">
-						<span class="badge"><h6>Land for Sale</h6></span>
+						<span class="badge">Land for Sale</span>
 						<h4 class="max-md:text-2xl text-white">
 							Westervelt Real Estate offers clients land that has been sustainably managed for decades. Because of our sustainability commitment, all our lands have been managed responsibly. Each acre reflects that commitment – whether on rolling hills, sweeping hilltop views or acres of high-quality forests.
 						</h4>

@@ -18,7 +18,7 @@
 		<div class="relative lg:h-[750px] h-[550px] w-full">
 			<img class="absolute h-full w-full object-cover" src="/assets/images/property-residential-single.jpg" alt="Hero">
 			<div class="lg:w-6/12 justify-end flex flex-col space-y-6 items-start z-10 absolute w-full h-full lg:p-10 p-5">
-				<span class="badge"><h6>Harbor Ridge at NorthRiver</h6></span>
+				<span class="badge">Harbor Ridge at NorthRiver</span>
 				<h1 class="text-white">Lot 76 Harbor Ridge at Northridge Phase 2 Section 2</h1>
 				<a class="btn" href="#">Contact Us</a>
 			</div>

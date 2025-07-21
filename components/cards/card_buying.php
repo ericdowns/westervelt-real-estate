@@ -12,7 +12,7 @@
 			<div class="absolute bottom-0 h-2/3 w-full bg-gradient-to-t from-black to-black/0 pointer-events-none"></div>
 
 			<div class="flex flex-col justify-end items-start space-y-4 p-6 rounded absolute h-full w-full *:text-white">
-				<div class="badge"><h6>We can Help</h6></div>
+				<span class="badge">We can Help</span>
 				<h2>Buying</h2>
 				<h5>Our skilled Westervelt Real Estate team is here for you every step of the way. Check out our listings.</h5>
 			</div>

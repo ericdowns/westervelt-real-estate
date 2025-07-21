@@ -88,8 +88,8 @@
 				<div>
 					<h6 class="mb-4">Badge Component</h6>
 					<div class="flex gap-4 items-center">
-						<span class="badge"><h6>Land for Sale</h6></span>
-						<span class="badge"><h6>We can Help</h6></span>
+						<span class="badge">Land for Sale</span>
+						<span class="badge">We can Help</span>
 					</div>
 				</div>
 			</div>

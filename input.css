@@ -339,7 +339,11 @@
 		pt-3
 		pb-2 
 		px-4 
-		inline-flex;
+		inline-flex
+		font-semibold
+		text-xs
+		uppercase
+		tracking-wide;
 	}
 
 	.greendot{

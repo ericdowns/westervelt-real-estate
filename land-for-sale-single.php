@@ -16,7 +16,7 @@
 			<img class="absolute h-full w-full object-cover" src="/assets/images/property-lake-tamaha.jpg" alt="Lake_Tamaha">';
 			<div class="absolute bg-black/30  w-full h-full inset-0 flex flex-col justify-end items-start space-y-2 lg:p-10 p-5 pb-14">
 				<div class="lg:w-6/12 w-full flex flex-col space-y-6 items-start">
-					<span class="badge"><h6>Commercial/Industrial </h6> </span>
+					<span class="badge">Commercial/Industrial</span>
 					<h1 class="text-white">Lake Tamaha</h1>
 					<a class="btn" href="#">Contact Us</a>
 				</div>
