@@ -81,7 +81,7 @@ module.exports = {
           fontSize: theme('fontSize.p-base')[0],
           lineHeight: theme('fontSize.p-base')[1].lineHeight,
           
-          // Headings - match our existing site styles
+          // Headings - match our existing site styles with proper typography spacing
           'h1': {
             color: theme('colors.dark-green'),
             fontFamily: theme('fontFamily.serif'),
@@ -89,10 +89,16 @@ module.exports = {
             lineHeight: theme('fontSize.size-h1')[1].lineHeight,
             letterSpacing: theme('letterSpacing.tightest'),
             fontWeight: '400',
+            marginTop: theme('spacing.12'),
             marginBottom: theme('spacing.8'),
+            '&:first-child': {
+              marginTop: '0',
+            },
             '@media (max-width: 1024px)': {
               fontSize: theme('fontSize.size-m-h1')[0],
               lineHeight: theme('fontSize.size-m-h1')[1].lineHeight,
+              marginTop: theme('spacing.10'),
+              marginBottom: theme('spacing.6'),
             },
           },
           'h2': {
@@ -101,10 +107,16 @@ module.exports = {
             fontSize: theme('fontSize.size-h2')[0],
             lineHeight: theme('fontSize.size-h2')[1].lineHeight,
             fontWeight: '400',
-            marginBottom: theme('spacing.8'),
+            marginTop: theme('spacing.10'),
+            marginBottom: theme('spacing.6'),
+            '&:first-child': {
+              marginTop: '0',
+            },
             '@media (max-width: 1024px)': {
               fontSize: theme('fontSize.size-m-h2')[0],
               lineHeight: theme('fontSize.size-m-h2')[1].lineHeight,
+              marginTop: theme('spacing.8'),
+              marginBottom: theme('spacing.5'),
             },
           },
           'h3': {
@@ -113,10 +125,16 @@ module.exports = {
             fontSize: theme('fontSize.size-h3')[0],
             lineHeight: theme('fontSize.size-h3')[1].lineHeight,
             fontWeight: '400',
-            marginBottom: theme('spacing.8'),
+            marginTop: theme('spacing.8'),
+            marginBottom: theme('spacing.5'),
+            '&:first-child': {
+              marginTop: '0',
+            },
             '@media (max-width: 1024px)': {
               fontSize: theme('fontSize.size-m-h3')[0],
               lineHeight: theme('fontSize.size-m-h3')[1].lineHeight,
+              marginTop: theme('spacing.7'),
+              marginBottom: theme('spacing.4'),
             },
           },
           'h4': {
@@ -125,10 +143,16 @@ module.exports = {
             fontSize: theme('fontSize.size-h4')[0],
             lineHeight: theme('fontSize.size-h4')[1].lineHeight,
             fontWeight: '400',
-            marginBottom: theme('spacing.8'),
+            marginTop: theme('spacing.7'),
+            marginBottom: theme('spacing.4'),
+            '&:first-child': {
+              marginTop: '0',
+            },
             '@media (max-width: 1024px)': {
               fontSize: theme('fontSize.size-m-h4')[0],
               lineHeight: theme('fontSize.size-m-h4')[1].lineHeight,
+              marginTop: theme('spacing.6'),
+              marginBottom: theme('spacing.4'),
             },
           },
           'h5': {
@@ -137,10 +161,16 @@ module.exports = {
             fontSize: theme('fontSize.size-h5')[0],
             lineHeight: theme('fontSize.size-h5')[1].lineHeight,
             fontWeight: '400',
-            marginBottom: theme('spacing.8'),
+            marginTop: theme('spacing.6'),
+            marginBottom: theme('spacing.4'),
+            '&:first-child': {
+              marginTop: '0',
+            },
             '@media (max-width: 1024px)': {
               fontSize: theme('fontSize.size-m-h5')[0],
               lineHeight: theme('fontSize.size-m-h5')[1].lineHeight,
+              marginTop: theme('spacing.5'),
+              marginBottom: theme('spacing.3'),
             },
           },
           'h6': {
@@ -151,39 +181,49 @@ module.exports = {
             fontWeight: '600',
             textTransform: 'uppercase',
             letterSpacing: '1px',
-            marginBottom: theme('spacing.8'),
+            marginTop: theme('spacing.5'),
+            marginBottom: theme('spacing.3'),
+            '&:first-child': {
+              marginTop: '0',
+            },
             '@media (max-width: 1024px)': {
               fontSize: theme('fontSize.size-m-h6')[0],
               lineHeight: theme('fontSize.size-m-h6')[1].lineHeight,
+              marginTop: theme('spacing.4'),
+              marginBottom: theme('spacing.3'),
             },
           },
 
-          // Paragraphs - match our existing styles
+          // Paragraphs - improved spacing for better reading flow
           'p': {
             color: theme('colors.secondary'),
             fontFamily: theme('fontFamily.sans'),
             fontSize: theme('fontSize.p-base')[0],
             lineHeight: theme('fontSize.p-base')[1].lineHeight,
             fontWeight: '500',
-            marginBottom: theme('spacing.8'),
+            marginBottom: theme('spacing.6'),
             '@media (max-width: 1024px)': {
               fontSize: theme('fontSize.p-m-base')[0],
               lineHeight: theme('fontSize.p-m-base')[1].lineHeight,
+              marginBottom: theme('spacing.5'),
             },
           },
 
-          // Lists
+          // Lists - proper spacing for content flow
           'ul': {
-            marginBottom: theme('spacing.8'),
+            marginBottom: theme('spacing.5'),
+            marginTop: theme('spacing.3'),
           },
           'ol': {
-            marginBottom: theme('spacing.8'),
+            marginBottom: theme('spacing.5'),
+            marginTop: theme('spacing.3'),
           },
           'li': {
             fontSize: theme('fontSize.p-base')[0],
             lineHeight: theme('fontSize.p-base')[1].lineHeight,
             fontWeight: '400',
             color: theme('colors.dark-green'),
+            marginBottom: theme('spacing.2'),
             '@media (max-width: 1024px)': {
               fontSize: theme('fontSize.p-m-base')[0],
               lineHeight: theme('fontSize.p-m-base')[1].lineHeight,
@@ -212,7 +252,7 @@ module.exports = {
             color: theme('colors.dark-green'),
           },
 
-          // Blockquotes
+          // Blockquotes - better spacing for testimonials
           'blockquote': {
             borderLeftColor: theme('colors.moss'),
             color: theme('colors.dark-green'),
@@ -222,10 +262,13 @@ module.exports = {
             fontStyle: 'normal',
             fontWeight: '400',
             paddingLeft: theme('spacing.6'),
-            marginBottom: theme('spacing.8'),
+            marginTop: theme('spacing.6'),
+            marginBottom: theme('spacing.6'),
             '@media (max-width: 1024px)': {
               fontSize: theme('fontSize.size-m-h5')[0],
               lineHeight: theme('fontSize.size-m-h5')[1].lineHeight,
+              marginTop: theme('spacing.5'),
+              marginBottom: theme('spacing.5'),
             },
           },
 
@@ -236,6 +279,7 @@ module.exports = {
             lineHeight: 'inherit',
             fontFamily: 'inherit',
             fontWeight: 'inherit',
+            marginBottom: theme('spacing.4'),
           },
 
           // Citations
@@ -244,6 +288,8 @@ module.exports = {
             color: theme('colors.secondary'),
             fontStyle: 'normal',
             fontWeight: '500',
+            marginTop: theme('spacing.2'),
+            display: 'block',
           },
         },
       },
