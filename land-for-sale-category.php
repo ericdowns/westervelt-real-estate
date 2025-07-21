@@ -37,12 +37,12 @@
 					<div class="relative inline-flex overflow-hidden">
 						<!-- Left Button (Active) -->
 						<button class="view-tab-active view-tab-active-left">
-							<img src="/assets/images/grid.svg" alt="" class="w-5 h-5 mr-2" />
+							<img src="/assets/images/grid.svg" alt="Grid view icon" class="w-5 h-5 mr-2" />
 							<span>Listings</span>
 						</button>
 						<!-- Right Button (Inactive) -->
 						<button class="view-tab view-tab-right">
-							<img src="/assets/images/map.svg" alt="" class="w-5 h-5 mr-2" />
+							<img src="/assets/images/map.svg" alt="Map view icon" class="w-5 h-5 mr-2" />
 							<span>Map</span>
 						</button>
 					</div>

@@ -59,8 +59,8 @@
 		</div>
 
 		<ul class="lg:flex hidden gap-4 items-center">
-			<li><a href="#" class="hover:text-moss easy"><h6 class="flex items-center gap-1">Careers <img class="w-4 h-auto" src="/assets/images/arrow_outward.svg"></h6></a></li>
-			<li><a href="#" class="hover:text-moss easy"><h6 class="flex items-center gap-1">Sustainability Report <img class="w-4 h-auto" src="/assets/images/arrow_down.svg"></h6></a></li>
+			<li><a href="#" class="hover:text-moss easy"><h6 class="flex items-center gap-1">Careers <img class="w-4 h-auto" src="/assets/images/arrow_outward.svg" alt="External link arrow"></h6></a></li>
+			<li><a href="#" class="hover:text-moss easy"><h6 class="flex items-center gap-1">Sustainability Report <img class="w-4 h-auto" src="/assets/images/arrow_down.svg" alt="Dropdown arrow"></h6></a></li>
 		</ul>
 	</div>
 

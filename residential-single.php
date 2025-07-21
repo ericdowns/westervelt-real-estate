@@ -123,15 +123,15 @@
 				</div>
 				<div class="grid md:grid-cols-3 grid-cols-1 gap-5 ">
 					<div class="group">
-						<img class="transform group-hover:shadow-lg overflow-clip easy rounded-lg mb-3" src="/assets/images/lake_tamaha_photo_card.jpg" >
+						<img class="transform group-hover:shadow-lg overflow-clip easy rounded-lg mb-3" src="/assets/images/lake_tamaha_photo_card.jpg" alt="Lake Tamaha Photo">
 						<p class="sm">About this image...</p>
 					</div>
 					<div class="group">
-						<img class="transform group-hover:shadow-lg overflow-clip easy rounded-lg mb-3" src="/assets/images/lake_tamaha_photo_card.jpg" >
+						<img class="transform group-hover:shadow-lg overflow-clip easy rounded-lg mb-3" src="/assets/images/lake_tamaha_photo_card.jpg" alt="Lake Tamaha Photo">
 						<p class="sm">About this image...</p>
 					</div>
 					<div class="group">
-						<img class="transform group-hover:shadow-lg overflow-clip easy rounded-lg mb-3" src="/assets/images/lake_tamaha_photo_card.jpg" >
+						<img class="transform group-hover:shadow-lg overflow-clip easy rounded-lg mb-3" src="/assets/images/lake_tamaha_photo_card.jpg" alt="Lake Tamaha Photo">
 						<p class="sm">About this image...</p>
 					</div>
 				</div>
