@@ -29,12 +29,12 @@
 				<div class="relative inline-flex overflow-hidden">
 					<!-- Left Button (Active) -->
 					<button class="view-tab-active view-tab-active-left">
-						<img src="/assets/images/grid.svg" alt="Grid view icon" class="w-5 h-5 mr-2" />
+						<img src="/assets/images/icon-grid.svg" alt="Grid view icon" class="w-5 h-5 mr-2" />
 						<span>Listings</span>
 					</button>
 					<!-- Right Button (Inactive) -->
 					<button class="view-tab view-tab-right">
-						<img src="/assets/images/map.svg" alt="Map view icon" class="w-5 h-5 mr-2" />
+						<img src="/assets/images/icon-map.svg" alt="Map view icon" class="w-5 h-5 mr-2" />
 						<span>Map</span>
 					</button>
 				</div>
@@ -46,13 +46,13 @@
 			<div class="pagination px-5 pb-16 flex justify-center">
 				<div class="flex gap-2 items-center gap-2">
 					<button class="btn_swiper"> 
-						<img class="mx-auto w-4 h-auto scale-x-[-1]" src="/assets/images/swiper_arrow.svg" alt="Swiper Arrow">
+						<img class="mx-auto w-4 h-auto scale-x-[-1]" src="/assets/images/ui-swiper-arrow.svg" alt="Swiper Arrow">
 					</button>
 					<div class="flex gap-1 leading-[.9] mt-1 px-4">
 						<span>1</span> <span>of</span> <span>12</span> <span>of</span> <span>36</span>
 					</div>
 					<button class="btn_swiper active"> 
-						<img class="mx-auto w-4 h-auto " src="/assets/images/swiper_arrow.svg" alt="Swiper Arrow">
+						<img class="mx-auto w-4 h-auto " src="/assets/images/ui-swiper-arrow.svg" alt="Swiper Arrow">
 					</button>
 				</div>
 			</div>

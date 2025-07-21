@@ -38,12 +38,12 @@
 					<div class="relative inline-flex overflow-hidden">
 						<!-- Left Button (Inactive) -->
 						<button class="view-tab view-tab-left">
-							<img src="/assets/images/grid.svg" alt="Grid view icon" class="w-5 h-5 mr-2" />
+							<img src="/assets/images/icon-grid.svg" alt="Grid view icon" class="w-5 h-5 mr-2" />
 							<span>Listings</span>
 						</button>
 						<!-- Right Button (Active) -->
 						<button class="view-tab-active view-tab-active-right">
-							<img src="/assets/images/map.svg" alt="Map view icon" class="w-5 h-5 mr-2" />
+							<img src="/assets/images/icon-map.svg" alt="Map view icon" class="w-5 h-5 mr-2" />
 							<span>Map</span>
 						</button>
 					</div>
@@ -77,7 +77,7 @@
 										<div class="relative pb-[60%] w-full overflow-clip">
 											<img
 											class="absolute h-full w-full object-cover transform group-hover:scale-105 easy"
-											src="/assets/images/card_land_image.jpg"
+											src="/assets/images/card-land.jpg"
 											alt="Fallback Image"
 											>
 										</div>

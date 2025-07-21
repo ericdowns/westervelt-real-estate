@@ -17,7 +17,7 @@
 		
 
 		<div class="relative lg:h-[750px] h-[550px] w-full">
-			<img class="absolute h-full w-full object-cover" src="/assets/images/westervelt-real-estate-about-hero.jpg" alt="About Hero">
+			<img class="absolute h-full w-full object-cover" src="/assets/images/hero-about.jpg" alt="About Hero">
 			<div class="lg:w-6/12 justify-end flex flex-col space-y-6 items-start z-10 absolute w-full h-full lg:p-10 p-5">
 				<span class="badge"><h6>About</h6></span>
 				<h1 class="text-white">A Different Approach to Real Estate</h1>
@@ -44,7 +44,7 @@
 			<div class="flex flex-col divide-y divide-lightgray">
 				<div class="py-12 first:pt-0 grid grid-cols-1 md:grid-cols-12 gap-10">
 					<div class="col-span-1 md:col-span-2">
-						<img class="rounded-xl" src="/assets/images/bio_ray_colvin.jpg" alt="Bio">
+						<img class="rounded-xl" src="/assets/images/team-ray-colvin.jpg" alt="Bio">
 					</div>
 					<div class="col-span-1 md:col-span-10">
 						<div class="prose">
@@ -60,7 +60,7 @@
 				</div>
 				<div class="py-12 first:pt-0 grid grid-cols-1 md:grid-cols-12 gap-10">
 					<div class="col-span-1 md:col-span-2">
-						<img class="rounded-xl" src="/assets/images/westervelt-real-estate-tom-chambers.jpg" alt="Bio">
+						<img class="rounded-xl" src="/assets/images/team-tom-chambers.jpg" alt="Bio">
 					</div>
 					<div class="col-span-1 md:col-span-10">
 						<div class="prose">
@@ -73,7 +73,7 @@
 				</div>
 				<div class="py-12 first:pt-0 grid grid-cols-1 md:grid-cols-12 gap-10">
 					<div class="col-span-1 md:col-span-2">
-						<img class="rounded-xl" src="/assets/images/westervelt-real-estate-veronica-cook.jpg" alt="Bio">
+						<img class="rounded-xl" src="/assets/images/team-veronica-cook.jpg" alt="Bio">
 					</div>
 					<div class="col-span-1 md:col-span-10">
 						<div class="prose">
@@ -87,7 +87,7 @@
 				</div>
 				<div class="py-12 first:pt-0 grid grid-cols-1 md:grid-cols-12 gap-10">
 					<div class="col-span-1 md:col-span-2">
-						<img class="rounded-xl" src="/assets/images/westervelt-real-estate-alex-vick.jpg" alt="Bio">
+						<img class="rounded-xl" src="/assets/images/team-alex-vick.jpg" alt="Bio">
 					</div>
 					<div class="col-span-1 md:col-span-10">
 						<div class="prose">
@@ -121,14 +121,14 @@
 						<div class="w-full md:w-1/2 flex flex-row md:flex-col gap-4">
 							<div class="w-1/2 md:w-full lg:h-[330px] min-h-[200px]">
 								<img 
-								src="/assets/images/about_collage_1.jpg" 
+								src="/assets/images/content-about-collage-1.jpg" 
 								alt="Right Top Image" 
 								class="w-full h-full object-cover rounded-xl"
 								>
 							</div>
 							<div class="w-1/2 md:w-full lg:h-[330px] min-h-[200px]">
 								<img 
-								src="/assets/images/about_collage_2.jpg" 
+								src="/assets/images/content-about-collage-2.jpg" 
 								alt="Right Bottom Image" 
 								class="w-full h-full object-cover rounded-xl"
 								>

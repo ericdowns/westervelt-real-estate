@@ -2,7 +2,7 @@
 	<div class="relative w-full">
 		<img
 		class="absolute inset-0 z-1 w-full h-full object-cover"
-		src="/assets/images/home_hero.jpg"
+		src="/assets/images/hero-home.jpg"
 		alt="Home Hero"
 		>
 		<section class="text-white text-center z-10 lg:py-40 py-20 px-4 relative bg-gradient-to-t from-dark-green lg:to-dark-green/0 to-dark-green/50">
@@ -11,21 +11,21 @@
 			</h1>
 			<div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12 *:text-white">
 				<div class="*:text-white">
-					<img class="mx-auto" src="/assets/images/sign-hanging.svg" alt="Sign Hanging Icon">
+					<img class="mx-auto" src="/assets/images/icon-sign-hanging.svg" alt="Sign Hanging Icon">
 					<p>
 						Well-located and well-managed<br>
 						residential and commercial properties
 					</p>
 				</div>
 				<div class="*:text-white">
-					<img class="mx-auto" src="/assets/images/tree.svg" alt="Sign Hanging Icon">
+					<img class="mx-auto" src="/assets/images/icon-tree.svg" alt="Sign Hanging Icon">
 					<p>
 						Rolling hills, sweeping hilltop views, or<br>
 						acres of high-quality forests
 					</p>
 				</div>
 				<div class="*:text-white">
-					<img class="mx-auto" src="/assets/images/people-group.svg" alt="People Group Icon">
+					<img class="mx-auto" src="/assets/images/icon-people-group.svg" alt="People Group Icon">
 					<p>
 						Skilled team there for every step of<br>
 						the way, commercial or residential
@@ -45,7 +45,7 @@
 
 	<div class="bg-dark-green text-white px-5">
 		<div class="py-10 mx-auto w-full">
-			<img class="mx-auto" src="/assets/images/Westervelt-Real-Estate_White.svg" alt="Westervelt Real Estate">
+			<img class="mx-auto" src="/assets/images/logo-westervelt-white.svg" alt="Westervelt Real Estate">
 		</div>
 		<div class="mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 pt-10">
 			<!-- Column 1: Get in Touch -->
@@ -56,7 +56,7 @@
 					<div class="flex flex-col gap-5">
 						<!-- Address -->
 						<div class="flex items-start gap-3 ">
-							<img src="/assets/images/pin.svg" alt="Mail Icon">
+							<img src="/assets/images/icon-pin.svg" alt="Mail Icon">
 							<div class="space-y-2">
 								<p class="text-lightgray text-sm">1400 Jack Warner Pkwy NE<br>Tuscaloosa, AL 35404</p>
 								<p>
@@ -68,13 +68,13 @@
 						</div>
 						<!-- Facebook -->
 						<div class="flex items-start gap-3">
-							<img class="hover:opacity-40 easy" src="/assets/images/facebook.svg" alt="Facebook Icon">
+							<img class="hover:opacity-40 easy" src="/assets/images/icon-facebook.svg" alt="Facebook Icon">
 						</div>
 					</div>
 					<!-- Email -->
 					<div class="flex flex-col gap-5">
 						<div class="flex items-start gap-3">
-							<img src="/assets/images/mail.svg" alt="Mail Icon">
+							<img src="/assets/images/icon-mail.svg" alt="Mail Icon">
 							<p>
 								<a href="mailto:tchambers@westervelt.com" class="text-lightgray text-sm hover:text-moss smooth-underline easy">
 									tchambers@westervelt.com
@@ -83,7 +83,7 @@
 						</div>
 						<!-- Phone -->
 						<div class="flex items-start gap-3">
-							<img src="/assets/images/call.svg" alt="Mail Icon">
+							<img src="/assets/images/icon-call.svg" alt="Mail Icon">
 							<div class="space-y-2">
 								<p>
 									<a href="tel:2055625531" class="text-lightgray text-sm hover:text-moss smooth-underline easy">205.562.5531 Phone</a>
@@ -154,7 +154,7 @@
 
 			<a href="#" class="flex lg:justify-end items-center gap-6 group">
 				
-				<img class="easy" src="/assets/images/Westervelt_Company_Logo.svg" alt="Westervelt Real Estate">
+				<img class="easy" src="/assets/images/logo-westervelt-company.svg" alt="Westervelt Real Estate">
 				<p class="group-hover:text-moss easy text-white text-sm">A Part of The Westervelt Company</p>
 			</a>
 		</div>

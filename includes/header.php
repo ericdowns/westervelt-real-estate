@@ -36,8 +36,8 @@
 		</div>
 
 		<ul class="lg:flex hidden gap-4 items-center">
-			<li><a href="#" class="hover:text-moss easy"><h6 class="flex items-center gap-1">Careers <img class="w-4 h-auto" src="/assets/images/arrow_outward.svg" alt="External link arrow"></h6></a></li>
-			<li><a href="#" class="hover:text-moss easy"><h6 class="flex items-center gap-1">Sustainability Report <img class="w-4 h-auto" src="/assets/images/arrow_down.svg" alt="Dropdown arrow"></h6></a></li>
+			<li><a href="#" class="hover:text-moss easy"><h6 class="flex items-center gap-1">Careers <img class="w-4 h-auto" src="/assets/images/icon-arrow-outward.svg" alt="External link arrow"></h6></a></li>
+			<li><a href="#" class="hover:text-moss easy"><h6 class="flex items-center gap-1">Sustainability Report <img class="w-4 h-auto" src="/assets/images/icon-arrow-down.svg" alt="Dropdown arrow"></h6></a></li>
 		</ul>
 	</div>
 
@@ -46,18 +46,18 @@
 		<div class="w-full mx-auto flex justify-between px-5 h-full items-center">
 
 			<a class="flex flex-col justify-center" href="/">
-				<img src="/assets/images/Westervelt-Real-Estate.svg" alt="Westervelt Real Estate">
+				<img src="/assets/images/logo-westervelt-main.svg" alt="Westervelt Real Estate">
 			</a>
 
 			<ul class="lg:flex hidden font-serif h-full [&_*_a]:px-8">
 				<li>
 					<a href="#" class="flex items-center easy h-full border-b-2 border-transparent hover:border-moss xl:text-size-h5 lg:text-size-m-h5">
-						<span class="flex items-center">Land for Sale <img class="w-6 h-auto" src="/assets/images/expand_more.svg"> </span>
+						<span class="flex items-center">Land for Sale <img class="w-6 h-auto" src="/assets/images/icon-expand-more.svg"> </span>
 					</a>
 				</li>
 				<li>
 					<a href="#" class="flex items-center easy h-full border-b-2 border-transparent hover:border-moss xl:text-size-h5 lg:text-size-m-h5">
-						<span class="flex items-center">Residential Sales<img class="mx-auto w-6 h-auto" src="/assets/images/expand_more.svg"> </span>
+						<span class="flex items-center">Residential Sales<img class="mx-auto w-6 h-auto" src="/assets/images/icon-expand-more.svg"> </span>
 					</a>
 				</li>
 				<li>

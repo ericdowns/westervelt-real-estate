@@ -5,7 +5,7 @@
 		<div class="relative pb-[95%] w-full">
 			<img
 			class="absolute h-full w-full object-cover transform group-hover:scale-[1.045] easy"
-			src="/assets/images/card_buying.jpg"
+			src="/assets/images/card-buying.jpg"
 			alt="Fallback Image"
 			>
 			

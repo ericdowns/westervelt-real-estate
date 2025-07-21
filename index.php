@@ -13,7 +13,7 @@
 	<main class="mx-auto flex-grow w-full pt-[45px]">
 
 		<div class="relative lg:h-[750px] h-[550px] w-full">
-			<img class="absolute h-full w-full object-cover" src="/assets/images/home_hero.jpg" alt="Home Hero">
+			<img class="absolute h-full w-full object-cover" src="/assets/images/hero-home.jpg" alt="Home Hero">
 			<div class="absolute bg-black/30  w-full h-full inset-0 flex flex-col justify-end items-start space-y-2 lg:p-10 p-5 pb-14">
 				<div class="lg:w-6/12 w-full flex flex-col space-y-6 items-start">
 					<h1 class="text-white">Our Sustainability Commitment Is in Every Piece of Land</h1>
@@ -23,7 +23,7 @@
 		</div>
 
 		<div class="bg-dark-green lg:py-40 py-20 flex flex-col justify-center relative">
-			<img class="absolute h-full w-full object-cover" src="/assets/images/terrain_bg.svg" alt="Home Hero">
+			<img class="absolute h-full w-full object-cover" src="/assets/images/bg-terrain.svg" alt="Home Hero">
 			<div class="max-w-5xl mx-auto text-center px-10 flex flex-col items-center gap-4 z-10">
 				<span class="badge"><h6>Land for Sale</h6></span>
 				<h3 class="max-md:text-2xl text-white">Whether you're looking for a water view, acres of forests, a single lot for your dream home, or space to build your business – we believe our lands are a perfect place for you. Our legacy of stewardship means our lands have been sustainably managed for generations - are you ready to build your own legacy?
@@ -114,17 +114,17 @@
 					</div>
 					<div class="flex gap-2">
 						<button class="btn_swiper"> 
-							<img class="mx-auto w-4 h-auto scale-x-[-1]" src="/assets/images/swiper_arrow.svg" alt="Swiper Arrow">
+							<img class="mx-auto w-4 h-auto scale-x-[-1]" src="/assets/images/ui-swiper-arrow.svg" alt="Swiper Arrow">
 						</button>
 						<button class="btn_swiper active"> 
-							<img class="mx-auto w-4 h-auto " src="/assets/images/swiper_arrow.svg" alt="Swiper Arrow">
+							<img class="mx-auto w-4 h-auto " src="/assets/images/ui-swiper-arrow.svg" alt="Swiper Arrow">
 						</button>
 					</div>
 				</div>
 				<div class="grid md:grid-cols-2 grid-cols-1 gap-5 pb-20">
 					<?php for ($i = 0; $i < 2; $i++) { ?>
 						<div class="bg-white rounded-md p-8 flex flex-col gap-10">
-							<img  class="w-6 h-auto" src="/assets/images/quote.svg" alt="quote">
+							<img  class="w-6 h-auto" src="/assets/images/icon-quote.svg" alt="quote">
 							<h5>The Westervelt Team did a great job anticipating our needs and finding a property that was perfect for us.</h5>
 							<div class="flex justify-between">
 								<div class="flex gap-4 items-center">
@@ -132,7 +132,7 @@
 									<h6 class="text-secondary">Owner</h6>
 								</div>
 								<div class="relative  h-[50px] w-[80px] rounded-md overflow-clip">
-									<img  class="absolute h-full w-full object-cover" src="/assets/images/testimonial_person.jpg" alt="Westervelt Real Estate">
+									<img  class="absolute h-full w-full object-cover" src="/assets/images/content-testimonial-person.jpg" alt="Westervelt Real Estate">
 								</div>
 							</div>
 						</div>

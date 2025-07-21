@@ -15,7 +15,7 @@
 	<main class="mx-auto flex-grow w-full">
 
 		<div class="relative h-[350px] w-full">
-			<img class="absolute h-full w-full object-cover" src="/assets/images/westervelt-real-estate-contact-hero.jpg" alt="About Hero">
+			<img class="absolute h-full w-full object-cover" src="/assets/images/hero-contact.jpg" alt="About Hero">
 
 			<div class="lg:w-6/12 justify-end flex flex-col space-y-6 items-start z-10 absolute w-full h-full lg:p-10 p-5">
 				<h1 class="text-white">Contact</h1>
@@ -48,7 +48,7 @@
 							</p>
 
 							<a href="#" class="flex items-start gap-3  w-10">
-								<img class="hover:opacity-40 easy" src="/assets/images/facebook_dark.svg" alt="Facebook Icon">
+								<img class="hover:opacity-40 easy" src="/assets/images/icon-facebook-dark.svg" alt="Facebook Icon">
 							</a>
 						</div>
 					</div>

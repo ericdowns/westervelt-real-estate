@@ -16,7 +16,7 @@
 		
 
 		<div class="relative lg:h-[750px] h-[550px] w-full">
-			<img class="absolute h-full w-full object-cover" src="/assets/images/westervelt-residential-single.jpg" alt="Hero">
+			<img class="absolute h-full w-full object-cover" src="/assets/images/property-residential-single.jpg" alt="Hero">
 			<div class="lg:w-6/12 justify-end flex flex-col space-y-6 items-start z-10 absolute w-full h-full lg:p-10 p-5">
 				<span class="badge"><h6>Harbor Ridge at NorthRiver</h6></span>
 				<h1 class="text-white">Lot 76 Harbor Ridge at Northridge Phase 2 Section 2</h1>
@@ -42,7 +42,7 @@
 				<div class="col-span-1 lg:col-span-4">
 					<div class="bg-tan w-full rounded p-8 flex flex-col justify-center items-center gap-8">
 						<div class="w-20 h-20 relative">
-							<img class="absolute h-full w-full object-cover rounded-full" src="/assets/images/tom_bio_headshot.jpg" alt="Headshot">
+							<img class="absolute h-full w-full object-cover rounded-full" src="/assets/images/team-tom-headshot.jpg" alt="Headshot">
 						</div>
 						<h4>Tom Chambers</h4>
 
@@ -53,10 +53,10 @@
 
 						<div class="socials flex flex-row items-center justify-center gap-4 w-full  border-t border-mediumgray pt-5">
 							<p class="text-dark-green sm">Share:</p>
-							<img class="size-6 hover:opacity-40 transition" src="/assets/images/x-twitter-brands.svg" alt="Twitter">
-							<img class="size-6 hover:opacity-40 transition" src="/assets/images/linkedin-brands.svg" alt="Linkedin">
-							<img class="size-6 hover:opacity-40 transition" src="/assets/images/facebook_dark.svg" alt="Facebook">
-							<img class="size-6 hover:opacity-40 transition" src="/assets/images/envelope-regular.svg" alt="Email">
+							<img class="size-6 hover:opacity-40 transition" src="/assets/images/icon-twitter.svg" alt="Twitter">
+							<img class="size-6 hover:opacity-40 transition" src="/assets/images/icon-linkedin.svg" alt="Linkedin">
+							<img class="size-6 hover:opacity-40 transition" src="/assets/images/icon-facebook-dark.svg" alt="Facebook">
+							<img class="size-6 hover:opacity-40 transition" src="/assets/images/icon-envelope.svg" alt="Email">
 						</div>
 					</div>
 				</div>
@@ -114,24 +114,24 @@
 					</div>
 					<div class="flex gap-2">
 						<button class="btn_swiper"> 
-							<img class="mx-auto w-4 h-auto scale-x-[-1]" src="/assets/images/swiper_arrow.svg" alt="Swiper Arrow">
+							<img class="mx-auto w-4 h-auto scale-x-[-1]" src="/assets/images/ui-swiper-arrow.svg" alt="Swiper Arrow">
 						</button>
 						<button class="btn_swiper active"> 
-							<img class="mx-auto w-4 h-auto " src="/assets/images/swiper_arrow.svg" alt="Swiper Arrow">
+							<img class="mx-auto w-4 h-auto " src="/assets/images/ui-swiper-arrow.svg" alt="Swiper Arrow">
 						</button>
 					</div>
 				</div>
 				<div class="grid md:grid-cols-3 grid-cols-1 gap-5 ">
 					<div class="group">
-						<img class="transform group-hover:shadow-lg overflow-clip easy rounded-xl mb-3" src="/assets/images/lake_tamaha_photo_card.jpg" alt="Lake Tamaha Photo">
+						<img class="transform group-hover:shadow-lg overflow-clip easy rounded-xl mb-3" src="/assets/images/property-lake-tamaha-card.jpg" alt="Lake Tamaha Photo">
 						<p class="sm">About this image...</p>
 					</div>
 					<div class="group">
-						<img class="transform group-hover:shadow-lg overflow-clip easy rounded-xl mb-3" src="/assets/images/lake_tamaha_photo_card.jpg" alt="Lake Tamaha Photo">
+						<img class="transform group-hover:shadow-lg overflow-clip easy rounded-xl mb-3" src="/assets/images/property-lake-tamaha-card.jpg" alt="Lake Tamaha Photo">
 						<p class="sm">About this image...</p>
 					</div>
 					<div class="group">
-						<img class="transform group-hover:shadow-lg overflow-clip easy rounded-xl mb-3" src="/assets/images/lake_tamaha_photo_card.jpg" alt="Lake Tamaha Photo">
+						<img class="transform group-hover:shadow-lg overflow-clip easy rounded-xl mb-3" src="/assets/images/property-lake-tamaha-card.jpg" alt="Lake Tamaha Photo">
 						<p class="sm">About this image...</p>
 					</div>
 				</div>

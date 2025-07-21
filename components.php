@@ -42,10 +42,10 @@
 					<h6 class="mb-4">Swiper Navigation Buttons</h6>
 					<div class="flex gap-2">
 						<button class="btn_swiper"> 
-							<img class="mx-auto w-4 h-auto scale-x-[-1]" src="/assets/images/swiper_arrow.svg" alt="Previous">
+							<img class="mx-auto w-4 h-auto scale-x-[-1]" src="/assets/images/ui-swiper-arrow.svg" alt="Previous">
 						</button>
 						<button class="btn_swiper active"> 
-							<img class="mx-auto w-4 h-auto " src="/assets/images/swiper_arrow.svg" alt="Next">
+							<img class="mx-auto w-4 h-auto " src="/assets/images/ui-swiper-arrow.svg" alt="Next">
 						</button>
 					</div>
 				</div>
@@ -54,10 +54,10 @@
 					<h6 class="mb-4">Swiper Navigation Buttons (Light)</h6>
 					<div class="bg-dark-green p-4 rounded flex gap-2">
 						<button class="btn_swiper btn_swiper_light"> 
-							<img class="mx-auto w-4 h-auto scale-x-[-1]" src="/assets/images/swiper_arrow_white.svg" alt="Previous">
+							<img class="mx-auto w-4 h-auto scale-x-[-1]" src="/assets/images/ui-swiper-arrow-white.svg" alt="Previous">
 						</button>
 						<button class="btn_swiper btn_swiper_light"> 
-							<img class="mx-auto w-4 h-auto " src="/assets/images/swiper_arrow_white.svg" alt="Next">
+							<img class="mx-auto w-4 h-auto " src="/assets/images/ui-swiper-arrow-white.svg" alt="Next">
 						</button>
 					</div>
 				</div>
@@ -71,7 +71,7 @@
 				<div>
 					<h6 class="mb-4">Testimonial Card</h6>
 					<div class="bg-white rounded-md p-8 flex flex-col gap-10">
-						<img class="w-6 h-auto" src="/assets/images/quote.svg" alt="Quote">
+						<img class="w-6 h-auto" src="/assets/images/icon-quote.svg" alt="Quote">
 						<h5>The Westervelt Team did a great job anticipating our needs and finding a property that was perfect for us.</h5>
 						<div class="flex justify-between">
 							<div class="flex gap-4 items-center">
@@ -79,7 +79,7 @@
 								<h6 class="text-secondary">Owner</h6>
 							</div>
 							<div class="relative h-[50px] w-[80px] rounded-md overflow-clip">
-								<img class="absolute h-full w-full object-cover" src="/assets/images/testimonial_person.jpg" alt="Customer Photo">
+								<img class="absolute h-full w-full object-cover" src="/assets/images/content-testimonial-person.jpg" alt="Customer Photo">
 							</div>
 						</div>
 					</div>
@@ -104,12 +104,12 @@
 					<div class="flex rounded-md overflow-hidden">
 						<!-- Left Button (Active) -->
 						<button class="view-tab-active view-tab-active-left">
-							<img src="/assets/images/grid.svg" alt="Grid view icon" class="w-5 h-5 mr-2" />
+							<img src="/assets/images/icon-grid.svg" alt="Grid view icon" class="w-5 h-5 mr-2" />
 							<span>Listings</span>
 						</button>
 						<!-- Right Button (Inactive) -->
 						<button class="view-tab view-tab-right">
-							<img src="/assets/images/map.svg" alt="Map view icon" class="w-5 h-5 mr-2" />
+							<img src="/assets/images/icon-map.svg" alt="Map view icon" class="w-5 h-5 mr-2" />
 							<span>Map</span>
 						</button>
 					</div>
@@ -119,15 +119,15 @@
 					<h6 class="mb-4">Property Gallery Component</h6>
 					<div class="grid md:grid-cols-3 grid-cols-1 gap-5">
 						<div class="group">
-							<img class="transform group-hover:shadow-lg overflow-clip easy rounded-xl mb-3" src="/assets/images/lake_tamaha_photo_card.jpg" alt="Lake Tamaha Photo">
+							<img class="transform group-hover:shadow-lg overflow-clip easy rounded-xl mb-3" src="/assets/images/property-lake-tamaha-card.jpg" alt="Lake Tamaha Photo">
 							<p class="sm">Property gallery image...</p>
 						</div>
 						<div class="group">
-							<img class="transform group-hover:shadow-lg overflow-clip easy rounded-xl mb-3" src="/assets/images/lake_tamaha_photo_card.jpg" alt="Lake Tamaha Photo">
+							<img class="transform group-hover:shadow-lg overflow-clip easy rounded-xl mb-3" src="/assets/images/property-lake-tamaha-card.jpg" alt="Lake Tamaha Photo">
 							<p class="sm">Property gallery image...</p>
 						</div>
 						<div class="group">
-							<img class="transform group-hover:shadow-lg overflow-clip easy rounded-xl mb-3" src="/assets/images/lake_tamaha_photo_card.jpg" alt="Lake Tamaha Photo">
+							<img class="transform group-hover:shadow-lg overflow-clip easy rounded-xl mb-3" src="/assets/images/property-lake-tamaha-card.jpg" alt="Lake Tamaha Photo">
 							<p class="sm">Property gallery image...</p>
 						</div>
 					</div>
@@ -143,7 +143,7 @@
 					<h6 class="mb-4 text-center">Agent Bio Card</h6>
 					<div class="bg-white w-full rounded p-8 flex flex-col justify-center items-center gap-8">
 						<div class="w-20 h-20 relative">
-							<img class="absolute h-full w-full object-cover rounded-full" src="/assets/images/tom_bio_headshot.jpg" alt="Agent Headshot">
+							<img class="absolute h-full w-full object-cover rounded-full" src="/assets/images/team-tom-headshot.jpg" alt="Agent Headshot">
 						</div>
 						<h4>Tom Chambers</h4>
 						<div class="flex flex-col [@media(min-width:1200px)]:flex-row items-center justify-center gap-3 xl:gap-5 w-full text-center">
@@ -152,10 +152,10 @@
 						</div>
 						<div class="socials flex flex-row items-center justify-center gap-4 w-full border-t border-lightgray pt-5">
 							<p class="text-dark-green sm">Share:</p>
-							<img class="size-6 hover:opacity-40 transition" src="/assets/images/x-twitter-brands.svg" alt="Twitter">
-							<img class="size-6 hover:opacity-40 transition" src="/assets/images/linkedin-brands.svg" alt="Linkedin">
-							<img class="size-6 hover:opacity-40 transition" src="/assets/images/facebook_dark.svg" alt="Facebook">
-							<img class="size-6 hover:opacity-40 transition" src="/assets/images/envelope-regular.svg" alt="Email">
+							<img class="size-6 hover:opacity-40 transition" src="/assets/images/icon-twitter.svg" alt="Twitter">
+							<img class="size-6 hover:opacity-40 transition" src="/assets/images/icon-linkedin.svg" alt="Linkedin">
+							<img class="size-6 hover:opacity-40 transition" src="/assets/images/icon-facebook-dark.svg" alt="Facebook">
+							<img class="size-6 hover:opacity-40 transition" src="/assets/images/icon-envelope.svg" alt="Email">
 						</div>
 					</div>
 				</div>

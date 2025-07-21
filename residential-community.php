@@ -13,7 +13,7 @@
 	</header>
 	<main class="mx-auto flex-grow w-full z-0">
 		<div class="relative lg:h-[750px] h-[550px] w-full">
-			<img class="absolute h-full w-full object-cover" src="/assets/images/residential_community_hero.jpg" alt="Lake_Tamaha">';
+			<img class="absolute h-full w-full object-cover" src="/assets/images/hero-residential-community.jpg" alt="Lake_Tamaha">';
 			<div class="absolute bg-black/30  w-full h-full inset-0 flex flex-col justify-end items-start space-y-2 lg:p-10 p-5 pb-14">
 				<div class="lg:w-6/12 w-full flex flex-col space-y-6 items-start">
 					<span class="badge"><h6>Communities </h6> </span>
@@ -38,7 +38,7 @@
 				<div class="col-span-1 lg:col-span-4">
 					<div class="bg-tan w-full rounded p-8 flex flex-col justify-center items-center gap-8">
 						<div class="w-20 h-20 relative">
-							<img class="absolute h-full w-full object-cover rounded-full" src="/assets/images/tom_bio_headshot.jpg" alt="Headshot">
+							<img class="absolute h-full w-full object-cover rounded-full" src="/assets/images/team-tom-headshot.jpg" alt="Headshot">
 						</div>
 						<h4>Tom Chambers</h4>
 
@@ -49,10 +49,10 @@
 
 						<div class="socials flex flex-row items-center justify-center gap-4 w-full  border-t border-mediumgray pt-5">
 							<p class="text-dark-green sm">Share:</p>
-							<img class="size-6 hover:opacity-40 transition" src="/assets/images/x-twitter-brands.svg" alt="Twitter">
-							<img class="size-6 hover:opacity-40 transition" src="/assets/images/linkedin-brands.svg" alt="Linkedin">
-							<img class="size-6 hover:opacity-40 transition" src="/assets/images/facebook_dark.svg" alt="Facebook">
-							<img class="size-6 hover:opacity-40 transition" src="/assets/images/envelope-regular.svg" alt="Email">
+							<img class="size-6 hover:opacity-40 transition" src="/assets/images/icon-twitter.svg" alt="Twitter">
+							<img class="size-6 hover:opacity-40 transition" src="/assets/images/icon-linkedin.svg" alt="Linkedin">
+							<img class="size-6 hover:opacity-40 transition" src="/assets/images/icon-facebook-dark.svg" alt="Facebook">
+							<img class="size-6 hover:opacity-40 transition" src="/assets/images/icon-envelope.svg" alt="Email">
 						</div>
 					</div>
 				</div>

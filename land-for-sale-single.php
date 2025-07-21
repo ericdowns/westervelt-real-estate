@@ -13,7 +13,7 @@
 	</header>
 	<main class="mx-auto flex-grow w-full  z-0">
 		<div class="relative lg:h-[750px] h-[550px] w-full">
-			<img class="absolute h-full w-full object-cover" src="/assets/images/Lake_Tamaha.jpg" alt="Lake_Tamaha">';
+			<img class="absolute h-full w-full object-cover" src="/assets/images/property-lake-tamaha.jpg" alt="Lake_Tamaha">';
 			<div class="absolute bg-black/30  w-full h-full inset-0 flex flex-col justify-end items-start space-y-2 lg:p-10 p-5 pb-14">
 				<div class="lg:w-6/12 w-full flex flex-col space-y-6 items-start">
 					<span class="badge"><h6>Commercial/Industrial </h6> </span>
@@ -38,7 +38,7 @@
 				<div class="col-span-1 lg:col-span-4">
 					<div class="bg-tan w-full rounded p-8 flex flex-col justify-center items-center gap-8">
 						<div class="w-20 h-20 relative">
-							<img class="absolute h-full w-full object-cover rounded-full" src="/assets/images/tom_bio_headshot.jpg" alt="Headshot">
+							<img class="absolute h-full w-full object-cover rounded-full" src="/assets/images/team-tom-headshot.jpg" alt="Headshot">
 						</div>
 						<h4>Tom Chambers</h4>
 
@@ -49,10 +49,10 @@
 
 						<div class="socials flex flex-row items-center justify-center gap-4 w-full  border-t border-mediumgray pt-5">
 							<p class="text-dark-green sm">Share:</p>
-							<img class="size-6 hover:opacity-40 transition" src="/assets/images/x-twitter-brands.svg" alt="Twitter">
-							<img class="size-6 hover:opacity-40 transition" src="/assets/images/linkedin-brands.svg" alt="Linkedin">
-							<img class="size-6 hover:opacity-40 transition" src="/assets/images/facebook_dark.svg" alt="Facebook">
-							<img class="size-6 hover:opacity-40 transition" src="/assets/images/envelope-regular.svg" alt="Email">
+							<img class="size-6 hover:opacity-40 transition" src="/assets/images/icon-twitter.svg" alt="Twitter">
+							<img class="size-6 hover:opacity-40 transition" src="/assets/images/icon-linkedin.svg" alt="Linkedin">
+							<img class="size-6 hover:opacity-40 transition" src="/assets/images/icon-facebook-dark.svg" alt="Facebook">
+							<img class="size-6 hover:opacity-40 transition" src="/assets/images/icon-envelope.svg" alt="Email">
 						</div>
 					</div>
 				</div>
@@ -114,24 +114,24 @@
 					</div>
 					<div class="flex gap-2">
 						<button class="btn_swiper"> 
-							<img class="mx-auto w-4 h-auto scale-x-[-1]" src="/assets/images/swiper_arrow.svg" alt="Swiper Arrow">
+							<img class="mx-auto w-4 h-auto scale-x-[-1]" src="/assets/images/ui-swiper-arrow.svg" alt="Swiper Arrow">
 						</button>
 						<button class="btn_swiper active"> 
-							<img class="mx-auto w-4 h-auto " src="/assets/images/swiper_arrow.svg" alt="Swiper Arrow">
+							<img class="mx-auto w-4 h-auto " src="/assets/images/ui-swiper-arrow.svg" alt="Swiper Arrow">
 						</button>
 					</div>
 				</div>
 				<div class="grid md:grid-cols-3 grid-cols-1 gap-5 ">
 					<div class="group">
-						<img class="transform group-hover:shadow-lg overflow-clip easy rounded-xl mb-3" src="/assets/images/lake_tamaha_photo_card.jpg" alt="Lake Tamaha Photo">
+						<img class="transform group-hover:shadow-lg overflow-clip easy rounded-xl mb-3" src="/assets/images/property-lake-tamaha-card.jpg" alt="Lake Tamaha Photo">
 						<p class="sm">About this image...</p>
 					</div>
 					<div class="group">
-						<img class="transform group-hover:shadow-lg overflow-clip easy rounded-xl mb-3" src="/assets/images/lake_tamaha_photo_card.jpg" alt="Lake Tamaha Photo">
+						<img class="transform group-hover:shadow-lg overflow-clip easy rounded-xl mb-3" src="/assets/images/property-lake-tamaha-card.jpg" alt="Lake Tamaha Photo">
 						<p class="sm">About this image...</p>
 					</div>
 					<div class="group">
-						<img class="transform group-hover:shadow-lg overflow-clip easy rounded-xl mb-3" src="/assets/images/lake_tamaha_photo_card.jpg" alt="Lake Tamaha Photo">
+						<img class="transform group-hover:shadow-lg overflow-clip easy rounded-xl mb-3" src="/assets/images/property-lake-tamaha-card.jpg" alt="Lake Tamaha Photo">
 						<p class="sm">About this image...</p>
 					</div>
 				</div>

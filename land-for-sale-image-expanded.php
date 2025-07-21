@@ -13,17 +13,17 @@
 		<div class="fixed inset-0 z-[99999] bg-dark-green/90 min-h-screen h-screen py-20 px-5">
 			<div class="flex items-center justify-between gap-3">
 				<button class="btn_swiper btn_swiper_light"> 
-					<img class="mx-auto w-4 h-auto scale-x-[-1]" src="/assets/images/swiper_arrow_white.svg" alt="Swiper Arrow">
+					<img class="mx-auto w-4 h-auto scale-x-[-1]" src="/assets/images/ui-swiper-arrow-white.svg" alt="Swiper Arrow">
 				</button>
 				<div class="md:w-1/2 w-full">
-					<img class="w-full h-auto rounded-md" src="/assets/images/pop_up_map.jpg" alt="Image" >
+					<img class="w-full h-auto rounded-md" src="/assets/images/content-map-popup.jpg" alt="Image" >
 					<div class="flex py-4 gap-3 justify-between lg:items-center lg:flex-row flex-col">
 						<h5 class="text-white">About this image...</h5>
 						<a class="self-start btn" href="#">Download</a>
 					</div>
 				</div>
 				<button class="btn_swiper btn_swiper_light"> 
-					<img class="mx-auto w-4 h-auto " src="/assets/images/swiper_arrow_white.svg" alt="Swiper Arrow">
+					<img class="mx-auto w-4 h-auto " src="/assets/images/ui-swiper-arrow-white.svg" alt="Swiper Arrow">
 				</button>
 			</div>
 		</div>
