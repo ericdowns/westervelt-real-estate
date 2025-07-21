@@ -286,7 +286,22 @@
 		font-semibold 
 		text-center 
 		transition-all ease-in-out duration-500
-		rounded-md;
+		rounded-md
+		border-0
+		cursor-pointer;
+	}
+
+	/* Ensure buttons have no browser default styling */
+	button.btn {
+		@apply 
+		appearance-none
+		outline-none;
+	}
+
+	/* Ensure links don't have underlines */
+	a.btn {
+		@apply 
+		no-underline;
 	}
 
 

@@ -180,7 +180,7 @@
 						<!-- Primary Button -->
 						<div class="border border-mediumgray rounded-lg p-6">
 							<div class="flex flex-wrap gap-4 mb-4">
-								<a href="#" class="btn">Primary Button</a>
+								<button type="button" class="btn" aria-label="Example primary button for demonstration">Primary Button</button>
 							</div>
 							<code class="text-sm bg-gray-100 px-2 py-1 rounded block">class="btn" - Primary button with moss background</code>
 						</div>
@@ -240,7 +240,7 @@
 
 						<div class="border border-mediumgray rounded-lg p-6">
 							<div class="mb-4">
-								<button class="easy bg-moss text-white px-4 py-2 rounded hover:bg-kelly-green">Hover me</button>
+								<button class="btn">Hover me</button>
 							</div>
 							<code class="text-sm bg-gray-100 px-2 py-1 rounded">class="easy" - Smooth transition utility for hover effects</code>
 						</div>
@@ -331,7 +331,7 @@
 
 
 
-<footer class="bg-dark-green text-white  mt-auto"> </footer>
+	<footer class="bg-dark-green text-white  mt-auto"> </footer>
 
 
 

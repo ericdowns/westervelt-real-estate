@@ -34,7 +34,7 @@
 					</div>
 					<div id="lightboxCaption" class="flex py-4 gap-3 justify-between items-center lg:flex-row flex-col">
 						<h5 class="text-white">About this image...</h5>
-						<a class=" btn" href="#">Download</a>
+						<button type="button" class="btn" onclick="alert('Download functionality would be implemented here')" aria-label="Download property image">Download</button>
 					</div>
 				</div>
 			</div>

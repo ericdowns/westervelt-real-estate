@@ -12,7 +12,7 @@
 	<main class="mx-auto flex-grow w-full pt-[140px]">
 		<div class="content pt-20 pb-40 flex flex-col justify-center items-center gap-10">
 			<h1 class="text-center">Sorry Page Not Found</h1>
-			<a class="btn" href="#">Return Home</a>
+			<a class="btn" href="/">Return Home</a>
 		</div>
 	</main>
 	<?php include './includes/footer.php'; ?>

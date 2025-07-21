@@ -154,7 +154,7 @@
 					Tuscaloosa, Alabama 35404
 				</p>
 
-				<a class="btn" href="#">Get Directions</a>
+				<button type="button" class="btn" onclick="window.open('https://maps.google.com/?q=1400+Jack+Warner+Parkway+NE+Tuscaloosa+AL+35404', '_blank')" aria-label="Get driving directions to our office">Get Directions</button>
 			</div>
 		</div>
 	</div>
