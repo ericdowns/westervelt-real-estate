@@ -22,11 +22,15 @@ npm run build  # Creates self-contained PHP files in /dist/
 
 This flattens PHP includes (header/footer) into self-contained PHP files while preserving the component structure for future updates.
 
-## Git Usage
+## Deployment
 
+### Live Site
+🔗 **Live URL**: https://phpstack-1492491-5695092.cloudwaysapps.com/
+
+### Git Usage
 - Push to `main` via GitHub Desktop for backup
+- `npm run deploy` pushes directly to Cloudways production server
 - Build static files before deployment: `npm run build`
-- Optional: Deploy `/dist/` folder to production server
 
 ## Recent Updates
 
