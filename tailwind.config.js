@@ -7,6 +7,7 @@ module.exports = {
     "./src/**/*.html",
     "./components/**/*.php",
     "./includes/**/*.php",
+    "./assets/js/**/*.js",
     // Add other specific paths as needed
   ],
   theme: {
