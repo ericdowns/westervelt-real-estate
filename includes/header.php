@@ -64,11 +64,14 @@
 		</ul>
 	</div>
 
-	<nav class="bg-white/50 backdrop-blur-lg h-[95px] flex items-center">
-		<div class="w-full mx-auto flex justify-between px-5 h-full">
+	<nav id="mainNav" class="bg-white/50 backdrop-blur-lg h-[95px] flex items-center transition-all duration-300">
+		
+		<div class="w-full mx-auto flex justify-between px-5 h-full items-center">
+
 			<a class="flex flex-col justify-center" href="/">
 				<img src="/assets/images/Westervelt-Real-Estate.svg" alt="Westervelt Real Estate">
 			</a>
+
 			<ul class="lg:flex hidden font-serif h-full [&_*_a]:px-8">
 				<li>
 					<a href="#" class="flex items-center easy h-full border-b-2 border-transparent hover:border-moss xl:text-size-h5 lg:text-size-m-h5">
@@ -91,7 +94,195 @@
 					</a>
 				</li>
 			</ul>
+
+			<!-- Mobile Menu Button -->
+			<button id="mobileMenuButton" class="lg:hidden flex flex-col justify-center items-center w-10 h-10 space-y-1 focus:outline-none">
+				<span id="line1" class="block w-6 h-0.5 bg-primary transition-all duration-300 ease-in-out"></span>
+				<span id="line2" class="block w-6 h-0.5 bg-primary transition-all duration-300 ease-in-out"></span>
+				<span id="line3" class="block w-6 h-0.5 bg-primary transition-all duration-300 ease-in-out"></span>
+			</button>
+
 		</div>
 	</nav>
 
 </header>
+
+
+
+<!-- Mobile Menu -->
+<div id="mobileMenu" class="lg:hidden fixed inset-0 bg-primary bg-opacity-50 z-[100]">
+	<div class="bg-white w-full h-full shadow-lg transform transition-transform duration-300 ease-in-out overflow-y-auto" id="mobileMenuPanel">
+		
+		<div class="sticky top-0 bg-white p-6 border-b border-mediumgray/50 z-10">
+			<div class="flex justify-end items-center">
+				<button id="closeMobileMenu" class="flex justify-center items-center w-10 h-10 focus:outline-none relative">
+					<span class="block w-8 h-0.5 bg-moss transform rotate-45 absolute"></span>
+					<span class="block w-8 h-0.5 bg-moss transform -rotate-45 absolute"></span>
+				</button>
+			</div>
+		</div>
+
+		
+		<nav class="p-6 pb-20">
+			<ul class="space-y-0 divide-y divide-lightgray/50">
+				<li>
+					<div class="flex items-center justify-between cursor-pointer submenu-toggle py-3" data-target="0">
+						<span class="text-lg font-medium text-gray-800 hover:text-moss flex-1">Land for Sale</span>
+						<div class="toggle-icon flex justify-center items-center w-10 h-10 relative">
+							<span class="block w-4 h-0.5 bg-moss absolute"></span>
+							<span class="plus-vertical block w-4 h-0.5 bg-moss absolute transform rotate-90 transition-transform duration-300"></span>
+						</div>
+					</div>
+					<div class="submenu hidden pl-4 space-y-2 pb-3">
+						<a href="#" class="easy block py-2 text-base  hover:text-moss">See All</a>
+						<a href="#" class="easy block py-2 text-base  hover:text-moss">Commercial/Industrial</a>
+						<a href="#" class="easy block py-2 text-base  hover:text-moss">Mini-Farms</a>
+						<a href="#" class="easy block py-2 text-base  hover:text-moss">Recreational Tracts</a>
+						<a href="#" class="easy block py-2 text-base  hover:text-moss">Acreage</a>
+					</div>
+				</li>
+				<li>
+					<div class="flex items-center justify-between cursor-pointer submenu-toggle py-3" data-target="1">
+						<span class="text-lg hover:text-moss flex-1 font-medium">Residential Sales</span>
+						<div class="toggle-icon flex justify-center items-center w-10 h-10 relative">
+							<span class="block w-4 h-0.5 bg-moss absolute"></span>
+							<span class="plus-vertical block w-4 h-0.5 bg-moss absolute transform rotate-90 transition-transform duration-300"></span>
+						</div>
+					</div>
+					<div class="submenu hidden pl-4 space-y-2 pb-3">
+						<a href="#" class="easy block py-2 text-base hover:text-moss">See All</a>
+						<a href="#" class="easy block py-2 text-base  hover:text-moss">Lake Crest</a>
+						<a href="#" class="easy block py-2 text-base  hover:text-moss">Harbor Ridge</a>
+						<a href="#" class="easy block py-2 text-base  hover:text-moss">The Lakes of NorthRiver</a>
+						<a href="#" class="easy block py-2 text-base  hover:text-moss">Martin Farms</a>
+						<a href="#" class="easy block py-2 text-base  hover:text-moss">Neptune's Cove</a>
+						<a href="#" class="easy block py-2 text-base  hover:text-moss">NorthRiver</a>
+					</div>
+				</li>
+				<li>
+					<a href="#" class="easy block py-3 text-lg font-medium  hover:text-moss">About</a>
+				</li>
+				<li>
+					<a href="#" class="easy block py-3 text-lg font-medium  hover:text-moss">Contact Us</a>
+				</li>
+			</ul>
+			
+
+
+			<!-- Bottom Links -->
+			<div class="pt-5 border-t border-lightgray/50">
+				<ul class="space-y-5">
+					<li><a href="#" class="block text-lg text-moss font-medium hover:underline easy">Careers</a></li>
+					<li><a href="#" class="block text-lg text-moss font-medium hover:underline easy">Sustainability Report</a></li>
+				</ul>
+			</div>
+		</nav>
+
+
+	</div>
+</div>
+
+
+
+<script>
+// Mobile menu functionality
+	const mobileMenuButton = document.getElementById('mobileMenuButton');
+	const mobileMenu = document.getElementById('mobileMenu');
+	const mobileMenuPanel = document.getElementById('mobileMenuPanel');
+	const closeMobileMenu = document.getElementById('closeMobileMenu');
+	const line1 = document.getElementById('line1');
+	const line2 = document.getElementById('line2');
+	const line3 = document.getElementById('line3');
+
+	let isMenuOpen = false;
+
+	function toggleMobileMenu() {
+		isMenuOpen = !isMenuOpen;
+
+		if (isMenuOpen) {
+			mobileMenu.classList.remove('hidden');
+			setTimeout(() => {
+				mobileMenuPanel.classList.remove('-translate-x-full');
+			}, 10);
+
+			line1.classList.add('rotate-45', 'translate-y-2');
+			line2.classList.add('opacity-0');
+			line3.classList.add('-rotate-45', '-translate-y-2');
+
+			document.body.style.overflow = 'hidden';
+		} else {
+			mobileMenuPanel.classList.add('-translate-x-full');
+			setTimeout(() => {
+				mobileMenu.classList.add('hidden');
+			}, 300);
+
+			line1.classList.remove('rotate-45', 'translate-y-2');
+			line2.classList.remove('opacity-0');
+			line3.classList.remove('-rotate-45', '-translate-y-2');
+
+			document.body.style.overflow = '';
+		}
+	}
+
+	// Generic submenu toggle functionality
+	function initializeSubmenus() {
+		const toggles = document.querySelectorAll('.submenu-toggle');
+		
+		toggles.forEach((toggle, index) => {
+			toggle.addEventListener('click', (e) => {
+				e.preventDefault();
+				const submenu = toggle.nextElementSibling;
+				const verticalLine = toggle.querySelector('.plus-vertical');
+				
+				if (submenu && submenu.classList.contains('submenu')) {
+					const isOpen = !submenu.classList.contains('hidden');
+					
+					if (isOpen) {
+						submenu.classList.add('hidden');
+						verticalLine.classList.add('rotate-90');
+					} else {
+						submenu.classList.remove('hidden');
+						verticalLine.classList.remove('rotate-90');
+					}
+				}
+			});
+		});
+	}
+
+	mobileMenuButton.addEventListener('click', toggleMobileMenu);
+	closeMobileMenu.addEventListener('click', toggleMobileMenu);
+
+	mobileMenu.addEventListener('click', (e) => {
+		if (e.target === mobileMenu) {
+			toggleMobileMenu();
+		}
+	});
+
+	document.addEventListener('keydown', (e) => {
+		if (e.key === 'Escape' && isMenuOpen) {
+			toggleMobileMenu();
+		}
+	});
+
+	// Initialize submenu functionality
+	initializeSubmenus();
+
+	// Scroll effect for navigation background
+	const mainNav = document.getElementById('mainNav');
+	
+	function handleScroll() {
+		if (window.scrollY > 100) {
+			mainNav.classList.remove('bg-white/50');
+			mainNav.classList.add('bg-white/100');
+		} else {
+			mainNav.classList.remove('bg-white/100');
+			mainNav.classList.add('bg-white/50');
+		}
+	}
+
+	// Listen for scroll events
+	window.addEventListener('scroll', handleScroll);
+	
+	// Check initial scroll position on page load
+	handleScroll();
+</script>
