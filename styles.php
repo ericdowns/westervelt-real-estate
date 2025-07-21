@@ -18,14 +18,14 @@
 	<main class="mx-auto flex-grow w-full mt-[200px]">
 
 
+		<div class="content">
+			<div class="max-w-5xl mx-auto pb-10 px-5">
 
-		<div class="max-w-5xl mx-auto pb-10 px-5">
+				<div class="w-full border-b border-gray-300 pb-5 mb-10">
+					<h6>Typography</h6>
+				</div>
 
-			<div class="w-full border-b border-gray-300 pb-5 mb-10">
-				<h6>Typography</h6>
-			</div>
 
-			
 <!-- Avenir LT Std -->
 <h2 class="font-sans font-light">Avenir Light</h2>
 <h2 class="font-sans font-normal">Avenir Book</h2>
@@ -56,11 +56,11 @@
 
 <div class="max-w-5xl mx-auto pb-10">
 
-	<div class="w-full border-b border-gray-300 pb-5 mb-10">
+	<div class="w-full border-b border-lightgray pb-5 mb-10">
 		<h6>Colors</h6>
 	</div>
 
-	<div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 py-10">
+	<div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 lg:gap-10 gap-5 py-10">
 
 
 		<!-- Dark Green -->
@@ -144,6 +144,7 @@
 		</div>
 
 	</div>
+</div>
 </div>
 
 </main>

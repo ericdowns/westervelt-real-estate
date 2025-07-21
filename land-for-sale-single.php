@@ -11,8 +11,8 @@
 	<header class="z-[9999] fixed w-full">
 		<?php include './includes/header.php'; ?>
 	</header>
-	<main class="mx-auto flex-grow w-full pt-[140px] z-0">
-		<div class="relative h-[650px] w-full">
+	<main class="mx-auto flex-grow w-full  z-0">
+		<div class="relative lg:h-[750px] h-[550px] w-full">
 			<img class="absolute h-full w-full object-cover" src="/assets/images/Lake_Tamaha.jpg" alt="Lake_Tamaha">';
 			<div class="absolute bg-black/30  w-full h-full inset-0 flex flex-col justify-end items-start space-y-2 lg:p-10 p-5 pb-14">
 				<div class="lg:w-6/12 w-full flex flex-col space-y-6 items-start">

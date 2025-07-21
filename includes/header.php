@@ -66,11 +66,9 @@
 
 	<nav class="bg-white/50 backdrop-blur-lg h-[95px] flex items-center">
 		<div class="w-full mx-auto flex justify-between px-5 h-full">
-
 			<a class="flex flex-col justify-center" href="/">
 				<img src="/assets/images/Westervelt-Real-Estate.svg" alt="Westervelt Real Estate">
 			</a>
-
 			<ul class="lg:flex hidden font-serif h-full [&_*_a]:px-8">
 				<li>
 					<a href="#" class="flex items-center easy h-full border-b-2 border-transparent hover:border-moss xl:text-size-h5 lg:text-size-m-h5">
@@ -93,8 +91,6 @@
 					</a>
 				</li>
 			</ul>
-
-
 		</div>
 	</nav>
 

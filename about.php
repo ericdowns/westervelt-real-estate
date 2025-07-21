@@ -105,21 +105,17 @@
 
 		<div class="bg-sky py-16">
 			<div class="content">
-
 				<div class="max-w-4xl mx-auto text-center flex flex-col gap-4 mb-20">
 					<h3>Our land has been properly cared for</h3>
 					<p>Each acre of our property has been a part of our land base and has been responsibly managed to ensure the health of the forest and the environment.</p>
 				</div>
-
 				<div class="flex flex-wrap md:flex-nowrap gap-4">
 					<!-- Large image -->
-					
 					<div class="w-full md:w-1/2 relative h-80 md:h-auto rounded-lg overflow-hidden">
 						<video autoplay muted loop playsinline class="absolute inset-0 w-full h-full object-cover" >
 							<source src="https://RoyalZone.b-cdn.net/westervelt_caring_for_land.mp4" type="video/mp4"> 
 							</video>
 						</div>
-
 						<!-- Right images stack on desktop, side-by-side on mobile -->
 						<div class="w-full md:w-1/2 flex flex-row md:flex-col gap-4">
 							<div class="w-1/2 md:w-full lg:h-[330px] min-h-[200px]">
@@ -129,7 +125,6 @@
 								class="w-full h-full object-cover rounded-lg"
 								>
 							</div>
-
 							<div class="w-1/2 md:w-full lg:h-[330px] min-h-[200px]">
 								<img 
 								src="/assets/images/about_collage_2.jpg" 
@@ -139,7 +134,6 @@
 							</div>
 						</div>
 					</div>
-
 				</div>
 			</div>
 

@@ -230,7 +230,8 @@
 		hover:text-white 
 		pt-4
 		pb-3
-		px-10 
+		lg:px-10
+		px-6 
 		bg-moss 
 		hover:bg-kelly-green 
 		font-semibold 
