@@ -4,6 +4,11 @@ module.exports = {
   injectChanges: true,
   open: false,
   notify: false,
-  ghostMode: false,
+  ghostMode: true,
+  host: "192.168.0.93",
+  port: 3000,
+  ui: {
+    port: 3001
+  },
   logLevel: "info",
 };

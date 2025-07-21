@@ -22,31 +22,8 @@
 	Mini Sitemap
 </button>
 
-<script>
-	const toggleBox = document.getElementById('toggleBox');
-	const toggleButton = document.getElementById('toggleButton');
-	const openButton = document.getElementById('openButton');
-
-	const STORAGE_KEY = 'toggleBoxClosed';
-
-	// Check saved state on load
-	if (localStorage.getItem(STORAGE_KEY) === 'true') {
-		toggleBox.classList.add('hidden');
-		openButton.classList.remove('hidden');
-	}
-
-	toggleButton.addEventListener('click', () => {
-		toggleBox.classList.add('hidden');
-		openButton.classList.remove('hidden');
-		localStorage.setItem(STORAGE_KEY, 'true');
-	});
-
-	openButton.addEventListener('click', () => {
-		toggleBox.classList.remove('hidden');
-		openButton.classList.add('hidden');
-		localStorage.removeItem(STORAGE_KEY);
-	});
-</script>
+<!-- Sitemap Toggle Script -->
+<script src="/assets/js/sitemap-toggle.js"></script>
 
 
 <header class="z-[99] fixed w-full">
@@ -96,10 +73,10 @@
 			</ul>
 
 			<!-- Mobile Menu Button -->
-			<button id="mobileMenuButton" class="lg:hidden flex flex-col justify-center items-center w-10 h-10 space-y-1 focus:outline-none">
-				<span id="line1" class="block w-6 h-0.5 bg-primary transition-all duration-300 ease-in-out"></span>
-				<span id="line2" class="block w-6 h-0.5 bg-primary transition-all duration-300 ease-in-out"></span>
-				<span id="line3" class="block w-6 h-0.5 bg-primary transition-all duration-300 ease-in-out"></span>
+			<button id="mobileMenuButton" class="lg:hidden flex flex-col justify-center items-center w-10 h-10 space-y-2 focus:outline-none">
+				<span id="line1" class="block w-8 h-0.5 bg-primary transition-all duration-300 ease-in-out"></span>
+				<span id="line2" class="block w-8 h-0.5 bg-primary transition-all duration-300 ease-in-out"></span>
+				<span id="line3" class="block w-8 h-0.5 bg-primary transition-all duration-300 ease-in-out"></span>
 			</button>
 
 		</div>
@@ -184,105 +161,6 @@
 
 
 
-<script>
-// Mobile menu functionality
-	const mobileMenuButton = document.getElementById('mobileMenuButton');
-	const mobileMenu = document.getElementById('mobileMenu');
-	const mobileMenuPanel = document.getElementById('mobileMenuPanel');
-	const closeMobileMenu = document.getElementById('closeMobileMenu');
-	const line1 = document.getElementById('line1');
-	const line2 = document.getElementById('line2');
-	const line3 = document.getElementById('line3');
-
-	let isMenuOpen = false;
-
-	function toggleMobileMenu() {
-		isMenuOpen = !isMenuOpen;
-
-		if (isMenuOpen) {
-			mobileMenu.classList.remove('hidden');
-			setTimeout(() => {
-				mobileMenuPanel.classList.remove('-translate-x-full');
-			}, 10);
-
-			line1.classList.add('rotate-45', 'translate-y-2');
-			line2.classList.add('opacity-0');
-			line3.classList.add('-rotate-45', '-translate-y-2');
-
-			document.body.style.overflow = 'hidden';
-		} else {
-			mobileMenuPanel.classList.add('-translate-x-full');
-			setTimeout(() => {
-				mobileMenu.classList.add('hidden');
-			}, 300);
-
-			line1.classList.remove('rotate-45', 'translate-y-2');
-			line2.classList.remove('opacity-0');
-			line3.classList.remove('-rotate-45', '-translate-y-2');
-
-			document.body.style.overflow = '';
-		}
-	}
-
-	// Generic submenu toggle functionality
-	function initializeSubmenus() {
-		const toggles = document.querySelectorAll('.submenu-toggle');
-		
-		toggles.forEach((toggle, index) => {
-			toggle.addEventListener('click', (e) => {
-				e.preventDefault();
-				const submenu = toggle.nextElementSibling;
-				const verticalLine = toggle.querySelector('.plus-vertical');
-				
-				if (submenu && submenu.classList.contains('submenu')) {
-					const isOpen = !submenu.classList.contains('hidden');
-					
-					if (isOpen) {
-						submenu.classList.add('hidden');
-						verticalLine.classList.add('rotate-90');
-					} else {
-						submenu.classList.remove('hidden');
-						verticalLine.classList.remove('rotate-90');
-					}
-				}
-			});
-		});
-	}
-
-	mobileMenuButton.addEventListener('click', toggleMobileMenu);
-	closeMobileMenu.addEventListener('click', toggleMobileMenu);
-
-	mobileMenu.addEventListener('click', (e) => {
-		if (e.target === mobileMenu) {
-			toggleMobileMenu();
-		}
-	});
-
-	document.addEventListener('keydown', (e) => {
-		if (e.key === 'Escape' && isMenuOpen) {
-			toggleMobileMenu();
-		}
-	});
-
-	// Initialize submenu functionality
-	initializeSubmenus();
-
-	// Scroll effect for navigation background
-	const mainNav = document.getElementById('mainNav');
-	
-	function handleScroll() {
-		if (window.scrollY > 100) {
-			mainNav.classList.remove('bg-white/50');
-			mainNav.classList.add('bg-white/100');
-		} else {
-			mainNav.classList.remove('bg-white/100');
-			mainNav.classList.add('bg-white/50');
-		}
-	}
-
-	// Listen for scroll events
-	window.addEventListener('scroll', handleScroll);
-	
-	// Check initial scroll position on page load
-	handleScroll();
-</script>
+<!-- Mobile Menu & Navigation Scripts -->
+<script src="/assets/js/mobile-menu.js"></script>
+<script src="/assets/js/navigation-scroll.js"></script>

@@ -1,5 +1,3 @@
-
-
 <footer class="bg-dark-green text-white  mt-auto z-0">
 	<div class="relative w-full">
 		<img
