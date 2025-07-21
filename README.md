@@ -28,9 +28,18 @@ This flattens PHP includes (header/footer) into self-contained PHP files while p
 - Build static files before deployment: `npm run build`
 - Optional: Deploy `/dist/` folder to production server
 
+## Recent Updates
+
+- ✅ **Build Process Complete**: `flatten-includes.js` script flattens PHP includes into self-contained files
+- ✅ **Git Integration**: Automated deploy script with `npm run deploy` 
+- ✅ **Development Workflow**: Full dev environment with hot reloading via BrowserSync
+- ✅ **Asset Organization**: Images and fonts properly structured in `/assets/`
+- ✅ **Component Architecture**: Reusable PHP components in `/components/cards/`
+
 ## To Do
 
 - [x] Create static build process
-- [ ] Automate deploy to Cloudways  
+- [x] Set up automated deploy to Cloudways (via `npm run deploy`)
 - [ ] Add staging branch
 - [ ] Inline critical CSS
+- [ ] Performance optimization audit
