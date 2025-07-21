@@ -767,6 +767,18 @@ video {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Text selection color */
+
+::-moz-selection {
+  background-color: #69A82E;
+  color: white;
+}
+
+::selection {
+  background-color: #69A82E;
+  color: white;
+}
+
 h1 {
   font-family: Bembo MT Pro, serif;
   font-size: 42px;

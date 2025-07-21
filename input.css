@@ -13,6 +13,12 @@
 		;
 	}
 
+	/* Text selection color */
+	::selection {
+		background-color: theme('colors.moss');
+		color: white;
+	}
+
 	h1 {
 		@apply 
 		text-size-m-h1 
