@@ -53,10 +53,10 @@
 
 						<div class="socials flex flex-row items-center justify-center gap-4 w-full  border-t border-lightgray pt-5">
 							<p class="text-dark-green sm">Share:</p>
-							<img class="size-8 hover:opacity-40 transition" src="/assets/images/facebook_dark.svg" alt="Facebook">
-							<img class="size-8 hover:opacity-40 transition" src="/assets/images/facebook_dark.svg" alt="Facebook">
-							<img class="size-8 hover:opacity-40 transition" src="/assets/images/facebook_dark.svg" alt="Facebook">
-							<img class="size-8 hover:opacity-40 transition" src="/assets/images/facebook_dark.svg" alt="Facebook">
+							<img class="size-6 hover:opacity-40 transition" src="/assets/images/x-twitter-brands.svg" alt="Twitter">
+							<img class="size-6 hover:opacity-40 transition" src="/assets/images/linkedin-brands.svg" alt="Linkedin">
+							<img class="size-6 hover:opacity-40 transition" src="/assets/images/facebook_dark.svg" alt="Facebook">
+							<img class="size-6 hover:opacity-40 transition" src="/assets/images/envelope-regular.svg" alt="Email">
 						</div>
 					</div>
 				</div>
