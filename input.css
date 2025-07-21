@@ -192,6 +192,40 @@
 		padding-right: 2.5rem;
 	}
 
+	/* Desktop Dropdown Menu Styling */
+	.dropdown-menu {
+		z-index: 1000;
+		border: 1px solid rgba(0, 0, 0, 0.1);
+		backdrop-filter: blur(8px);
+	}
+
+
+	/* Ensure dropdown appears above other content */
+	.dropdown-parent {
+		z-index: 999;
+	}
+
+	/* Smooth arrow rotation */
+	.dropdown-arrow {
+		transition: transform 0.2s ease;
+	}
+
+	/* Dropdown Menu Item Component */
+	.dropdown-item {
+		@apply 
+		block 
+		px-6 
+		py-3 
+		font-sans
+		text-p-m-base 
+		lg:text-p-base 
+		text-dark-green 
+		font-medium 
+		text-center
+		hover:text-moss 
+		transition-colors;
+	}
+
 	input:-webkit-autofill,
 	input:-webkit-autofill:focus {
 		@apply 

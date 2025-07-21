@@ -50,15 +50,35 @@
 			</a>
 
 			<ul class="lg:flex hidden font-serif h-full [&_*_a]:px-8">
-				<li>
-					<a href="#" class="flex items-center easy h-full border-b-2 border-transparent hover:border-moss xl:text-size-h5 lg:text-size-m-h5">
-						<span class="flex items-center">Land for Sale <img class="w-6 h-auto" src="/assets/images/icon-expand-more.svg"> </span>
+				<!-- Land for Sale Dropdown -->
+				<li class="relative dropdown-parent">
+					<a href="#" class="flex items-center easy h-full border-b-2 border-transparent xl:text-size-h5 lg:text-size-m-h5 dropdown-trigger">
+						<span class="flex items-center">Land for Sale <img class="w-6 h-auto transition-transform dropdown-arrow" src="/assets/images/icon-expand-more.svg"> </span>
 					</a>
+					<!-- Dropdown Menu -->
+					<div class="dropdown-menu absolute top-full left-1/2 transform -translate-x-1/2 bg-white shadow-lg rounded-lg py-6 px-0 w-[280px] opacity-0 invisible transition-all duration-200 translate-y-2">
+						<a href="#" class="dropdown-item">See All</a>
+						<a href="#" class="dropdown-item">Commercial/Industrial</a>
+						<a href="#" class="dropdown-item">Mini-Farms</a>
+						<a href="#" class="dropdown-item">Recreational Tracts</a>
+						<a href="#" class="dropdown-item">Acreage</a>
+					</div>
 				</li>
-				<li>
-					<a href="#" class="flex items-center easy h-full border-b-2 border-transparent hover:border-moss xl:text-size-h5 lg:text-size-m-h5">
-						<span class="flex items-center">Residential Sales<img class="mx-auto w-6 h-auto" src="/assets/images/icon-expand-more.svg"> </span>
+				<!-- Residential Sales Dropdown -->
+				<li class="relative dropdown-parent">
+					<a href="#" class="flex items-center easy h-full border-b-2 border-transparent xl:text-size-h5 lg:text-size-m-h5 dropdown-trigger">
+						<span class="flex items-center">Residential Sales<img class="mx-auto w-6 h-auto transition-transform dropdown-arrow" src="/assets/images/icon-expand-more.svg"> </span>
 					</a>
+					<!-- Dropdown Menu -->
+					<div class="dropdown-menu absolute top-full left-1/2 transform -translate-x-1/2 bg-white shadow-lg rounded-lg py-6 px-0 w-[280px] opacity-0 invisible transition-all duration-200 translate-y-2">
+						<a href="#" class="dropdown-item">See All</a>
+						<a href="#" class="dropdown-item">Lake Crest</a>
+						<a href="#" class="dropdown-item">Harbor Ridge</a>
+						<a href="#" class="dropdown-item">The Lakes of NorthRiver</a>
+						<a href="#" class="dropdown-item">Martin Farms</a>
+						<a href="#" class="dropdown-item">Neptune's Cove</a>
+						<a href="#" class="dropdown-item">NorthRiver</a>
+					</div>
 				</li>
 				<li>
 					<a href="#" class="flex items-center easy h-full border-b-2 border-transparent hover:border-moss xl:text-size-h5 lg:text-size-m-h5">
@@ -164,3 +184,4 @@
 <!-- Mobile Menu & Navigation Scripts -->
 <script src="/assets/js/mobile-menu.js"></script>
 <script src="/assets/js/navigation-scroll.js"></script>
+<script src="/assets/js/desktop-dropdown.js"></script>

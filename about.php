@@ -28,7 +28,7 @@
 
 
 		<div class="bg-dark-green lg:py-40 py-20 flex flex-col justify-center relative">
-			<img class="absolute h-full w-full object-cover" src="/assets/images/terrain_bg.svg" alt="Home Hero">
+			<img class="absolute h-full w-full object-cover" src="/assets/images/bg-terrain.svg" alt="Home Hero">
 			<div class="max-w-5xl mx-auto text-center px-10 flex flex-col items-center gap-4 z-10">
 				<h3 class="text-white">Working with Wepstervelt Real Estate provides an exceptional opportunity to own a part of our legacy of sustainability. </h3>
 				<p class="text-lightgray">Westervelt Real Estate is part of The Westervelt Company, a privately-owned land stewardship company founded in 1884. Each of our five businesses are focused on sustainability, and we manage our lands according to that commitment. </p>
