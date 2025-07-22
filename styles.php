@@ -193,35 +193,58 @@
 							<code class="text-sm bg-gray-100 px-2 py-1 rounded block">class="btn-secondary" - Outline button with dark green border</code>
 						</div>
 
-						<!-- Default Swiper Buttons -->
-						<div class="border border-mediumgray rounded-lg p-6">
-							<div class="flex flex-wrap gap-4 mb-4">
-								<button class="btn_swiper">
-									<img class="mx-auto w-4 h-auto scale-x-[-1]" src="/assets/images/ui-swiper-arrow.svg" alt="Left Arrow">
-								</button>
-								<button class="btn_swiper">
-									<img class="mx-auto w-4 h-auto" src="/assets/images/ui-swiper-arrow.svg" alt="Right Arrow">
-								</button>
+						<!-- Navigation Button States -->
+						<div class="border border-mediumgray rounded-lg p-6 bg-tan">
+							<h6 class="mb-4">Navigation Button States</h6>
+							
+							<!-- Default Theme -->
+							<div class="mb-6">
+								<h6 class="mb-3 text-sm font-medium">Default Theme</h6>
+								<div class="space-y-3">
+									<!-- Normal State -->
+									<div class="flex items-center gap-4">
+										<button class="btn_swiper">
+											<img class="mx-auto w-4 h-auto scale-x-[-1]" src="/assets/images/ui-swiper-arrow.svg" alt="Previous">
+										</button>
+										<button class="btn_swiper">
+											<img class="mx-auto w-4 h-auto" src="/assets/images/ui-swiper-arrow.svg" alt="Next">
+										</button>
+										<span class="text-sm">Normal (enabled)</span>
+									</div>
+									
+									<!-- Inactive State -->
+									<div class="flex items-center gap-4">
+										<button class="btn_swiper inactive">
+											<img class="mx-auto w-4 h-auto scale-x-[-1]" src="/assets/images/ui-swiper-arrow.svg" alt="Previous Disabled">
+										</button>
+										<button class="btn_swiper inactive">
+											<img class="mx-auto w-4 h-auto" src="/assets/images/ui-swiper-arrow.svg" alt="Next Disabled">
+										</button>
+										<span class="text-sm">Inactive (disabled state)</span>
+									</div>
+								</div>
 							</div>
-							<div class="space-y-2">
-								<code class="text-sm bg-gray-100 px-2 py-1 rounded block">class="btn_swiper" - Circular navigation button</code>
-								<code class="text-sm bg-gray-100 px-2 py-1 rounded block">scale-x-[-1] - Flip arrow for left direction</code>
-							</div>
-						</div>
 
-						<!-- Light Swiper Buttons on Dark Background -->
-						<div class="border border-mediumgray rounded-lg p-6 bg-dark-green">
-							<div class="flex flex-wrap gap-4 mb-4">
-								<button class="btn_swiper btn_swiper_light">
-									<img class="mx-auto w-4 h-auto scale-x-[-1]" src="/assets/images/ui-swiper-arrow-white.svg" alt="Left Arrow">
-								</button>
-								<button class="btn_swiper btn_swiper_light">
-									<img class="mx-auto w-4 h-auto" src="/assets/images/ui-swiper-arrow-white.svg" alt="Right Arrow">
-								</button>
+							<!-- Dark Theme -->
+							<div class="bg-dark-green rounded-lg p-4 mb-4">
+								<h6 class="mb-3 text-sm font-medium text-white">Dark Theme</h6>
+								<div class="flex items-center gap-4">
+									<button class="btn_swiper btn_swiper_light">
+										<img class="mx-auto w-4 h-auto scale-x-[-1]" src="/assets/images/ui-swiper-arrow-white.svg" alt="Previous">
+									</button>
+									<button class="btn_swiper btn_swiper_light">
+										<img class="mx-auto w-4 h-auto" src="/assets/images/ui-swiper-arrow-white.svg" alt="Next">
+									</button>
+									<span class="text-sm text-white">Light variant for dark backgrounds</span>
+								</div>
 							</div>
+
 							<div class="space-y-2">
-								<code class="text-sm bg-gray-800 text-white px-2 py-1 rounded block">class="btn_swiper btn_swiper_light" - Light version for dark backgrounds</code>
-								<code class="text-sm bg-gray-800 text-white px-2 py-1 rounded block">scale-x-[-1] - Flip arrow for left direction</code>
+								<code class="text-sm bg-gray-100 px-2 py-1 rounded block">class="btn_swiper" - Base navigation button</code>
+								<code class="text-sm bg-gray-100 px-2 py-1 rounded block">class="btn_swiper inactive" - Disabled state (30% opacity, no pointer events)</code>
+								<code class="text-sm bg-gray-100 px-2 py-1 rounded block">class="btn_swiper active" - Highlighted/current state</code>
+								<code class="text-sm bg-gray-100 px-2 py-1 rounded block">class="btn_swiper btn_swiper_light" - For dark backgrounds</code>
+								<code class="text-sm bg-gray-100 px-2 py-1 rounded block">scale-x-[-1] - Flip arrow for left direction</code>
 							</div>
 						</div>
 					</div>
@@ -259,6 +282,13 @@
 							</div>
 							<code class="text-sm bg-gray-100 px-2 py-1 rounded">class="smooth-underline" - Animated underline for links</code>
 						</div>
+
+						<div class="border border-mediumgray rounded-lg p-6">
+							<div class="mb-4">
+								<a href="mailto:example@westervelt.com" class="link-green">example@westervelt.com</a>
+							</div>
+							<code class="text-sm bg-gray-100 px-2 py-1 rounded">class="link-green" - Green link with bold text, hovers to primary color</code>
+						</div>
 					</div>
 				</div>
 
@@ -271,10 +301,6 @@
 							<p class="text-sm text-secondary">Adds lg:px-10 px-5 for consistent content spacing</p>
 						</div>
 
-						<div class="border border-mediumgray rounded-lg p-6">
-							<code class="text-sm bg-gray-100 px-2 py-1 rounded mb-2 block">class="noring" - Removes all focus rings and outlines</code>
-							<p class="text-sm text-secondary">Useful for custom focus states</p>
-						</div>
 
 					</div>
 				</div>

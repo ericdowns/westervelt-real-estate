@@ -114,7 +114,7 @@
 						<h2>Testimonials</h2>
 					</div>
 					<div class="flex gap-2">
-						<button class="btn_swiper"> 
+						<button class="btn_swiper inactive"> 
 							<img class="mx-auto w-4 h-auto scale-x-[-1]" src="/assets/images/ui-swiper-arrow.svg" alt="Swiper Arrow">
 						</button>
 						<button class="btn_swiper active"> 

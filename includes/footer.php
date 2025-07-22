@@ -52,7 +52,7 @@
 			</div>
 			<div class="mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 pt-10">
 				<!-- Column 1: Get in Touch -->
-				<div class="space-y-4">
+				<div class="space-y-5">
 					<p class="font-semibold text-tan">Get in Touch</p>
 					<!-- Inner 2-column grid for contact items -->
 					<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
@@ -101,7 +101,7 @@
 				</div>
 				<!-- Column 2: Land For Sale -->
 				<div class="grid md:grid-cols-3 grid-cols-1 gap-5">
-					<div class="space-y-2">
+					<div class="space-y-5">
 						<p class="font-semibold text-tan ">Land for Sale</p>
 						<ul class="space-y-4">
 							<li><a href="#" class="text-lightgray text-sm hover:text-moss smooth-underline easy">Overview</a></li>
@@ -112,7 +112,7 @@
 						</ul>
 					</div>
 					<!-- Column 3: Residential Sales -->
-					<div class="space-y-2">
+					<div class="space-y-5">
 						<p class="font-bold text-tan">Residential Sales</p>
 
 						<ul class="space-y-4">
@@ -126,7 +126,7 @@
 						</ul>
 					</div>
 					<!-- Column 4: Links -->
-					<div class="space-y-2">
+					<div class="space-y-5">
 						<p class="font-semibold text-tan">Links</p>
 						<ul class="space-y-4">
 							<li><a href="#" class="text-lightgray text-sm hover:text-moss smooth-underline easy">About</a></li>
@@ -145,13 +145,14 @@
 
 		<div class="content flex justify-between gap-5 lg:items-center lg:flex-row flex-col">
 
-			<div class="text-sm hover:[&>a]:text-moss *:easy flex lg:flex-row *:hover:text-white flex-col lg:space-y-0 space-y-2">
-				© 2025 Westervelt Real Estate. All Rights Reserved
-				<span class="mx-2 lg:flex hidden">|</span>
+			<div class="text-sm hover:[&>a]:text-moss *:easy flex lg:flex-row *:text-lightgray flex-col lg:space-y-0 space-y-2">
+				
+				<span class="text-lightgray">© 2025 Westervelt Real Estate. All Rights Reserved</span>
+				<span class="mx-4 lg:flex hidden">|</span>
 				<a href="/terms" class="">Terms</a>
-				<span class="mx-2 lg:flex hidden">|</span>
+				<span class="mx-4 lg:flex hidden">|</span>
 				<a href="/privacy" class="">Privacy</a>
-				<span class="mx-2 lg:flex hidden">|</span>
+				<span class="mx-4 lg:flex hidden">|</span>
 				<a href="/accessibility" class="">Web Accessibility</a>
 			</div>
 

@@ -45,7 +45,7 @@
 			</div>
 			<div class="pagination px-5 pb-16 flex justify-center">
 				<div class="flex gap-2 items-center gap-2">
-					<button class="btn_swiper"> 
+					<button class="btn_swiper inactive"> 
 						<img class="mx-auto w-4 h-auto scale-x-[-1]" src="/assets/images/ui-swiper-arrow.svg" alt="Swiper Arrow">
 					</button>
 					<div class="flex gap-1 leading-[.9] mt-1 px-4">

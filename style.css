@@ -1999,6 +1999,12 @@ a.btn-secondary {
   opacity: 1;
 }
 
+.btn_swiper.inactive {
+  pointer-events: none;
+  cursor: not-allowed;
+  opacity: 0.3;
+}
+
 .badge {
   display: inline-flex;
   border-radius: 9999px;
@@ -2208,6 +2214,23 @@ a.btn-secondary {
   --tw-gradient-to: rgb(0 0 0 / 0) var(--tw-gradient-to-position);
 }
 
+/* Green Link Style */
+
+.link-green {
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgb(105 168 46 / var(--tw-text-opacity, 1));
+  text-decoration-line: underline;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-duration: 300ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.link-green:hover {
+  --tw-text-opacity: 1;
+  color: rgb(15 44 27 / var(--tw-text-opacity, 1));
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
@@ -2340,9 +2363,9 @@ a.btn-secondary {
   grid-column: span 2 / span 2;
 }
 
-.mx-2 {
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
+.mx-4 {
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .mx-auto {
@@ -2430,6 +2453,10 @@ a.btn-secondary {
   margin-top: auto;
 }
 
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
 .block {
   display: block;
 }
@@ -2496,16 +2523,16 @@ a.btn-secondary {
   height: 300px;
 }
 
-.h-\[30vh\] {
-  height: 30vh;
-}
-
 .h-\[350px\] {
   height: 350px;
 }
 
 .h-\[45px\] {
   height: 45px;
+}
+
+.h-\[500px\] {
+  height: 500px;
 }
 
 .h-\[50px\] {
@@ -2528,10 +2555,6 @@ a.btn-secondary {
   height: 100%;
 }
 
-.h-\[500px\] {
-  height: 500px;
-}
-
 .max-h-\[calc\(100vh-8rem\)\] {
   max-height: calc(100vh - 8rem);
 }
@@ -2548,20 +2571,16 @@ a.btn-secondary {
   min-height: 200px;
 }
 
+.min-h-\[50vh\] {
+  min-height: 50vh;
+}
+
 .min-h-\[650px\] {
   min-height: 650px;
 }
 
 .min-h-screen {
   min-height: 100vh;
-}
-
-.min-h-\[30vh\] {
-  min-height: 30vh;
-}
-
-.min-h-\[50vh\] {
-  min-height: 50vh;
 }
 
 .w-1\/2 {
@@ -3378,14 +3397,14 @@ a.btn-secondary {
   color: rgb(100 100 100 / var(--tw-text-opacity, 1));
 }
 
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-
 .text-tan {
   --tw-text-opacity: 1;
   color: rgb(240 239 230 / var(--tw-text-opacity, 1));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
 .underline {
@@ -3472,6 +3491,11 @@ a.btn-secondary {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.\*\:text-lightgray > * {
+  --tw-text-opacity: 1;
+  color: rgb(174 185 180 / var(--tw-text-opacity, 1));
+}
+
 .\*\:text-white > * {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
@@ -3512,11 +3536,6 @@ a.btn-secondary {
   --tw-shadow: 0px 5px 12px 0px rgba(0, 0, 0, 0.25);
   --tw-shadow-colored: 0px 5px 12px 0px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
-.\*\:hover\:text-white:hover > * {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
 .focus\:outline-none:focus {
@@ -3674,10 +3693,6 @@ a.btn-secondary {
 
   .lg\:h-\[750px\] {
     height: 750px;
-  }
-
-  .lg\:h-full {
-    height: 100%;
   }
 
   .lg\:w-1\/2 {

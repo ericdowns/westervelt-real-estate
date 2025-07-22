@@ -38,7 +38,7 @@
 							</p>
 
 							<p class="mb-8">
-								<a href="mailto:tchambers@westervelt.com" class="text-dark-green hover:text-moss easy font-medium">tchambers@westervelt.com</a>
+								<a href="mailto:tchambers@westervelt.com" class="link-green">tchambers@westervelt.com</a>
 							</p>
 
 							<p class="font-bold mb-2">Mailing address:</p>
