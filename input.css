@@ -72,7 +72,7 @@
 		text-size-m-h6 
 		lg:text-size-h6 
 		uppercase
-		font-semibold
+		font-bold
 		tracking-[1px]
 		;
 	}
@@ -83,28 +83,30 @@
 		text-p-m-base 
 		lg:text-p-base 
 		text-dark-green
-		font-medium;
+		font-medium
+		;
 	}
 
 	ol > li,
 	ul > li {
 		@apply 
 		text-p-m-base 
-		font-normal;
+		font-medium
+		;
 	}
 
 	.sm,
 	p.sm {
 		@apply 
 		text-p-sm 
-		font-normal
+		font-medium
 		;
 	}
 
 	p.xs {
 		@apply 
 		text-p-xs 
-		font-normal
+		font-medium
 		;
 	}
 
@@ -116,7 +118,7 @@
 		;
 	}
 
-	.job-title {
+	.text-label {
 		@apply 
 		text-xs
 		font-semibold
@@ -178,7 +180,7 @@
 	textarea {
 		@apply
 		w-full
-		rounded-md
+		rounded-[4px]
 		border
 		border-mediumgray
 		bg-white
@@ -304,10 +306,10 @@
 		px-6 
 		bg-moss 
 		hover:bg-kelly-green 
-		font-semibold 
+		font-bold 
 		text-center 
 		transition-all ease-in-out duration-500
-		rounded-md
+		rounded-[4px]
 		border-0
 		cursor-pointer;
 	}
@@ -343,10 +345,10 @@
 		border-2
 		border-dark-green
 		hover:border-dark-green
-		font-semibold 
+		font-bold 
 		text-center 
 		transition-all ease-in-out duration-500
-		rounded-md;
+		rounded-[4px];
 	}
 
 	/* Ensure secondary buttons have no browser default styling */
@@ -413,10 +415,11 @@
 		pb-2 
 		px-4 
 		inline-flex
-		font-semibold
+		font-bold
 		text-xs
 		uppercase
-		tracking-wide;
+		tracking-[1px]
+		leading-[1.35];
 	}
 
 	.greendot{
@@ -539,6 +542,21 @@
 
 .smooth-underline:hover::after {
 	width: 100%;
+}
+
+/* Gradient Overlay */
+.gradient-overlay {
+	@apply 
+	absolute 
+	bottom-0 
+	top-0 
+	h-full 
+	w-full 
+	bg-gradient-to-r 
+	from-black/30 
+	to-black/0 
+	pointer-events-none
+	;
 }
 
 }

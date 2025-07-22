@@ -1,4 +1,3 @@
-<!-- <style> *{outline: 1px solid rgba(0, 0, 0, .5);} </style> -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,7 +13,8 @@
 
 		<div class="relative lg:h-[750px] h-[550px] w-full">
 			<img class="absolute h-full w-full object-cover" src="/assets/images/hero-home.jpg" alt="Home Hero">
-			<div class="absolute bg-black/30  w-full h-full inset-0 flex flex-col justify-end items-start space-y-2 lg:p-10 p-5 pb-14">
+			<div class="gradient-overlay"></div>
+			<div class="absolute w-full h-full inset-0 flex flex-col justify-end items-start space-y-2 lg:p-10 p-5 pb-14 z-10">
 				<div class="lg:w-6/12 w-full flex flex-col space-y-6 items-start">
 					<h1 class="text-white">Our Sustainability Commitment Is in Every Piece of Land</h1>
 					<a class="btn" href="#">View Properties</a>
@@ -84,9 +84,10 @@
 			<video autoplay muted loop playsinline class="absolute top-0 left-0 w-full h-full object-cover "> 
 				<source src="https://RoyalZone.b-cdn.net/Westevelt-Intro.mp4" type="video/mp4"> 
 				</video>
-				<div class="absolute bg-black/30  w-full h-full inset-0 flex flex-col justify-center items-start lg:px-10 p-5">
+				<div class="gradient-overlay"></div>
+				<div class="absolute w-full h-full inset-0 flex flex-col justify-center items-start lg:px-10 p-5 z-10">
 					<div class="lg:w-6/12 w-full flex flex-col space-y-6 items-start">
-						<span class="badge">Land for Sale</span>
+						<span class="badge">About Us</span>
 						<h4 class="max-md:text-2xl text-white">
 							Westervelt Real Estate offers clients land that has been sustainably managed for decades. Because of our sustainability commitment, all our lands have been managed responsibly. Each acre reflects that commitment – whether on rolling hills, sweeping hilltop views or acres of high-quality forests.
 						</h4>
@@ -123,13 +124,13 @@
 				</div>
 				<div class="grid md:grid-cols-2 grid-cols-1 gap-5 pb-20">
 					<?php for ($i = 0; $i < 2; $i++) { ?>
-						<div class="bg-white rounded-md p-8 flex flex-col gap-10">
+						<div class="bg-white rounded-xl p-8 flex flex-col gap-10">
 							<img  class="w-6 h-auto" src="/assets/images/icon-quote.svg" alt="quote">
 							<h5>The Westervelt Team did a great job anticipating our needs and finding a property that was perfect for us.</h5>
 							<div class="flex justify-between">
 								<div class="flex gap-4 items-center">
 									<p><b>John Smith</b></p> <span class="text-[#C4C4C4]">|</span>
-									<p class="job-title text-secondary">Owner</p>
+									<h6 class="text-secondary">Owner</h6>
 								</div>
 								<div class="relative  h-[50px] w-[80px] rounded-md overflow-clip">
 									<img  class="absolute h-full w-full object-cover" src="/assets/images/content-testimonial-person.jpg" alt="John Smith customer photo">

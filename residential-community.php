@@ -36,7 +36,7 @@
 					</div>
 				</div>
 				<div class="col-span-1 lg:col-span-4">
-					<div class="bg-tan w-full rounded p-8 flex flex-col justify-center items-center gap-8">
+					<div class="bg-tan w-full rounded-xl p-8 flex flex-col justify-center items-center gap-8">
 						<div class="w-20 h-20 relative">
 							<img class="absolute h-full w-full object-cover rounded-full" src="/assets/images/team-tom-headshot.jpg" alt="Headshot">
 						</div>
@@ -130,26 +130,26 @@
 
 
 
-		<div class="bg-tan w-full py-10">
+		<div class="bg-white w-full py-10">
 			<div class="content">
 				<div class="lg:h-[500px] h-[300px] bg-white rounded-xl overflow-hidden">
 					<iframe 
-						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3355.1!2d-87.5692!3d33.2098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzPCsDEyJzM1LjMiTiA4N8KwMzQnMDkuMSJX!5e0!3m2!1sen!2sus!4v1234567890"
-						class="w-full h-full"
-						style="border:0;" 
-						allowfullscreen="" 
-						loading="lazy" 
-						referrerpolicy="no-referrer-when-downgrade">
-					</iframe>
-				</div>
-
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3355.1!2d-87.5692!3d33.2098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzPCsDEyJzM1LjMiTiA4N8KwMzQnMDkuMSJX!5e0!3m2!1sen!2sus!4v1234567890"
+					class="w-full h-full"
+					style="border:0;" 
+					allowfullscreen="" 
+					loading="lazy" 
+					referrerpolicy="no-referrer-when-downgrade">
+				</iframe>
 			</div>
+
 		</div>
+	</div>
 
 
 
 
-	</main>
-	<?php include './includes/footer.php'; ?>
+</main>
+<?php include './includes/footer.php'; ?>
 </body>
 </html>

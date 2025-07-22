@@ -60,45 +60,45 @@
 						</div>
 					</div>
 					<div>
-						<div class="map_wrapper bg-white lg:h-full h-[30vh] rounded-md overflow-hidden relative">
+						<div class="map_wrapper bg-white h-full min-h-[50vh] rounded-xl overflow-hidden relative">
 							<iframe 
-								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3355.1!2d-87.5692!3d33.2098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzPCsDEyJzM1LjMiTiA4N8KwMzQnMDkuMUJX!5e0!3m2!1sen!2sus!4v1234567890"
-								class="w-full h-full"
-								style="border:0;" 
-								allowfullscreen="" 
-								loading="lazy" 
-								referrerpolicy="no-referrer-when-downgrade">
-							</iframe>
-							
-							<!-- Property card overlay -->
-							<div class="absolute top-5 left-5 z-10">
-								<a href="#" class="block group shadow-lg easy max-w-[300px] rounded-xl overflow-clip">
-									<div class="flex flex-col bg-white card_land ">
-										<div class="relative pb-[60%] w-full overflow-clip">
-											<img
-											class="absolute h-full w-full object-cover transform group-hover:scale-105 easy"
-											src="/assets/images/card-land.jpg"
-											alt="Fallback Image"
-											>
-										</div>
+							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3355.1!2d-87.5692!3d33.2098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzPCsDEyJzM1LjMiTiA4N8KwMzQnMDkuMUJX!5e0!3m2!1sen!2sus!4v1234567890"
+							class="w-full h-full"
+							style="border:0;" 
+							allowfullscreen="" 
+							loading="lazy" 
+							referrerpolicy="no-referrer-when-downgrade">
+						</iframe>
 
-										<div class="flex flex-col space-y-4 p-6 rounded">
-											<h6>Tuscaloosa, AL</h6>
-											<h4 class="group-hover:text-moss easy">Lake Tamaha</h4>
-											<p class="sm text-secondary">265 +/- Acres functional for a proposed mix use development</p>
-											<p>265 +/- Acres  |   $1.00**</p>
-										</div>
+						<!-- Property card overlay -->
+						<div class="absolute top-5 left-5 z-10">
+							<a href="#" class="block group shadow-lg easy max-w-[300px] rounded-xl overflow-clip">
+								<div class="flex flex-col bg-white card_land ">
+									<div class="relative pb-[60%] w-full overflow-clip">
+										<img
+										class="absolute h-full w-full object-cover transform group-hover:scale-105 easy"
+										src="/assets/images/card-land.jpg"
+										alt="Fallback Image"
+										>
 									</div>
-								</a>
-							</div>
+
+									<div class="flex flex-col space-y-4 p-6 rounded">
+										<h6>Tuscaloosa, AL</h6>
+										<h4 class="group-hover:text-moss easy">Lake Tamaha</h4>
+										<p class="sm text-secondary">265 +/- Acres functional for a proposed mix use development</p>
+										<p>265 +/- Acres  |   $1.00**</p>
+									</div>
+								</div>
+							</a>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
+	</div>
 
 
-	</main>
-	<?php include './includes/footer.php'; ?>
+</main>
+<?php include './includes/footer.php'; ?>
 </body>
 </html>

@@ -36,12 +36,12 @@
 		</div>
 
 		<ul class="lg:flex hidden gap-4 items-center">
-			<li><a href="#" class="hover:text-moss easy job-title flex items-center gap-1">Careers <img class="w-4 h-auto" src="/assets/images/icon-arrow-outward.svg" alt="External link arrow"></a></li>
-			<li><a href="#" class="hover:text-moss easy job-title flex items-center gap-1">Sustainability Report <img class="w-4 h-auto" src="/assets/images/icon-arrow-down.svg" alt="Dropdown arrow"></a></li>
+			<li><a href="#" class="hover:text-moss easy text-label flex items-center gap-1">Careers <img class="w-4 h-auto" src="/assets/images/icon-arrow-outward.svg" alt="External link arrow"></a></li>
+			<li><a href="#" class="hover:text-moss easy text-label flex items-center gap-1">Sustainability Report <img class="w-4 h-auto" src="/assets/images/icon-arrow-down.svg" alt="Dropdown arrow"></a></li>
 		</ul>
 	</div>
 
-	<nav id="mainNav" class="bg-white/50 backdrop-blur-lg h-[95px] flex items-center transition-all duration-300">
+	<nav id="mainNav" class="bg-white/70 backdrop-blur-lg h-[95px] flex items-center transition-all duration-300">
 		
 		<div class="w-full mx-auto flex justify-between px-5 h-full items-center">
 

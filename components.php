@@ -141,7 +141,7 @@
 				<!-- Agent Bio Card -->
 				<div>
 					<h6 class="mb-4 text-center">Agent Bio Card</h6>
-					<div class="bg-white w-full rounded p-8 flex flex-col justify-center items-center gap-8">
+					<div class="bg-white w-full rounded-xl p-8 flex flex-col justify-center items-center gap-8">
 						<div class="w-20 h-20 relative">
 							<img class="absolute h-full w-full object-cover rounded-full" src="/assets/images/team-tom-headshot.jpg" alt="Agent Headshot">
 						</div>

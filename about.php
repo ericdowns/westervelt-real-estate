@@ -22,7 +22,7 @@
 				<span class="badge">About</span>
 				<h1 class="text-white">A Different Approach to Real Estate</h1>
 			</div>
-			<div class="absolute bottom-0 top-0 h-full  w-full bg-gradient-to-r from-black/30 to-black/0 pointer-events-none"></div>
+			<div class="gradient-overlay"></div>
 		</div>
 
 
@@ -49,7 +49,7 @@
 					<div class="col-span-1 md:col-span-10">
 						<div class="prose">
 							<h4>Ray Colvin, R.F.</h4>
-							<p class="job-title text-secondary">Director, Mergers & Acquisitions and Real Estate</p>
+							<h6 class="text-secondary">Director, Mergers & Acquisitions and Real Estate</h6>
 							<p>Ray Colvin, R.F., is the Director of Mergers & Acquisitions and Real Estate with The Westervelt Company, joining what was then Gulf States Paper in 1997. He has held numerous roles with the Company, including Senior Portfolio Manager; Manager, Westervelt Land Company; and Director of Real Estate and Forest Recreation. In his current role, he has oversight for all merger and acquisition activities, as well as the identification and development of the company’s real estate portfolio.</p>
 							<p>Ray is actively involved with numerous forestry and real estate associations. He most currently serves as a Board Member and Past Chairman of the Alabama Forestry Association.</p>
 							<p>Ray is a Registered Forester, having earned a Master’s Degree in Forestry from Auburn University in 1997. He was a four year member of the baseball team at Faulkner University, where he earned a B.S. in Commerce and Business Administration. He also is a Licensed Real Estate Agent.</p>
@@ -65,7 +65,7 @@
 					<div class="col-span-1 md:col-span-10">
 						<div class="prose">
 							<h4>Tom Chambers</h4>
-							<p class="job-title text-secondary">Vice President, Westervelt Communities</p>
+							<h6 class="text-secondary">Vice President, Westervelt Communities</h6>
 							<p>Prior to joining Westervelt Communities as Vice President, Tom Chambers owned a construction management business. He is responsible for developing and maintaining healthy business relationships in residential and commercial real estate. His progressive approach to management and marketing ensures a high degree of integrity and collaboration is present in his business transactions.</p>
 							<p>Tom is a member of the Urban Land Institute, the Tuscaloosa Home Builders Association, and the National Association of Realtors.</p>
 						</div>
@@ -78,7 +78,7 @@
 					<div class="col-span-1 md:col-span-10">
 						<div class="prose">
 							<h4>Veronica Cook</h4>
-							<p class="job-title text-secondary">Real Estate Coordinator / Paralegal</p>
+							<h6 class="text-secondary">Real Estate Coordinator / Paralegal</h6>
 							<p>Veronica Cook serves as the Real Estate Coordinator and Paralegal at The Westervelt Company, where she supports property asset management and oversees real estate closings for both acquisitions and disposals. With over 14 years of paralegal experience—including a decade focused specifically on legal and real estate matters—Veronica brings a strong foundation of legal knowledge, attention to detail, and organizational expertise to her role.</p>
 							<p>A Notary Public and a trusted resource for all things documentation, Veronica is known for her practical approach and her personal motto: “But did you document it?”</p>
 							<p>Originally from Tuscaloosa, Alabama, she has been married to her high school sweetheart for 14 years. Together, they have two children, ages 14 and 9.</p>
@@ -92,7 +92,7 @@
 					<div class="col-span-1 md:col-span-10">
 						<div class="prose">
 							<h4>Alex Vick</h4>
-							<p class="job-title text-secondary">Senior Mergers & Acquisitions Analyst</p>
+							<h6 class="text-secondary">Senior Mergers & Acquisitions Analyst</h6>
 							<p>Alex Vick serves as the Senior Mergers & Acquisitions Analyst for The Westervelt Company. His main responsibilities are supporting the company’s timberland acquisition process, developing financial models for M&A opportunities, and assisting with other strategic projects.</p>
 							<p>Alex has been with Westervelt since 2022. He earned a BS in business from The Ohio State University, specializing in finance & logistics management, and a Master in Forest Resources from the University of Georgia. Alex is a registered forester in Alabama.</p>
 							<p>Originally from Cincinnati, Ohio, he enjoys getting outdoors as much as possible and serving at his local church. Hiking, fishing, and kayaking are his favorite outdoor activities.</p>
