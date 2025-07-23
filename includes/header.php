@@ -31,8 +31,8 @@
 
 	<div class="message_bar flex justify-between items-center px-5 bg-white h-[45px]">
 
-		<div class="[&_*_a]:text-moss [&_*_a]:font-semibold [&_*_a]:underline">
-			<p class="mb-0 sm">Optional <a href="#">news statement</a>... something not too long.</p>
+		<div>
+			<p class="mb-0 sm">Optional <a href="#" class="link-green">news statement</a>... something not too long.</p>
 		</div>
 
 		<ul class="lg:flex hidden gap-4 items-center">
