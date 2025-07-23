@@ -3121,6 +3121,10 @@ a.btn-secondary {
   padding-top: 45px;
 }
 
+.pb-\[71\.4\%\] {
+  padding-bottom: 71.4%;
+}
+
 .text-center {
   text-align: center;
 }

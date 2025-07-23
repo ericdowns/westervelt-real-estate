@@ -124,7 +124,9 @@
 				<div class="grid md:grid-cols-3 grid-cols-1 gap-5 ">
 					<div class="group">
 						<div class="relative mb-3">
-							<img class="transform group-hover:shadow-lg overflow-clip easy rounded-xl w-full" src="/assets/images/property-lake-tamaha-card.jpg" alt="Lake Tamaha Photo">
+							<div class="relative pb-[71.4%] w-full overflow-clip rounded-xl">
+								<img class="absolute h-full w-full object-cover transform group-hover:scale-105 easy" src="/assets/images/photo-gallery-1.jpg" alt="Gallery Photo 1">
+							</div>
 							<div class="absolute bottom-5 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300 easy">
 								<div class="w-10 h-10 bg-moss rounded-full flex items-center justify-center">
 									<img class="w-5 h-5" src="/assets/images/icon-expand.svg" alt="Expand">
@@ -135,7 +137,9 @@
 					</div>
 					<div class="group">
 						<div class="relative mb-3">
-							<img class="transform group-hover:shadow-lg overflow-clip easy rounded-xl w-full" src="/assets/images/property-lake-tamaha-card.jpg" alt="Lake Tamaha Photo">
+							<div class="relative pb-[71.4%] w-full overflow-clip rounded-xl">
+								<img class="absolute h-full w-full object-cover transform group-hover:scale-105 easy" src="/assets/images/photo-gallery-2.jpg" alt="Gallery Photo 2">
+							</div>
 							<div class="absolute bottom-5 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300 easy">
 								<div class="w-10 h-10 bg-moss rounded-full flex items-center justify-center">
 									<img class="w-5 h-5" src="/assets/images/icon-expand.svg" alt="Expand">
@@ -146,7 +150,9 @@
 					</div>
 					<div class="group">
 						<div class="relative mb-3">
-							<img class="transform group-hover:shadow-lg overflow-clip easy rounded-xl w-full" src="/assets/images/property-lake-tamaha-card.jpg" alt="Lake Tamaha Photo">
+							<div class="relative pb-[71.4%] w-full overflow-clip rounded-xl">
+								<img class="absolute h-full w-full object-cover transform group-hover:scale-105 easy" src="/assets/images/photo-gallery-3.jpg" alt="Gallery Photo 3">
+							</div>
 							<div class="absolute bottom-5 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300 easy">
 								<div class="w-10 h-10 bg-moss rounded-full flex items-center justify-center">
 									<img class="w-5 h-5" src="/assets/images/icon-expand.svg" alt="Expand">
