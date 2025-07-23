@@ -14,7 +14,7 @@
 
 	<main class="mx-auto flex-grow w-full">
 
-		<div class="relative h-[350px] w-full">
+		<div class="relative h-[400px] w-full">
 			<img class="absolute h-full w-full object-cover" src="/assets/images/hero-contact.jpg" alt="About Hero">
 
 			<div class="lg:w-6/12 justify-end flex flex-col space-y-6 items-start z-10 absolute w-full h-full lg:p-10 p-5">
@@ -151,26 +151,26 @@
 		<div class="content">
 			<div class="lg:h-[500px] h-[300px] bg-white rounded-xl overflow-hidden relative">
 				<iframe 
-					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3328.8!2d-87.5692!3d33.2098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x888628c8c8c8c8c8%3A0x8c8c8c8c8c8c8c8c!2s1400%20Jack%20Warner%20Pkwy%20NE%2C%20Tuscaloosa%2C%20AL%2035404!5e0!3m2!1sen!2sus!4v1234567890"
-					class="w-full h-full"
-					style="border:0;" 
-					allowfullscreen="" 
-					loading="lazy" 
-					referrerpolicy="no-referrer-when-downgrade">
-				</iframe>
-				
-				<div class="mapmaker bg-white md:w-[450px] w-[80%] p-5 py-10 rounded-xl absolute flex flex-col gap-5 left-4 md:left-8 items-start top-1/2 -translate-y-1/2 shadow-lg">
-					<h3>Visit Us</h3>
-					<p class="text-secondary">
-						1400 Jack Warner Parkway NE <br>
-						Tuscaloosa, Alabama 35404
-					</p>
+				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3328.8!2d-87.5692!3d33.2098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x888628c8c8c8c8c8%3A0x8c8c8c8c8c8c8c8c!2s1400%20Jack%20Warner%20Pkwy%20NE%2C%20Tuscaloosa%2C%20AL%2035404!5e0!3m2!1sen!2sus!4v1234567890"
+				class="w-full h-full"
+				style="border:0;" 
+				allowfullscreen="" 
+				loading="lazy" 
+				referrerpolicy="no-referrer-when-downgrade">
+			</iframe>
+			
+			<div class="mapmaker bg-white md:w-[450px] w-[80%] p-5 py-10 rounded-xl absolute flex flex-col gap-5 left-4 md:left-8 items-start top-1/2 -translate-y-1/2 shadow-lg">
+				<h3>Visit Us</h3>
+				<p class="text-secondary">
+					1400 Jack Warner Parkway NE <br>
+					Tuscaloosa, Alabama 35404
+				</p>
 
-					<button type="button" class="btn" onclick="window.open('https://maps.google.com/?q=1400+Jack+Warner+Parkway+NE+Tuscaloosa+AL+35404', '_blank')" aria-label="Get driving directions to our office">Get Directions</button>
-				</div>
+				<button type="button" class="btn" onclick="window.open('https://maps.google.com/?q=1400+Jack+Warner+Parkway+NE+Tuscaloosa+AL+35404', '_blank')" aria-label="Get driving directions to our office">Get Directions</button>
 			</div>
 		</div>
 	</div>
+</div>
 
 
 

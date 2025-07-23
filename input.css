@@ -19,30 +19,36 @@
 		color: white;
 	}
 
+	.prose h1,
 	h1 {
 		@apply 
 		text-size-m-h1 
 		lg:text-size-h1 
 		font-serif
+		font-normal
 		text-dark-green
 		tracking-tightest
 		;
 	}
 
+	.prose h2,
 	h2 {
 		@apply 
 		text-size-m-h2 
 		lg:text-size-h2 
 		font-serif
+		font-normal
 		text-dark-green
 		;
 	}
 
+	.prose h3,
 	h3 {
 		@apply 
 		text-size-m-h3 
 		lg:text-size-h3 
 		font-serif
+		font-normal
 		text-dark-green
 		;
 	}
@@ -58,32 +64,37 @@
 		;
 	}
 
+	.prose h5,
 	h5 {
 		@apply 
 		text-size-m-h5 
 		lg:text-size-h5 
 		font-serif
+		font-normal
 		text-dark-green
 		;
 	}
 
+	.prose h6,
 	h6 {
 		@apply 
 		text-size-m-h6 
 		lg:text-size-h6 
 		uppercase
+		font-sans
 		font-bold
 		tracking-[1px]
 		;
 	}
 
-
+	.prose p,
 	p {
 		@apply 
 		text-p-m-base 
 		lg:text-p-base 
 		text-dark-green
 		font-medium
+		font-sans
 		;
 	}
 
@@ -92,6 +103,7 @@
 		@apply 
 		text-p-m-base 
 		font-medium
+		font-sans
 		;
 	}
 
@@ -124,6 +136,7 @@
 		font-semibold
 		uppercase
 		tracking-wide
+		font-sans
 		;
 	}
 
