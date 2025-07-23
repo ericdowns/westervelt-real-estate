@@ -186,7 +186,7 @@
 
 
 	<div class="bg-tan w-full">
-		<div class="content">
+		<div class="content py-20">
 			<div class="flex  flex lg:flex-row flex-col justify-between w-full gap-5 lg:items-end py-8">
 				<div class="flex">
 					<span class="greendot lg:mt-4 mt-2 mr-3"></span>
