@@ -123,15 +123,36 @@
 				</div>
 				<div class="grid md:grid-cols-3 grid-cols-1 gap-5 ">
 					<div class="group">
-						<img class="transform group-hover:shadow-lg overflow-clip easy rounded-xl mb-3" src="/assets/images/property-lake-tamaha-card.jpg" alt="Lake Tamaha Photo">
+						<div class="relative mb-3">
+							<img class="transform group-hover:shadow-lg overflow-clip easy rounded-xl w-full" src="/assets/images/property-lake-tamaha-card.jpg" alt="Lake Tamaha Photo">
+							<div class="absolute bottom-5 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300 easy">
+								<div class="w-10 h-10 bg-moss rounded-full flex items-center justify-center">
+									<img class="w-5 h-5" src="/assets/images/icon-expand.svg" alt="Expand">
+								</div>
+							</div>
+						</div>
 						<p class="sm">About this image...</p>
 					</div>
 					<div class="group">
-						<img class="transform group-hover:shadow-lg overflow-clip easy rounded-xl mb-3" src="/assets/images/property-lake-tamaha-card.jpg" alt="Lake Tamaha Photo">
+						<div class="relative mb-3">
+							<img class="transform group-hover:shadow-lg overflow-clip easy rounded-xl w-full" src="/assets/images/property-lake-tamaha-card.jpg" alt="Lake Tamaha Photo">
+							<div class="absolute bottom-5 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300 easy">
+								<div class="w-10 h-10 bg-moss rounded-full flex items-center justify-center">
+									<img class="w-5 h-5" src="/assets/images/icon-expand.svg" alt="Expand">
+								</div>
+							</div>
+						</div>
 						<p class="sm">About this image...</p>
 					</div>
 					<div class="group">
-						<img class="transform group-hover:shadow-lg overflow-clip easy rounded-xl mb-3" src="/assets/images/property-lake-tamaha-card.jpg" alt="Lake Tamaha Photo">
+						<div class="relative mb-3">
+							<img class="transform group-hover:shadow-lg overflow-clip easy rounded-xl w-full" src="/assets/images/property-lake-tamaha-card.jpg" alt="Lake Tamaha Photo">
+							<div class="absolute bottom-5 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300 easy">
+								<div class="w-10 h-10 bg-moss rounded-full flex items-center justify-center">
+									<img class="w-5 h-5" src="/assets/images/icon-expand.svg" alt="Expand">
+								</div>
+							</div>
+						</div>
 						<p class="sm">About this image...</p>
 					</div>
 				</div>
