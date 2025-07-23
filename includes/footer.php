@@ -4,7 +4,7 @@
 	<div class="relative w-full">
 		<img
 		class="absolute inset-0 z-1 w-full h-full object-cover"
-		src="/assets/images/hero-home.jpg"
+		src="/assets/images/footer.jpg"
 		alt="Home Hero"
 		>
 		<section class="text-white text-center z-10 lg:py-40 py-20 px-4 relative bg-gradient-to-t from-dark-green lg:to-dark-green/0 to-dark-green/50">
