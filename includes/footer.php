@@ -52,13 +52,13 @@
 			</div>
 			<div class="mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 pt-10">
 				<!-- Column 1: Get in Touch -->
-				<div class="space-y-5">
+				<div class="space-y-5 max-md:text-center">
 					<p class="font-semibold text-tan">Get in Touch</p>
 					<!-- Inner 2-column grid for contact items -->
-					<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+					<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
 						<div class="flex flex-col gap-5">
 							<!-- Address -->
-							<div class="flex items-start gap-3 ">
+							<div class="flex items-start gap-3 max-md:justify-center">
 								<img src="/assets/images/icon-pin.svg" alt="Mail Icon">
 								<div class="space-y-2">
 									<p class="text-lightgray text-sm">1400 Jack Warner Pkwy NE<br>Tuscaloosa, AL 35404</p>
@@ -70,13 +70,13 @@
 								</div>
 							</div>
 							<!-- Facebook -->
-							<div class="flex items-start gap-3">
+							<div class="flex items-start gap-3 max-md:justify-center">
 								<img class="hover:opacity-40 easy" src="/assets/images/icon-facebook.svg" alt="Facebook Icon">
 							</div>
 						</div>
 						<!-- Email -->
 						<div class="flex flex-col gap-5">
-							<div class="flex items-start gap-3">
+							<div class="flex items-start gap-3 max-md:justify-center">
 								<img src="/assets/images/icon-mail.svg" alt="Mail Icon">
 								<p>
 									<a href="mailto:tchambers@westervelt.com" class="text-lightgray text-sm hover:text-moss smooth-underline easy">
@@ -85,7 +85,7 @@
 								</p>
 							</div>
 							<!-- Phone -->
-							<div class="flex items-start gap-3">
+							<div class="flex items-start gap-3 max-md:justify-center">
 								<img src="/assets/images/icon-call.svg" alt="Mail Icon">
 								<div class="space-y-2">
 									<p>
@@ -101,9 +101,9 @@
 				</div>
 				<!-- Column 2: Land For Sale -->
 				<div class="grid md:grid-cols-3 grid-cols-1 gap-5">
-					<div class="space-y-5">
+					<div class="space-y-5 max-md:text-center">
 						<p class="font-semibold text-tan ">Land for Sale</p>
-						<ul class="space-y-4">
+						<ul class="lg:space-y-4 space-y-2">
 							<li><a href="#" class="text-lightgray text-sm hover:text-moss smooth-underline easy">Overview</a></li>
 							<li><a href="#" class="text-lightgray text-sm hover:text-moss smooth-underline easy">Commercial/Industrial</a></li>
 							<li><a href="#" class="text-lightgray text-sm hover:text-moss smooth-underline easy">Mini-Farms</a></li>
@@ -112,10 +112,10 @@
 						</ul>
 					</div>
 					<!-- Column 3: Residential Sales -->
-					<div class="space-y-5">
+					<div class="space-y-5 max-md:text-center">
 						<p class="font-bold text-tan">Residential Sales</p>
 
-						<ul class="space-y-4">
+						<ul class="lg:space-y-4 space-y-2">
 							<li><a href="#" class="text-lightgray text-sm hover:text-moss smooth-underline easy">Communities</a></li>
 							<li><a href="#" class="text-lightgray text-sm hover:text-moss smooth-underline easy">Lake Crest</a></li>
 							<li><a href="#" class="text-lightgray text-sm hover:text-moss smooth-underline easy">Harbor Ridge</a></li>
@@ -126,9 +126,9 @@
 						</ul>
 					</div>
 					<!-- Column 4: Links -->
-					<div class="space-y-5">
+					<div class="space-y-5 max-md:text-center">
 						<p class="font-semibold text-tan">Links</p>
-						<ul class="space-y-4">
+						<ul class="lg:space-y-4 space-y-2">
 							<li><a href="#" class="text-lightgray text-sm hover:text-moss smooth-underline easy">About</a></li>
 							<li><a href="#" class="text-lightgray text-sm hover:text-moss smooth-underline easy">Contact</a></li>
 							<li><a href="#" class="text-lightgray text-sm hover:text-moss smooth-underline easy">Careers</a></li>
@@ -145,7 +145,7 @@
 
 		<div class="content flex justify-between gap-5 lg:items-center lg:flex-row flex-col">
 
-			<div class="text-sm hover:[&>a]:text-moss *:easy flex lg:flex-row *:text-lightgray flex-col lg:space-y-0 space-y-2">
+			<div class="text-sm hover:[&>a]:text-moss *:easy flex lg:flex-row *:text-lightgray flex-col lg:space-y-0 space-y-2 max-md:text-center">
 				
 				<span class="text-lightgray">© 2025 Westervelt Real Estate. All Rights Reserved</span>
 				<span class="mx-4 lg:flex hidden">|</span>
@@ -156,10 +156,10 @@
 				<a href="/accessibility" class="">Web Accessibility</a>
 			</div>
 
-			<a href="#" class="flex lg:justify-end items-center gap-6 group">
+			<a href="#" class="flex justify-end items-center gap-6 max-md:flex-col max-md:items-center max-md:gap-3 group">
 
 				<img class="easy" src="/assets/images/logo-westervelt-company.svg" alt="Westervelt Real Estate">
-				<p class="group-hover:text-moss easy text-white text-sm">A Part of The Westervelt Company</p>
+				<p class="group-hover:text-moss easy text-white text-sm max-md:text-center">A Part of The Westervelt Company</p>
 			</a>
 		</div>
 

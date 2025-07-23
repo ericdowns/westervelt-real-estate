@@ -36,8 +36,7 @@
 		</div>
 
 		<ul class="lg:flex hidden gap-4 items-center">
-			<li><a href="#" class="hover:text-moss easy text-label flex items-center gap-1">Careers <img class="w-4 h-auto" src="/assets/images/icon-arrow-outward.svg" alt="External link arrow"></a></li>
-			<li><a href="#" class="hover:text-moss easy text-label flex items-center gap-1">Sustainability Report <img class="w-4 h-auto" src="/assets/images/icon-arrow-down.svg" alt="Dropdown arrow"></a></li>
+			<!-- Optional content can go here if needed -->
 		</ul>
 	</div>
 
@@ -90,6 +89,16 @@
 						<span class="flex items-center font-serif">Contact Us</span>
 					</a>
 				</li>
+				<li>
+					<a href="#" class="flex items-center easy h-full border-b-2 border-transparent hover:border-moss xl:text-size-h5 lg:text-size-m-h5">
+						<span class="flex items-center font-serif">Careers</span>
+					</a>
+				</li>
+				<li>
+					<a href="#" class="flex items-center easy h-full border-b-2 border-transparent hover:border-moss xl:text-size-h5 lg:text-size-m-h5">
+						<span class="flex items-center font-serif">Sustainability Report</span>
+					</a>
+				</li>
 			</ul>
 
 			<!-- Mobile Menu Button -->
@@ -120,8 +129,8 @@
 		</div>
 
 		
-		<nav class="p-6 pb-20">
-			<ul class="space-y-0 divide-y divide-lightgray/50">
+		<nav class="px-6  pb-20">
+			<ul class="space-y-0 divide-y divide-lightgray/50 border-b border-lightgray/50">
 				<li>
 					<div class="flex items-center justify-between cursor-pointer submenu-toggle py-3" data-target="0">
 						<span class="text-lg font-medium text-gray-800 hover:text-moss flex-1">Land for Sale</span>
@@ -162,17 +171,13 @@
 				<li>
 					<a href="#" class="easy block py-3 text-lg font-medium  hover:text-moss">Contact Us</a>
 				</li>
+				<li>
+					<a href="#" class="easy block py-3 text-lg font-medium  hover:text-moss">Careers</a>
+				</li>
+				<li>
+					<a href="#" class="easy block py-3 text-lg font-medium  hover:text-moss">Sustainability Report</a>
+				</li>
 			</ul>
-			
-
-
-			<!-- Bottom Links -->
-			<div class="pt-5 border-t border-lightgray/50">
-				<ul class="space-y-5">
-					<li><a href="#" class="block text-lg text-moss font-medium hover:underline easy">Careers</a></li>
-					<li><a href="#" class="block text-lg text-moss font-medium hover:underline easy">Sustainability Report</a></li>
-				</ul>
-			</div>
 		</nav>
 
 
