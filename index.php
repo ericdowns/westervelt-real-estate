@@ -6,6 +6,9 @@
 	<title>Westervelt Real Estate</title>
 	<link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg">
 	<link rel="stylesheet" href="style.css">
+	<!-- Swiper CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="/assets/css/swiper-custom.css" />
 </head>
 <body class="min-h-screen flex flex-col">
 	<?php include './includes/header.php'; ?>
@@ -147,36 +150,88 @@
 
 
 		<div class="testimonial_wrapper bg-sky min-h-40">
-			<div class="content">
+			<div class="content pb-20">
 				<div class="flex w-full items-center py-10 justify-between">
 					<div class="">
 						<h2>Testimonials</h2>
 					</div>
 					<div class="flex gap-2">
-						<button class="btn_swiper inactive"> 
-							<img class="mx-auto w-4 h-auto scale-x-[-1]" src="/assets/images/ui-swiper-arrow.svg" alt="Swiper Arrow">
+						<button class="btn_swiper testimonial-button-prev"> 
+							<img class="mx-auto w-4 h-auto scale-x-[-1]" src="/assets/images/ui-swiper-arrow.svg" alt="Previous">
 						</button>
-						<button class="btn_swiper active"> 
-							<img class="mx-auto w-4 h-auto " src="/assets/images/ui-swiper-arrow.svg" alt="Swiper Arrow">
+						<button class="btn_swiper testimonial-button-next"> 
+							<img class="mx-auto w-4 h-auto " src="/assets/images/ui-swiper-arrow.svg" alt="Next">
 						</button>
 					</div>
 				</div>
-				<div class="grid md:grid-cols-2 grid-cols-1 gap-5 pb-20">
-					<?php for ($i = 0; $i < 2; $i++) { ?>
-						<div class="bg-white rounded-xl p-8 flex flex-col gap-10">
-							<img  class="w-6 h-auto" src="/assets/images/icon-quote.svg" alt="quote">
-							<h5>The Westervelt Team did a great job anticipating our needs and finding a property that was perfect for us.</h5>
-							<div class="flex justify-between">
-								<div class="flex gap-4 items-center">
-									<p><b>John Smith</b></p> <span class="text-[#C4C4C4]">|</span>
-									<h6 class="text-secondary">Owner</h6>
-								</div>
-								<div class="relative  h-[50px] w-[80px] rounded-md overflow-clip">
-									<img  class="absolute h-full w-full object-cover" src="/assets/images/content-testimonial-person.jpg" alt="John Smith customer photo">
+				<!-- Swiper -->
+				<div class="swiper testimonial-swiper">
+					<div class="swiper-wrapper">
+						<!-- Slide 1 -->
+						<div class="swiper-slide">
+							<div class="bg-white rounded-xl p-8 flex flex-col gap-10 h-full">
+								<img class="w-6 h-auto" src="/assets/images/icon-quote.svg" alt="quote">
+								<h5>The Westervelt Team did a great job anticipating our needs and finding a property that was perfect for us.</h5>
+								<div class="flex justify-between mt-auto">
+									<div class="flex gap-4 items-center">
+										<p><b>John Smith</b></p> <span class="text-[#C4C4C4]">|</span>
+										<h6 class="text-secondary">Owner</h6>
+									</div>
+									<div class="relative h-[50px] w-[80px] rounded-md overflow-clip">
+										<img class="absolute h-full w-full object-cover" src="/assets/images/content-testimonial-person.jpg" alt="John Smith customer photo">
+									</div>
 								</div>
 							</div>
 						</div>
-					<?php } ?>
+						<!-- Slide 2 -->
+						<div class="swiper-slide">
+							<div class="bg-white rounded-xl p-8 flex flex-col gap-10 h-full">
+								<img class="w-6 h-auto" src="/assets/images/icon-quote.svg" alt="quote">
+								<h5>Working with Westervelt was seamless. They understood exactly what we were looking for and helped us find the perfect property.</h5>
+								<div class="flex justify-between mt-auto">
+									<div class="flex gap-4 items-center">
+										<p><b>Sarah Johnson</b></p> <span class="text-[#C4C4C4]">|</span>
+										<h6 class="text-secondary">Business Owner</h6>
+									</div>
+									<div class="relative h-[50px] w-[80px] rounded-md overflow-clip">
+										<img class="absolute h-full w-full object-cover" src="/assets/images/content-testimonial-person.jpg" alt="Sarah Johnson customer photo">
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Slide 3 -->
+						<div class="swiper-slide">
+							<div class="bg-white rounded-xl p-8 flex flex-col gap-10 h-full">
+								<img class="w-6 h-auto" src="/assets/images/icon-quote.svg" alt="quote">
+								<h5>The expertise and local knowledge from Westervelt Real Estate made our land purchase experience exceptional from start to finish.</h5>
+								<div class="flex justify-between mt-auto">
+									<div class="flex gap-4 items-center">
+										<p><b>Michael Davis</b></p> <span class="text-[#C4C4C4]">|</span>
+										<h6 class="text-secondary">Developer</h6>
+									</div>
+									<div class="relative h-[50px] w-[80px] rounded-md overflow-clip">
+										<img class="absolute h-full w-full object-cover" src="/assets/images/content-testimonial-person.jpg" alt="Michael Davis customer photo">
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Slide 4 -->
+						<div class="swiper-slide">
+							<div class="bg-white rounded-xl p-8 flex flex-col gap-10 h-full">
+								<img class="w-6 h-auto" src="/assets/images/icon-quote.svg" alt="quote">
+								<h5>I couldn't be happier with my experience. The team's commitment to sustainability aligned perfectly with our values.</h5>
+								<div class="flex justify-between mt-auto">
+									<div class="flex gap-4 items-center">
+										<p><b>Emily Thompson</b></p> <span class="text-[#C4C4C4]">|</span>
+										<h6 class="text-secondary">Homeowner</h6>
+									</div>
+									<div class="relative h-[50px] w-[80px] rounded-md overflow-clip">
+										<img class="absolute h-full w-full object-cover" src="/assets/images/content-testimonial-person.jpg" alt="Emily Thompson customer photo">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -187,5 +242,9 @@
 
 
 	<?php include './includes/footer.php'; ?>
+
+	<!-- Swiper JS -->
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+	<script src="/assets/js/swiper-init.js"></script>
 </body>
 </html>

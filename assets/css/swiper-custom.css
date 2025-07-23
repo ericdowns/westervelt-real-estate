@@ -1,0 +1,21 @@
+/* Swiper Custom Styles */
+
+/* Make all testimonial swiper slides equal height */
+.testimonial-swiper .swiper-slide {
+    height: auto;
+}
+
+.testimonial-swiper .swiper-wrapper {
+    align-items: stretch;
+}
+
+.testimonial-swiper .swiper-slide > div {
+    height: 100%;
+}
+
+/* Gallery swiper styles can be added here as needed */
+.gallery-swiper {
+    /* Add any gallery-specific styles */
+}
+
+/* Common swiper button styles - already handled by btn_swiper class */
