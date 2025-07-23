@@ -6,6 +6,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Westervelt Real Estate</title>
 	<link rel="stylesheet" href="style.css">
+	<!-- Swiper CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="/assets/css/swiper-custom.css" />
 </head>
 <body class="min-h-screen flex flex-col">
 	<header class="z-[9999] fixed w-full">
@@ -113,53 +116,97 @@
 						<h3>Photo Gallery</h3>
 					</div>
 					<div class="flex gap-2">
-						<button class="btn_swiper"> 
-							<img class="mx-auto w-4 h-auto scale-x-[-1]" src="/assets/images/ui-swiper-arrow.svg" alt="Swiper Arrow">
+						<button class="btn_swiper gallery-button-prev"> 
+							<img class="mx-auto w-4 h-auto scale-x-[-1]" src="/assets/images/ui-swiper-arrow.svg" alt="Previous">
 						</button>
-						<button class="btn_swiper active"> 
-							<img class="mx-auto w-4 h-auto " src="/assets/images/ui-swiper-arrow.svg" alt="Swiper Arrow">
+						<button class="btn_swiper gallery-button-next"> 
+							<img class="mx-auto w-4 h-auto " src="/assets/images/ui-swiper-arrow.svg" alt="Next">
 						</button>
 					</div>
 				</div>
-				<div class="grid md:grid-cols-3 grid-cols-1 gap-5 ">
-					<div class="group">
-						<div class="relative mb-3">
-							<div class="relative pb-[71.4%] w-full overflow-clip rounded-xl">
-								<img class="absolute h-full w-full object-cover transform group-hover:scale-105 easy" src="/assets/images/photo-gallery-1.jpg" alt="Gallery Photo 1">
-							</div>
-							<div class="absolute bottom-5 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300 easy">
-								<div class="w-10 h-10 bg-moss rounded-full flex items-center justify-center">
-									<img class="w-5 h-5" src="/assets/images/icon-expand.svg" alt="Expand">
+				<!-- Swiper -->
+				<div class="swiper gallery-swiper">
+					<div class="swiper-wrapper">
+						<!-- Slide 1 -->
+						<div class="swiper-slide">
+							<div class="group">
+								<div class="relative mb-3">
+									<div class="relative pb-[71.4%] w-full overflow-clip rounded-xl">
+										<img class="absolute h-full w-full object-cover transform group-hover:scale-105 easy" src="/assets/images/photo-gallery-1.jpg" alt="Gallery Photo 1">
+									</div>
+									<div class="absolute bottom-5 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300 easy">
+										<div class="w-10 h-10 bg-moss rounded-full flex items-center justify-center">
+											<img class="w-5 h-5" src="/assets/images/icon-expand.svg" alt="Expand">
+										</div>
+									</div>
 								</div>
+								<p class="sm">About this image...</p>
 							</div>
 						</div>
-						<p class="sm">About this image...</p>
-					</div>
-					<div class="group">
-						<div class="relative mb-3">
-							<div class="relative pb-[71.4%] w-full overflow-clip rounded-xl">
-								<img class="absolute h-full w-full object-cover transform group-hover:scale-105 easy" src="/assets/images/photo-gallery-2.jpg" alt="Gallery Photo 2">
-							</div>
-							<div class="absolute bottom-5 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300 easy">
-								<div class="w-10 h-10 bg-moss rounded-full flex items-center justify-center">
-									<img class="w-5 h-5" src="/assets/images/icon-expand.svg" alt="Expand">
+						<!-- Slide 2 -->
+						<div class="swiper-slide">
+							<div class="group">
+								<div class="relative mb-3">
+									<div class="relative pb-[71.4%] w-full overflow-clip rounded-xl">
+										<img class="absolute h-full w-full object-cover transform group-hover:scale-105 easy" src="/assets/images/photo-gallery-2.jpg" alt="Gallery Photo 2">
+									</div>
+									<div class="absolute bottom-5 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300 easy">
+										<div class="w-10 h-10 bg-moss rounded-full flex items-center justify-center">
+											<img class="w-5 h-5" src="/assets/images/icon-expand.svg" alt="Expand">
+										</div>
+									</div>
 								</div>
+								<p class="sm">About this image...</p>
 							</div>
 						</div>
-						<p class="sm">About this image...</p>
-					</div>
-					<div class="group">
-						<div class="relative mb-3">
-							<div class="relative pb-[71.4%] w-full overflow-clip rounded-xl">
-								<img class="absolute h-full w-full object-cover transform group-hover:scale-105 easy" src="/assets/images/photo-gallery-3.jpg" alt="Gallery Photo 3">
-							</div>
-							<div class="absolute bottom-5 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300 easy">
-								<div class="w-10 h-10 bg-moss rounded-full flex items-center justify-center">
-									<img class="w-5 h-5" src="/assets/images/icon-expand.svg" alt="Expand">
+						<!-- Slide 3 -->
+						<div class="swiper-slide">
+							<div class="group">
+								<div class="relative mb-3">
+									<div class="relative pb-[71.4%] w-full overflow-clip rounded-xl">
+										<img class="absolute h-full w-full object-cover transform group-hover:scale-105 easy" src="/assets/images/photo-gallery-3.jpg" alt="Gallery Photo 3">
+									</div>
+									<div class="absolute bottom-5 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300 easy">
+										<div class="w-10 h-10 bg-moss rounded-full flex items-center justify-center">
+											<img class="w-5 h-5" src="/assets/images/icon-expand.svg" alt="Expand">
+										</div>
+									</div>
 								</div>
+								<p class="sm">About this image...</p>
 							</div>
 						</div>
-						<p class="sm">About this image...</p>
+						<!-- Slide 4 -->
+						<div class="swiper-slide">
+							<div class="group">
+								<div class="relative mb-3">
+									<div class="relative pb-[71.4%] w-full overflow-clip rounded-xl">
+										<img class="absolute h-full w-full object-cover transform group-hover:scale-105 easy" src="/assets/images/photo-gallery-1.jpg" alt="Gallery Photo 4">
+									</div>
+									<div class="absolute bottom-5 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300 easy">
+										<div class="w-10 h-10 bg-moss rounded-full flex items-center justify-center">
+											<img class="w-5 h-5" src="/assets/images/icon-expand.svg" alt="Expand">
+										</div>
+									</div>
+								</div>
+								<p class="sm">Gallery Photo 4</p>
+							</div>
+						</div>
+						<!-- Slide 5 -->
+						<div class="swiper-slide">
+							<div class="group">
+								<div class="relative mb-3">
+									<div class="relative pb-[71.4%] w-full overflow-clip rounded-xl">
+										<img class="absolute h-full w-full object-cover transform group-hover:scale-105 easy" src="/assets/images/photo-gallery-2.jpg" alt="Gallery Photo 5">
+									</div>
+									<div class="absolute bottom-5 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300 easy">
+										<div class="w-10 h-10 bg-moss rounded-full flex items-center justify-center">
+											<img class="w-5 h-5" src="/assets/images/icon-expand.svg" alt="Expand">
+										</div>
+									</div>
+								</div>
+								<p class="sm">Gallery Photo 5</p>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -212,5 +259,9 @@
 
 </main>
 <?php include './includes/footer.php'; ?>
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="/assets/js/swiper-init.js"></script>
 </body>
 </html>
