@@ -36,7 +36,8 @@
 		</div>
 
 		<ul class="lg:flex hidden gap-4 items-center">
-			<!-- Optional content can go here if needed -->
+			<li><a href="#" class="hover:text-moss easy text-label flex items-center gap-1">Careers <img class="w-4 h-auto" src="/assets/images/icon-arrow-outward.svg" alt="External link arrow"></a></li>
+			<li><a href="#" class="hover:text-moss easy text-label flex items-center gap-1">Sustainability Report <img class="w-4 h-auto" src="/assets/images/icon-arrow-down.svg" alt="Dropdown arrow"></a></li>
 		</ul>
 	</div>
 
@@ -87,16 +88,6 @@
 				<li>
 					<a href="#" class="flex items-center easy h-full border-b-2 border-transparent hover:border-moss xl:text-size-h5 lg:text-size-m-h5">
 						<span class="flex items-center font-serif">Contact Us</span>
-					</a>
-				</li>
-				<li>
-					<a href="#" class="flex items-center easy h-full border-b-2 border-transparent hover:border-moss xl:text-size-h5 lg:text-size-m-h5">
-						<span class="flex items-center font-serif">Careers</span>
-					</a>
-				</li>
-				<li>
-					<a href="#" class="flex items-center easy h-full border-b-2 border-transparent hover:border-moss xl:text-size-h5 lg:text-size-m-h5">
-						<span class="flex items-center font-serif">Sustainability Report</span>
 					</a>
 				</li>
 			</ul>
