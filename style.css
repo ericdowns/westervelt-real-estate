@@ -2203,10 +2203,6 @@ a.btn-secondary {
   margin-bottom: 0.25rem;
 }
 
-.mb-10 {
-  margin-bottom: 2.5rem;
-}
-
 .mb-12 {
   margin-bottom: 3rem;
 }
@@ -2269,10 +2265,6 @@ a.btn-secondary {
 
 .mt-\[140px\] {
   margin-top: 140px;
-}
-
-.mt-\[200px\] {
-  margin-top: 200px;
 }
 
 .mt-auto {
@@ -2479,10 +2471,6 @@ a.btn-secondary {
 
 .max-w-full {
   max-width: 100%;
-}
-
-.max-w-md {
-  max-width: 28rem;
 }
 
 .flex-1 {
@@ -2780,11 +2768,6 @@ a.btn-secondary {
   border-color: rgb(27 86 51 / var(--tw-border-opacity, 1));
 }
 
-.border-lightgray {
-  --tw-border-opacity: 1;
-  border-color: rgb(174 185 180 / var(--tw-border-opacity, 1));
-}
-
 .border-lightgray\/50 {
   border-color: rgb(174 185 180 / 0.5);
 }
@@ -2981,6 +2964,11 @@ a.btn-secondary {
   padding-right: 1.25rem;
 }
 
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
 .py-1 {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
@@ -3036,11 +3024,6 @@ a.btn-secondary {
   padding-bottom: 2rem;
 }
 
-.px-6 {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-}
-
 .pb-1 {
   padding-bottom: 0.25rem;
 }
@@ -3069,10 +3052,6 @@ a.btn-secondary {
   padding-bottom: 10rem;
 }
 
-.pb-5 {
-  padding-bottom: 1.25rem;
-}
-
 .pb-6 {
   padding-bottom: 1.5rem;
 }
@@ -3083,6 +3062,10 @@ a.btn-secondary {
 
 .pb-\[60\%\] {
   padding-bottom: 60%;
+}
+
+.pb-\[71\.4\%\] {
+  padding-bottom: 71.4%;
 }
 
 .pb-\[95\%\] {
@@ -3119,10 +3102,6 @@ a.btn-secondary {
 
 .pt-\[45px\] {
   padding-top: 45px;
-}
-
-.pb-\[71\.4\%\] {
-  padding-bottom: 71.4%;
 }
 
 .text-center {
@@ -3336,10 +3315,6 @@ a.btn-secondary {
   padding-top: 0px;
 }
 
-.first\:pt-3:first-child {
-  padding-top: 0.75rem;
-}
-
 .hover\:border-moss:hover {
   --tw-border-opacity: 1;
   border-color: rgb(105 168 46 / var(--tw-border-opacity, 1));
@@ -3353,10 +3328,6 @@ a.btn-secondary {
 .hover\:text-moss:hover {
   --tw-text-opacity: 1;
   color: rgb(105 168 46 / var(--tw-text-opacity, 1));
-}
-
-.hover\:underline:hover {
-  text-decoration-line: underline;
 }
 
 .hover\:opacity-40:hover {
@@ -3399,23 +3370,9 @@ a.btn-secondary {
   opacity: 1;
 }
 
-.group:hover .group-hover\:shadow-lg {
-  --tw-shadow: 0px 5px 12px 0px rgba(0, 0, 0, 0.25);
-  --tw-shadow-colored: 0px 5px 12px 0px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
 @media not all and (min-width: 1024px) {
-  .max-lg\:justify-center {
-    justify-content: center;
-  }
-
   .max-lg\:gap-10 {
     gap: 2.5rem;
-  }
-
-  .max-lg\:text-center {
-    text-align: center;
   }
 }
 
@@ -3598,14 +3555,6 @@ a.btn-secondary {
     align-items: center;
   }
 
-  .lg\:justify-end {
-    justify-content: flex-end;
-  }
-
-  .lg\:gap-6 {
-    gap: 1.5rem;
-  }
-
   .lg\:space-y-0 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-y-reverse: 0;
     margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
@@ -3678,19 +3627,6 @@ a.btn-secondary {
 .\[\&_\*_a\]\:px-8 * a {
   padding-left: 2rem;
   padding-right: 2rem;
-}
-
-.\[\&_\*_a\]\:font-semibold * a {
-  font-weight: 600;
-}
-
-.\[\&_\*_a\]\:text-moss * a {
-  --tw-text-opacity: 1;
-  color: rgb(105 168 46 / var(--tw-text-opacity, 1));
-}
-
-.\[\&_\*_a\]\:underline * a {
-  text-decoration-line: underline;
 }
 
 @media(min-width:1200px) {
